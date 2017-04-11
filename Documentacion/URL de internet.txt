@@ -1,0 +1,8 @@
+GPIO raspberry interactivo
+https://pinout.xyz/pinout/pin3_gpio2
+
+COmo usar el puerto y ejemplos
+https://sourceforge.net/p/raspberry-gpio-python/wiki/Examples/
+
+Uso basico
+https://sourceforge.net/p/raspberry-gpio-python/wiki/BasicUsage/
