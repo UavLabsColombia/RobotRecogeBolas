@@ -15,6 +15,9 @@
 
 #Aqui todas las librerias a importar...
 
+#importamos libreria del sistema
+import sys
+
 #Importamos libreria GPIO
 try:
  import RPi.GPIO as GPIO
@@ -23,6 +26,13 @@ except RuntimeError:
 
 #Importamos librerias para el control de tiempos
 import time
+
+# se importa libreria para el control vectorial
+import numpy as np
+
+# se importa libreria OpenCV Vision por Computador 
+import cv2
+
 
 # Se inician y se cargan dependencias y configuraciones
 # modo de los pines, basados en BCM o en BOARD
@@ -34,11 +44,15 @@ GPIO.setmode(GPIO.BCM)
 # 0 = motor1A  1=motor1B 2=motor2A 3=motor2B
 channel=[11,12,13,15,16,18]
 #channel=[13,15]
-
+#version de opencv
+# se confirma version de OPENCV instalado
+cversion= cv2.__version__
 
 #Inicializacion del software
 print "Iniciando el software para el control del robot...."
 
+# se confirma version de OPENCV instalado
+print "Version de OpenCV:", cversion
 
 # Se imprime el modo de configuracion para los pines
 mode = GPIO.getmode()
@@ -69,6 +83,7 @@ print "Puerto:", channel[4], "Estado:", GPIO.gpio_function(channel[4])
 GPIO.setup(channel[5], GPIO.OUT)
 print "Puerto:", channel[5], "Estado:", GPIO.gpio_function(channel[5])
 
+#limpiar las definiciones para los pines
 #GPIO.cleanup()
 
 def adelante():
@@ -108,7 +123,16 @@ def core():
   stop()
   time.sleep(0.5)
 
+try:
+ while (1):
+  core()
 
-while (1):
- core()
+except KeyboardInterrupt:
+  pass
+print "Limpiando puerto GPIO..."
+GPIO.cleanup()
+print "Saliendo..."
+sys.exit(0)
+
+
 
