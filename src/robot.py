@@ -50,7 +50,10 @@ cversion= cv2.__version__
 
 #Inicializacion del software
 print "Iniciando el software para el control del robot...."
-
+print "Info de la PI"
+print GPIO.RPI_INFO
+# version de python
+print "Version de python:", sys.version
 # se confirma version de OPENCV instalado
 print "Version de OpenCV:", cversion
 
@@ -86,6 +89,7 @@ print "Puerto:", channel[5], "Estado:", GPIO.gpio_function(channel[5])
 #limpiar las definiciones para los pines
 #GPIO.cleanup()
 
+## MOvimientos para los motores
 def adelante():
  print "Adelante"
  GPIO.output(channel[0],GPIO.LOW)
@@ -109,30 +113,30 @@ def izquierda():
 
 
 def stop():
- print "Stop	"
+ print "Stop"
  GPIO.output(channel[4], GPIO.LOW) 
  GPIO.output(channel[5], GPIO.LOW)
 
 
 
+
+#El core o nucleo, es el encargador de iniciar todas las ejecuciones y revisar los estados de  todos los sensores
 def core():
-  adelante()
-  atras()
-  derecha()
-  izquierda()
-  stop()
-  time.sleep(0.5)
+ try:
+     time.sleep(1)
+ 
 
-try:
- while (1):
-  core()
 
-except KeyboardInterrupt:
-  pass
-print "Limpiando puerto GPIO..."
-GPIO.cleanup()
-print "Saliendo..."
-sys.exit(0)
+ except KeyboardInterrupt:
+    pass
+    print " "
+    print "Limpiando puerto GPIO..."
+    GPIO.cleanup()
+    print "Saliendo..."
+    sys.exit(0)
+
+while True:
+ core()
 
 
 
