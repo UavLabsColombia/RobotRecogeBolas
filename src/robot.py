@@ -22,7 +22,7 @@ import sys
 try:
  import RPi.GPIO as GPIO
 except RuntimeError:
-    print("Error importing RPi.GPIO!  This is probably because you need superuser privileges.  You can achieve this by using 'sudo' to run your script")
+    print"Erorr al importar GPIO, ejecutelo como sudo!!"
 
 #Importamos librerias para el control de tiempos
 import time
@@ -86,10 +86,10 @@ print "Puerto:", channel[4], "Estado:", GPIO.gpio_function(channel[4])
 GPIO.setup(channel[5], GPIO.OUT)
 print "Puerto:", channel[5], "Estado:", GPIO.gpio_function(channel[5])
 
-#limpiar las definiciones para los pines
-#GPIO.cleanup()
+
 
 ## MOvimientos para los motores
+# los siguientes metodos describen los sentidos de giros para el robot, adelante, atras, derecha, izquierda, stop
 def adelante():
  print "Adelante"
  GPIO.output(channel[0],GPIO.LOW)
@@ -119,12 +119,61 @@ def stop():
 
 
 
+## Este metodo describe el funcionamiento del sensor HC-SR04, el cual retorna la distancia en CM de algun obstaculo
+
+def dist_objeto(trig, echo):
+  
+  print "Distancia en proceso de calculo..."
+##Se inicial a distancia en 0 indicando que no hay datos sobre la lectura de distancia. 
+  distancia = 0
+## Se define el pin trig y el pin echo para el sensor
+  GPIO.setup(trig, GPIO.OUT)
+  GPIO.setup(echo, GPIO.IN)
+## se apaga el pulso para no generar interferencias.
+  GPIO.output(trig, GPIO.LOW)
+## tiempo que dura el pulso apagado 2microsegundos
+  time.sleep(2*10**-6)
+## se enciende el pulso durante 10microsegundos
+  GPIO.output(trig, GPIO.HIGH)
+  time.sleep(10*10**-6)
+## se apaga el pulso
+  GPIO.output(trig, GPIO.LOW)
+  print "No llega senial"
+## se empieza a contabilizar el tiempo mientras no se llegue senial. 
+  while GPIO.input(echo)==0:
+      pulse_start=time.time()
+## si se recibe senial en el sensor toma el tiempo
+  print "llegando senial"
+  while GPIO.input(echo)==1:
+      pulse_end= time.time()
+  duracion_pulso= pulse_end - pulse_start
+  distancia = (duracion_pulso * 34300)/2
+  return distancia
+
+
+## numero de sonares que tendra disponible el robot
+## retornan promedio de las distancias en CM de los sensores
+def sonar_derecho():
+    print "sonar derecho"
+    prom_dist=0
+    for i in range(3):
+## configurar los pines adecuados para el sonar de la derecha
+     prom_dist += dist_objeto(21,22)
+    return prom_dist/3
+## configurar los pines adecuados para el sonar de la izquierda
+def sonar_izquierdo():
+    print "sonar izquieredo"
+    prom_dist=0
+    for i in range(3):
+     prom_dist += dist_objeto(23,24)
+    return prom_dist/3
+
 
 #El core o nucleo, es el encargador de iniciar todas las ejecuciones y revisar los estados de  todos los sensores
 def core():
  try:
-     time.sleep(1)
- 
+    # Secuencia de metodos a ejecutar  
+    time.sleep(1)
 
 
  except KeyboardInterrupt:
