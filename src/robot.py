@@ -190,6 +190,8 @@ def cerrar_conexion():
       print "Saliendo..."
       sys.exit(0)
 
+def run():
+   print "Logica de movimiento..." 
 
 #El core o nucleo, es el encargador de iniciar todas las ejecuciones y revisar los estados de  todos los sensores
 def core():
@@ -198,8 +200,9 @@ def core():
         time.sleep(1)
     if(pulsador()==1):
      sensar()
+     run()
      time.sleep(1)
-     print "Ejecutando."
+     
     
 ## Fila de procesos que se ejecutaran paralelamente.
 try:
