@@ -23,7 +23,7 @@ from SimpleCV import *
 
 # Se inician y se cargan dependencias y configuraciones
 # modo de los pines, basados en BCM o en BOARD
-GPIO.setmode(GPIO.BCM)
+GPIO.setmode(GPIO.BOARD)
 ##Elementos globales para la clase
 # posiciones
 # 0 = motor1A  1=motor1B 2=motor2A 3=motor2B
