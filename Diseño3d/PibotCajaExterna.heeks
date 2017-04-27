@@ -1,0 +1,4782 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<HeeksCAD_Document>
+    <Program machine="LinuxCNC" output_file="/tmp/heekscnc-7iVU1R.ngc" output_file_name_follows_data_file_name="1" program="" units="1" ProgramPathControlMode="3" ProgramMotionBlendingTolerance="0.0001" ProgramNaiveCamTolerance="0.0001" title_from_id="1" id="1">
+        <Tools>
+            <Tool title="3 mm cortador de ranura" tool_number="1" id="5">
+                <params diameter="3" tool_length_offset="127" automatically_generate_title="1" material="1" type="slot_cutter" corner_radius="0" flat_radius="0" cutting_edge_angle="0" cutting_edge_height="12" />
+            </Tool>
+            <Tool title="4 mm broca" tool_number="2" id="6">
+                <params diameter="4" tool_length_offset="100" automatically_generate_title="1" material="1" type="drill" corner_radius="0" flat_radius="0" cutting_edge_angle="59" cutting_edge_height="50.8" />
+            </Tool>
+            <Tool title="6 mm cortador de ranura" tool_number="3" id="7">
+                <params diameter="6" tool_length_offset="100" automatically_generate_title="1" material="1" type="slot_cutter" corner_radius="0" flat_radius="0" cutting_edge_angle="0" cutting_edge_height="30" />
+            </Tool>
+        </Tools>
+        <Patterns />
+        <Surfaces />
+        <Stocks />
+        <Operations />
+        <nccode edited="0" id="1" />
+    </Program>
+    <STEP_file>
+        <index_map>
+            <index_pair index="1" id="2" title="paso sólido" title_from_id="1" vis="1" solid_type="3" lx="0" ly="0" lz="27.7" dx="0" dy="0" dz="1" xx="1" xy="0" xz="0" wx="30" wy="30" wz="0.3" col="12579007">
+                <face id="343" />
+                <face id="344" />
+                <face id="345" />
+                <face id="346" />
+                <face id="347" />
+                <face id="348" />
+                <edge id="685" />
+                <edge id="686" />
+                <edge id="687" />
+                <edge id="688" />
+                <edge id="689" />
+                <edge id="690" />
+                <edge id="691" />
+                <edge id="692" />
+                <edge id="693" />
+                <edge id="694" />
+                <edge id="695" />
+                <edge id="696" />
+                <vertex id="457" />
+                <vertex id="458" />
+                <vertex id="459" />
+                <vertex id="460" />
+                <vertex id="461" />
+                <vertex id="462" />
+                <vertex id="463" />
+                <vertex id="464" />
+            </index_pair>
+            <index_pair index="2" id="4" title="paso sólido" title_from_id="1" vis="1" solid_type="3" lx="0" ly="0" lz="0" dx="-1" dy="0" dz="1.11022302e-16" xx="1.11022302e-16" xy="0" xz="1" wx="28" wy="30" wz="0.3" col="12579007">
+                <face id="337" />
+                <face id="338" />
+                <face id="339" />
+                <face id="340" />
+                <face id="341" />
+                <face id="342" />
+                <edge id="673" />
+                <edge id="674" />
+                <edge id="675" />
+                <edge id="676" />
+                <edge id="677" />
+                <edge id="678" />
+                <edge id="679" />
+                <edge id="680" />
+                <edge id="681" />
+                <edge id="682" />
+                <edge id="683" />
+                <edge id="684" />
+                <vertex id="449" />
+                <vertex id="450" />
+                <vertex id="451" />
+                <vertex id="452" />
+                <vertex id="453" />
+                <vertex id="454" />
+                <vertex id="455" />
+                <vertex id="456" />
+            </index_pair>
+            <index_pair index="3" id="5" title="paso sólido" title_from_id="1" vis="1" solid_type="3" lx="0" ly="0" lz="0" dx="0" dy="-1" dz="1.11022302e-16" xx="1" xy="0" xz="0" wx="30" wy="28" wz="0.3" col="12579007">
+                <face id="301" />
+                <face id="302" />
+                <face id="303" />
+                <face id="304" />
+                <face id="305" />
+                <face id="306" />
+                <edge id="601" />
+                <edge id="602" />
+                <edge id="603" />
+                <edge id="604" />
+                <edge id="605" />
+                <edge id="606" />
+                <edge id="607" />
+                <edge id="608" />
+                <edge id="609" />
+                <edge id="610" />
+                <edge id="611" />
+                <edge id="612" />
+                <vertex id="401" />
+                <vertex id="402" />
+                <vertex id="403" />
+                <vertex id="404" />
+                <vertex id="405" />
+                <vertex id="406" />
+                <vertex id="407" />
+                <vertex id="408" />
+            </index_pair>
+            <index_pair index="4" id="14" title="resultado de la operación de corte" title_from_id="0" vis="1" col="12579007">
+                <face id="486" />
+                <face id="487" />
+                <face id="488" />
+                <face id="489" />
+                <face id="490" />
+                <face id="491" />
+                <face id="492" />
+                <face id="493" />
+                <face id="494" />
+                <face id="495" />
+                <edge id="989" />
+                <edge id="990" />
+                <edge id="991" />
+                <edge id="992" />
+                <edge id="993" />
+                <edge id="994" />
+                <edge id="995" />
+                <edge id="996" />
+                <edge id="997" />
+                <edge id="998" />
+                <edge id="999" />
+                <edge id="1000" />
+                <edge id="1001" />
+                <edge id="1002" />
+                <edge id="1003" />
+                <edge id="1004" />
+                <edge id="1005" />
+                <edge id="1006" />
+                <edge id="1007" />
+                <edge id="1008" />
+                <edge id="1009" />
+                <edge id="1010" />
+                <edge id="1011" />
+                <edge id="1012" />
+                <vertex id="657" />
+                <vertex id="658" />
+                <vertex id="659" />
+                <vertex id="660" />
+                <vertex id="661" />
+                <vertex id="662" />
+                <vertex id="663" />
+                <vertex id="664" />
+                <vertex id="665" />
+                <vertex id="666" />
+                <vertex id="667" />
+                <vertex id="668" />
+                <vertex id="669" />
+                <vertex id="670" />
+                <vertex id="671" />
+                <vertex id="672" />
+            </index_pair>
+            <index_pair index="5" id="16" title="resultado de la operación de corte" title_from_id="0" vis="1" col="12579007">
+                <face id="536" />
+                <face id="537" />
+                <face id="538" />
+                <face id="539" />
+                <face id="540" />
+                <face id="541" />
+                <face id="542" />
+                <face id="543" />
+                <face id="544" />
+                <face id="545" />
+                <edge id="1097" />
+                <edge id="1098" />
+                <edge id="1099" />
+                <edge id="1100" />
+                <edge id="1101" />
+                <edge id="1102" />
+                <edge id="1103" />
+                <edge id="1104" />
+                <edge id="1105" />
+                <edge id="1106" />
+                <edge id="1107" />
+                <edge id="1108" />
+                <edge id="1109" />
+                <edge id="1110" />
+                <edge id="1111" />
+                <edge id="1112" />
+                <edge id="1113" />
+                <edge id="1114" />
+                <edge id="1115" />
+                <edge id="1116" />
+                <edge id="1117" />
+                <edge id="1118" />
+                <edge id="1119" />
+                <edge id="1120" />
+                <vertex id="729" />
+                <vertex id="730" />
+                <vertex id="731" />
+                <vertex id="732" />
+                <vertex id="733" />
+                <vertex id="734" />
+                <vertex id="735" />
+                <vertex id="736" />
+                <vertex id="737" />
+                <vertex id="738" />
+                <vertex id="739" />
+                <vertex id="740" />
+                <vertex id="741" />
+                <vertex id="742" />
+                <vertex id="743" />
+                <vertex id="744" />
+            </index_pair>
+            <index_pair index="6" id="17" title="paso sólido" title_from_id="1" vis="1" solid_type="2" lx="23" ly="5.3" lz="6" dx="1.11022302e-16" dy="1" dz="-0" xx="-1" xy="1.11022302e-16" xz="0" r="0.5" h="19.4" col="15777727">
+                <face id="603" />
+                <face id="604" />
+                <face id="605" />
+                <edge id="1178" />
+                <edge id="1179" />
+                <edge id="1180" />
+                <vertex id="783" />
+                <vertex id="784" />
+            </index_pair>
+            <index_pair index="7" id="3" title="" title_from_id="1" vis="1" solid_type="3" lx="23.5" ly="5.3" lz="5.8" dx="0" dy="0" dz="1" xx="1" xy="0" xz="0" wx="5.5" wy="19.4" wz="0.3" col="12579007">
+                <face id="223" />
+                <face id="224" />
+                <face id="225" />
+                <face id="226" />
+                <face id="227" />
+                <face id="228" />
+                <edge id="445" />
+                <edge id="446" />
+                <edge id="447" />
+                <edge id="448" />
+                <edge id="449" />
+                <edge id="450" />
+                <edge id="451" />
+                <edge id="452" />
+                <edge id="453" />
+                <edge id="454" />
+                <edge id="455" />
+                <edge id="456" />
+                <vertex id="297" />
+                <vertex id="298" />
+                <vertex id="299" />
+                <vertex id="300" />
+                <vertex id="301" />
+                <vertex id="302" />
+                <vertex id="303" />
+                <vertex id="304" />
+            </index_pair>
+            <index_pair index="8" id="9" title="" title_from_id="1" vis="1" solid_type="3" lx="23.2" ly="5.3" lz="6.5" dx="-1" dy="0" dz="1.11022302e-16" xx="1.11022302e-16" xy="0" xz="1" wx="5.5" wy="19.4" wz="0.3" col="12579007">
+                <face id="379" />
+                <face id="380" />
+                <face id="381" />
+                <face id="382" />
+                <face id="383" />
+                <face id="384" />
+                <edge id="757" />
+                <edge id="758" />
+                <edge id="759" />
+                <edge id="760" />
+                <edge id="761" />
+                <edge id="762" />
+                <edge id="763" />
+                <edge id="764" />
+                <edge id="765" />
+                <edge id="766" />
+                <edge id="767" />
+                <edge id="768" />
+                <vertex id="505" />
+                <vertex id="506" />
+                <vertex id="507" />
+                <vertex id="508" />
+                <vertex id="509" />
+                <vertex id="510" />
+                <vertex id="511" />
+                <vertex id="512" />
+            </index_pair>
+            <index_pair index="9" id="10" title="" title_from_id="1" vis="1" solid_type="3" lx="22.5" ly="5.3" lz="6.2" dx="-1.2246468e-16" dy="0" dz="-1" xx="-1" xy="0" xz="1.2246468e-16" wx="5.5" wy="19.4" wz="0.3" col="12579007">
+                <face id="373" />
+                <face id="374" />
+                <face id="375" />
+                <face id="376" />
+                <face id="377" />
+                <face id="378" />
+                <edge id="745" />
+                <edge id="746" />
+                <edge id="747" />
+                <edge id="748" />
+                <edge id="749" />
+                <edge id="750" />
+                <edge id="751" />
+                <edge id="752" />
+                <edge id="753" />
+                <edge id="754" />
+                <edge id="755" />
+                <edge id="756" />
+                <vertex id="497" />
+                <vertex id="498" />
+                <vertex id="499" />
+                <vertex id="500" />
+                <vertex id="501" />
+                <vertex id="502" />
+                <vertex id="503" />
+                <vertex id="504" />
+            </index_pair>
+            <index_pair index="10" id="11" title="" title_from_id="1" vis="1" solid_type="3" lx="22.8" ly="5.3" lz="5.5" dx="1" dy="0" dz="-2.22044605e-16" xx="-2.22044605e-16" xy="0" xz="-1" wx="5.5" wy="19.4" wz="0.3" col="12579007">
+                <face id="367" />
+                <face id="368" />
+                <face id="369" />
+                <face id="370" />
+                <face id="371" />
+                <face id="372" />
+                <edge id="733" />
+                <edge id="734" />
+                <edge id="735" />
+                <edge id="736" />
+                <edge id="737" />
+                <edge id="738" />
+                <edge id="739" />
+                <edge id="740" />
+                <edge id="741" />
+                <edge id="742" />
+                <edge id="743" />
+                <edge id="744" />
+                <vertex id="489" />
+                <vertex id="490" />
+                <vertex id="491" />
+                <vertex id="492" />
+                <vertex id="493" />
+                <vertex id="494" />
+                <vertex id="495" />
+                <vertex id="496" />
+            </index_pair>
+        </index_map>
+        <file_text>
+            <![CDATA[ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION(('Open CASCADE Model'),'2;1');
+FILE_NAME('Open CASCADE Shape Model','2017-04-27T00:16:41',('Author'),(
+    'Open CASCADE'),'Open CASCADE STEP processor 6.8','Open CASCADE 6.8'
+  ,'Unknown');
+FILE_SCHEMA(('AUTOMOTIVE_DESIGN_CC2 { 1 2 10303 214 -1 1 5 4 }'));
+ENDSEC;
+DATA;
+#1 = APPLICATION_PROTOCOL_DEFINITION('committee draft',
+  'automotive_design',1997,#2);
+#2 = APPLICATION_CONTEXT(
+  'core data for automotive mechanical design processes');
+#3 = SHAPE_DEFINITION_REPRESENTATION(#4,#10);
+#4 = PRODUCT_DEFINITION_SHAPE('','',#5);
+#5 = PRODUCT_DEFINITION('design','',#6,#9);
+#6 = PRODUCT_DEFINITION_FORMATION('','',#7);
+#7 = PRODUCT('Open CASCADE STEP translator 6.8 21',
+  'Open CASCADE STEP translator 6.8 21','',(#8));
+#8 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#9 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#10 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#15),#345);
+#11 = AXIS2_PLACEMENT_3D('',#12,#13,#14);
+#12 = CARTESIAN_POINT('',(0.,0.,0.));
+#13 = DIRECTION('',(0.,0.,1.));
+#14 = DIRECTION('',(1.,0.,-0.));
+#15 = MANIFOLD_SOLID_BREP('',#16);
+#16 = CLOSED_SHELL('',(#17,#137,#237,#284,#331,#338));
+#17 = ADVANCED_FACE('',(#18),#32,.F.);
+#18 = FACE_BOUND('',#19,.F.);
+#19 = EDGE_LOOP('',(#20,#55,#83,#111));
+#20 = ORIENTED_EDGE('',*,*,#21,.F.);
+#21 = EDGE_CURVE('',#22,#24,#26,.T.);
+#22 = VERTEX_POINT('',#23);
+#23 = CARTESIAN_POINT('',(0.,0.,27.7));
+#24 = VERTEX_POINT('',#25);
+#25 = CARTESIAN_POINT('',(0.,0.,28.));
+#26 = SURFACE_CURVE('',#27,(#31,#43),.PCURVE_S1.);
+#27 = LINE('',#28,#29);
+#28 = CARTESIAN_POINT('',(0.,0.,27.7));
+#29 = VECTOR('',#30,1.);
+#30 = DIRECTION('',(0.,0.,1.));
+#31 = PCURVE('',#32,#37);
+#32 = PLANE('',#33);
+#33 = AXIS2_PLACEMENT_3D('',#34,#35,#36);
+#34 = CARTESIAN_POINT('',(0.,0.,27.7));
+#35 = DIRECTION('',(1.,0.,0.));
+#36 = DIRECTION('',(-0.,0.,1.));
+#37 = DEFINITIONAL_REPRESENTATION('',(#38),#42);
+#38 = LINE('',#39,#40);
+#39 = CARTESIAN_POINT('',(0.,0.));
+#40 = VECTOR('',#41,1.);
+#41 = DIRECTION('',(1.,0.));
+#42 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#43 = PCURVE('',#44,#49);
+#44 = PLANE('',#45);
+#45 = AXIS2_PLACEMENT_3D('',#46,#47,#48);
+#46 = CARTESIAN_POINT('',(0.,0.,27.7));
+#47 = DIRECTION('',(0.,1.,0.));
+#48 = DIRECTION('',(0.,-0.,1.));
+#49 = DEFINITIONAL_REPRESENTATION('',(#50),#54);
+#50 = LINE('',#51,#52);
+#51 = CARTESIAN_POINT('',(0.,0.));
+#52 = VECTOR('',#53,1.);
+#53 = DIRECTION('',(1.,0.));
+#54 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#55 = ORIENTED_EDGE('',*,*,#56,.T.);
+#56 = EDGE_CURVE('',#22,#57,#59,.T.);
+#57 = VERTEX_POINT('',#58);
+#58 = CARTESIAN_POINT('',(0.,30.,27.7));
+#59 = SURFACE_CURVE('',#60,(#64,#71),.PCURVE_S1.);
+#60 = LINE('',#61,#62);
+#61 = CARTESIAN_POINT('',(0.,0.,27.7));
+#62 = VECTOR('',#63,1.);
+#63 = DIRECTION('',(0.,1.,0.));
+#64 = PCURVE('',#32,#65);
+#65 = DEFINITIONAL_REPRESENTATION('',(#66),#70);
+#66 = LINE('',#67,#68);
+#67 = CARTESIAN_POINT('',(0.,0.));
+#68 = VECTOR('',#69,1.);
+#69 = DIRECTION('',(0.,-1.));
+#70 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#71 = PCURVE('',#72,#77);
+#72 = PLANE('',#73);
+#73 = AXIS2_PLACEMENT_3D('',#74,#75,#76);
+#74 = CARTESIAN_POINT('',(0.,0.,27.7));
+#75 = DIRECTION('',(0.,0.,1.));
+#76 = DIRECTION('',(1.,0.,-0.));
+#77 = DEFINITIONAL_REPRESENTATION('',(#78),#82);
+#78 = LINE('',#79,#80);
+#79 = CARTESIAN_POINT('',(0.,0.));
+#80 = VECTOR('',#81,1.);
+#81 = DIRECTION('',(0.,1.));
+#82 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#83 = ORIENTED_EDGE('',*,*,#84,.T.);
+#84 = EDGE_CURVE('',#57,#85,#87,.T.);
+#85 = VERTEX_POINT('',#86);
+#86 = CARTESIAN_POINT('',(0.,30.,28.));
+#87 = SURFACE_CURVE('',#88,(#92,#99),.PCURVE_S1.);
+#88 = LINE('',#89,#90);
+#89 = CARTESIAN_POINT('',(0.,30.,27.7));
+#90 = VECTOR('',#91,1.);
+#91 = DIRECTION('',(0.,0.,1.));
+#92 = PCURVE('',#32,#93);
+#93 = DEFINITIONAL_REPRESENTATION('',(#94),#98);
+#94 = LINE('',#95,#96);
+#95 = CARTESIAN_POINT('',(0.,-30.));
+#96 = VECTOR('',#97,1.);
+#97 = DIRECTION('',(1.,0.));
+#98 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#99 = PCURVE('',#100,#105);
+#100 = PLANE('',#101);
+#101 = AXIS2_PLACEMENT_3D('',#102,#103,#104);
+#102 = CARTESIAN_POINT('',(0.,30.,27.7));
+#103 = DIRECTION('',(0.,1.,0.));
+#104 = DIRECTION('',(0.,-0.,1.));
+#105 = DEFINITIONAL_REPRESENTATION('',(#106),#110);
+#106 = LINE('',#107,#108);
+#107 = CARTESIAN_POINT('',(0.,0.));
+#108 = VECTOR('',#109,1.);
+#109 = DIRECTION('',(1.,0.));
+#110 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#111 = ORIENTED_EDGE('',*,*,#112,.F.);
+#112 = EDGE_CURVE('',#24,#85,#113,.T.);
+#113 = SURFACE_CURVE('',#114,(#118,#125),.PCURVE_S1.);
+#114 = LINE('',#115,#116);
+#115 = CARTESIAN_POINT('',(0.,0.,28.));
+#116 = VECTOR('',#117,1.);
+#117 = DIRECTION('',(0.,1.,0.));
+#118 = PCURVE('',#32,#119);
+#119 = DEFINITIONAL_REPRESENTATION('',(#120),#124);
+#120 = LINE('',#121,#122);
+#121 = CARTESIAN_POINT('',(0.3,0.));
+#122 = VECTOR('',#123,1.);
+#123 = DIRECTION('',(0.,-1.));
+#124 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#125 = PCURVE('',#126,#131);
+#126 = PLANE('',#127);
+#127 = AXIS2_PLACEMENT_3D('',#128,#129,#130);
+#128 = CARTESIAN_POINT('',(0.,0.,28.));
+#129 = DIRECTION('',(0.,0.,1.));
+#130 = DIRECTION('',(1.,0.,-0.));
+#131 = DEFINITIONAL_REPRESENTATION('',(#132),#136);
+#132 = LINE('',#133,#134);
+#133 = CARTESIAN_POINT('',(0.,0.));
+#134 = VECTOR('',#135,1.);
+#135 = DIRECTION('',(0.,1.));
+#136 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#137 = ADVANCED_FACE('',(#138),#152,.T.);
+#138 = FACE_BOUND('',#139,.T.);
+#139 = EDGE_LOOP('',(#140,#170,#193,#216));
+#140 = ORIENTED_EDGE('',*,*,#141,.F.);
+#141 = EDGE_CURVE('',#142,#144,#146,.T.);
+#142 = VERTEX_POINT('',#143);
+#143 = CARTESIAN_POINT('',(30.,0.,27.7));
+#144 = VERTEX_POINT('',#145);
+#145 = CARTESIAN_POINT('',(30.,0.,28.));
+#146 = SURFACE_CURVE('',#147,(#151,#163),.PCURVE_S1.);
+#147 = LINE('',#148,#149);
+#148 = CARTESIAN_POINT('',(30.,0.,27.7));
+#149 = VECTOR('',#150,1.);
+#150 = DIRECTION('',(0.,0.,1.));
+#151 = PCURVE('',#152,#157);
+#152 = PLANE('',#153);
+#153 = AXIS2_PLACEMENT_3D('',#154,#155,#156);
+#154 = CARTESIAN_POINT('',(30.,0.,27.7));
+#155 = DIRECTION('',(1.,0.,0.));
+#156 = DIRECTION('',(-0.,0.,1.));
+#157 = DEFINITIONAL_REPRESENTATION('',(#158),#162);
+#158 = LINE('',#159,#160);
+#159 = CARTESIAN_POINT('',(0.,0.));
+#160 = VECTOR('',#161,1.);
+#161 = DIRECTION('',(1.,0.));
+#162 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#163 = PCURVE('',#44,#164);
+#164 = DEFINITIONAL_REPRESENTATION('',(#165),#169);
+#165 = LINE('',#166,#167);
+#166 = CARTESIAN_POINT('',(0.,30.));
+#167 = VECTOR('',#168,1.);
+#168 = DIRECTION('',(1.,0.));
+#169 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#170 = ORIENTED_EDGE('',*,*,#171,.T.);
+#171 = EDGE_CURVE('',#142,#172,#174,.T.);
+#172 = VERTEX_POINT('',#173);
+#173 = CARTESIAN_POINT('',(30.,30.,27.7));
+#174 = SURFACE_CURVE('',#175,(#179,#186),.PCURVE_S1.);
+#175 = LINE('',#176,#177);
+#176 = CARTESIAN_POINT('',(30.,0.,27.7));
+#177 = VECTOR('',#178,1.);
+#178 = DIRECTION('',(0.,1.,0.));
+#179 = PCURVE('',#152,#180);
+#180 = DEFINITIONAL_REPRESENTATION('',(#181),#185);
+#181 = LINE('',#182,#183);
+#182 = CARTESIAN_POINT('',(0.,0.));
+#183 = VECTOR('',#184,1.);
+#184 = DIRECTION('',(0.,-1.));
+#185 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#186 = PCURVE('',#72,#187);
+#187 = DEFINITIONAL_REPRESENTATION('',(#188),#192);
+#188 = LINE('',#189,#190);
+#189 = CARTESIAN_POINT('',(30.,0.));
+#190 = VECTOR('',#191,1.);
+#191 = DIRECTION('',(0.,1.));
+#192 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#193 = ORIENTED_EDGE('',*,*,#194,.T.);
+#194 = EDGE_CURVE('',#172,#195,#197,.T.);
+#195 = VERTEX_POINT('',#196);
+#196 = CARTESIAN_POINT('',(30.,30.,28.));
+#197 = SURFACE_CURVE('',#198,(#202,#209),.PCURVE_S1.);
+#198 = LINE('',#199,#200);
+#199 = CARTESIAN_POINT('',(30.,30.,27.7));
+#200 = VECTOR('',#201,1.);
+#201 = DIRECTION('',(0.,0.,1.));
+#202 = PCURVE('',#152,#203);
+#203 = DEFINITIONAL_REPRESENTATION('',(#204),#208);
+#204 = LINE('',#205,#206);
+#205 = CARTESIAN_POINT('',(0.,-30.));
+#206 = VECTOR('',#207,1.);
+#207 = DIRECTION('',(1.,0.));
+#208 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#209 = PCURVE('',#100,#210);
+#210 = DEFINITIONAL_REPRESENTATION('',(#211),#215);
+#211 = LINE('',#212,#213);
+#212 = CARTESIAN_POINT('',(0.,30.));
+#213 = VECTOR('',#214,1.);
+#214 = DIRECTION('',(1.,0.));
+#215 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#216 = ORIENTED_EDGE('',*,*,#217,.F.);
+#217 = EDGE_CURVE('',#144,#195,#218,.T.);
+#218 = SURFACE_CURVE('',#219,(#223,#230),.PCURVE_S1.);
+#219 = LINE('',#220,#221);
+#220 = CARTESIAN_POINT('',(30.,0.,28.));
+#221 = VECTOR('',#222,1.);
+#222 = DIRECTION('',(0.,1.,0.));
+#223 = PCURVE('',#152,#224);
+#224 = DEFINITIONAL_REPRESENTATION('',(#225),#229);
+#225 = LINE('',#226,#227);
+#226 = CARTESIAN_POINT('',(0.3,0.));
+#227 = VECTOR('',#228,1.);
+#228 = DIRECTION('',(0.,-1.));
+#229 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#230 = PCURVE('',#126,#231);
+#231 = DEFINITIONAL_REPRESENTATION('',(#232),#236);
+#232 = LINE('',#233,#234);
+#233 = CARTESIAN_POINT('',(30.,0.));
+#234 = VECTOR('',#235,1.);
+#235 = DIRECTION('',(0.,1.));
+#236 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#237 = ADVANCED_FACE('',(#238),#44,.F.);
+#238 = FACE_BOUND('',#239,.F.);
+#239 = EDGE_LOOP('',(#240,#261,#262,#283));
+#240 = ORIENTED_EDGE('',*,*,#241,.F.);
+#241 = EDGE_CURVE('',#22,#142,#242,.T.);
+#242 = SURFACE_CURVE('',#243,(#247,#254),.PCURVE_S1.);
+#243 = LINE('',#244,#245);
+#244 = CARTESIAN_POINT('',(0.,0.,27.7));
+#245 = VECTOR('',#246,1.);
+#246 = DIRECTION('',(1.,0.,0.));
+#247 = PCURVE('',#44,#248);
+#248 = DEFINITIONAL_REPRESENTATION('',(#249),#253);
+#249 = LINE('',#250,#251);
+#250 = CARTESIAN_POINT('',(0.,0.));
+#251 = VECTOR('',#252,1.);
+#252 = DIRECTION('',(0.,1.));
+#253 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#254 = PCURVE('',#72,#255);
+#255 = DEFINITIONAL_REPRESENTATION('',(#256),#260);
+#256 = LINE('',#257,#258);
+#257 = CARTESIAN_POINT('',(0.,0.));
+#258 = VECTOR('',#259,1.);
+#259 = DIRECTION('',(1.,0.));
+#260 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#261 = ORIENTED_EDGE('',*,*,#21,.T.);
+#262 = ORIENTED_EDGE('',*,*,#263,.T.);
+#263 = EDGE_CURVE('',#24,#144,#264,.T.);
+#264 = SURFACE_CURVE('',#265,(#269,#276),.PCURVE_S1.);
+#265 = LINE('',#266,#267);
+#266 = CARTESIAN_POINT('',(0.,0.,28.));
+#267 = VECTOR('',#268,1.);
+#268 = DIRECTION('',(1.,0.,0.));
+#269 = PCURVE('',#44,#270);
+#270 = DEFINITIONAL_REPRESENTATION('',(#271),#275);
+#271 = LINE('',#272,#273);
+#272 = CARTESIAN_POINT('',(0.3,0.));
+#273 = VECTOR('',#274,1.);
+#274 = DIRECTION('',(0.,1.));
+#275 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#276 = PCURVE('',#126,#277);
+#277 = DEFINITIONAL_REPRESENTATION('',(#278),#282);
+#278 = LINE('',#279,#280);
+#279 = CARTESIAN_POINT('',(0.,0.));
+#280 = VECTOR('',#281,1.);
+#281 = DIRECTION('',(1.,0.));
+#282 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#283 = ORIENTED_EDGE('',*,*,#141,.F.);
+#284 = ADVANCED_FACE('',(#285),#100,.T.);
+#285 = FACE_BOUND('',#286,.T.);
+#286 = EDGE_LOOP('',(#287,#308,#309,#330));
+#287 = ORIENTED_EDGE('',*,*,#288,.F.);
+#288 = EDGE_CURVE('',#57,#172,#289,.T.);
+#289 = SURFACE_CURVE('',#290,(#294,#301),.PCURVE_S1.);
+#290 = LINE('',#291,#292);
+#291 = CARTESIAN_POINT('',(0.,30.,27.7));
+#292 = VECTOR('',#293,1.);
+#293 = DIRECTION('',(1.,0.,0.));
+#294 = PCURVE('',#100,#295);
+#295 = DEFINITIONAL_REPRESENTATION('',(#296),#300);
+#296 = LINE('',#297,#298);
+#297 = CARTESIAN_POINT('',(0.,0.));
+#298 = VECTOR('',#299,1.);
+#299 = DIRECTION('',(0.,1.));
+#300 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#301 = PCURVE('',#72,#302);
+#302 = DEFINITIONAL_REPRESENTATION('',(#303),#307);
+#303 = LINE('',#304,#305);
+#304 = CARTESIAN_POINT('',(0.,30.));
+#305 = VECTOR('',#306,1.);
+#306 = DIRECTION('',(1.,0.));
+#307 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#308 = ORIENTED_EDGE('',*,*,#84,.T.);
+#309 = ORIENTED_EDGE('',*,*,#310,.T.);
+#310 = EDGE_CURVE('',#85,#195,#311,.T.);
+#311 = SURFACE_CURVE('',#312,(#316,#323),.PCURVE_S1.);
+#312 = LINE('',#313,#314);
+#313 = CARTESIAN_POINT('',(0.,30.,28.));
+#314 = VECTOR('',#315,1.);
+#315 = DIRECTION('',(1.,0.,0.));
+#316 = PCURVE('',#100,#317);
+#317 = DEFINITIONAL_REPRESENTATION('',(#318),#322);
+#318 = LINE('',#319,#320);
+#319 = CARTESIAN_POINT('',(0.3,0.));
+#320 = VECTOR('',#321,1.);
+#321 = DIRECTION('',(0.,1.));
+#322 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#323 = PCURVE('',#126,#324);
+#324 = DEFINITIONAL_REPRESENTATION('',(#325),#329);
+#325 = LINE('',#326,#327);
+#326 = CARTESIAN_POINT('',(0.,30.));
+#327 = VECTOR('',#328,1.);
+#328 = DIRECTION('',(1.,0.));
+#329 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#330 = ORIENTED_EDGE('',*,*,#194,.F.);
+#331 = ADVANCED_FACE('',(#332),#72,.F.);
+#332 = FACE_BOUND('',#333,.F.);
+#333 = EDGE_LOOP('',(#334,#335,#336,#337));
+#334 = ORIENTED_EDGE('',*,*,#56,.F.);
+#335 = ORIENTED_EDGE('',*,*,#241,.T.);
+#336 = ORIENTED_EDGE('',*,*,#171,.T.);
+#337 = ORIENTED_EDGE('',*,*,#288,.F.);
+#338 = ADVANCED_FACE('',(#339),#126,.T.);
+#339 = FACE_BOUND('',#340,.T.);
+#340 = EDGE_LOOP('',(#341,#342,#343,#344));
+#341 = ORIENTED_EDGE('',*,*,#112,.F.);
+#342 = ORIENTED_EDGE('',*,*,#263,.T.);
+#343 = ORIENTED_EDGE('',*,*,#217,.T.);
+#344 = ORIENTED_EDGE('',*,*,#310,.F.);
+#345 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#349)) GLOBAL_UNIT_ASSIGNED_CONTEXT
+((#346,#347,#348)) REPRESENTATION_CONTEXT('Context #1',
+  '3D Context with UNIT and UNCERTAINTY') );
+#346 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#347 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#348 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#349 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#346,
+  'distance_accuracy_value','confusion accuracy');
+#350 = PRODUCT_TYPE('part',$,(#7));
+#351 = SHAPE_DEFINITION_REPRESENTATION(#352,#358);
+#352 = PRODUCT_DEFINITION_SHAPE('','',#353);
+#353 = PRODUCT_DEFINITION('design','',#354,#357);
+#354 = PRODUCT_DEFINITION_FORMATION('','',#355);
+#355 = PRODUCT('Open CASCADE STEP translator 6.8 22',
+  'Open CASCADE STEP translator 6.8 22','',(#356));
+#356 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#357 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#358 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#359),#689);
+#359 = MANIFOLD_SOLID_BREP('',#360);
+#360 = CLOSED_SHELL('',(#361,#481,#581,#628,#675,#682));
+#361 = ADVANCED_FACE('',(#362),#376,.F.);
+#362 = FACE_BOUND('',#363,.F.);
+#363 = EDGE_LOOP('',(#364,#399,#427,#455));
+#364 = ORIENTED_EDGE('',*,*,#365,.F.);
+#365 = EDGE_CURVE('',#366,#368,#370,.T.);
+#366 = VERTEX_POINT('',#367);
+#367 = CARTESIAN_POINT('',(0.,0.,0.));
+#368 = VERTEX_POINT('',#369);
+#369 = CARTESIAN_POINT('',(-0.3,0.,3.33066906E-17));
+#370 = SURFACE_CURVE('',#371,(#375,#387),.PCURVE_S1.);
+#371 = LINE('',#372,#373);
+#372 = CARTESIAN_POINT('',(0.,0.,0.));
+#373 = VECTOR('',#374,1.);
+#374 = DIRECTION('',(-1.,0.,1.11022302E-16));
+#375 = PCURVE('',#376,#381);
+#376 = PLANE('',#377);
+#377 = AXIS2_PLACEMENT_3D('',#378,#379,#380);
+#378 = CARTESIAN_POINT('',(0.,0.,0.));
+#379 = DIRECTION('',(1.11022302E-16,0.,1.));
+#380 = DIRECTION('',(1.,0.,-1.11022302E-16));
+#381 = DEFINITIONAL_REPRESENTATION('',(#382),#386);
+#382 = LINE('',#383,#384);
+#383 = CARTESIAN_POINT('',(0.,0.));
+#384 = VECTOR('',#385,1.);
+#385 = DIRECTION('',(-1.,0.));
+#386 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#387 = PCURVE('',#388,#393);
+#388 = PLANE('',#389);
+#389 = AXIS2_PLACEMENT_3D('',#390,#391,#392);
+#390 = CARTESIAN_POINT('',(0.,0.,0.));
+#391 = DIRECTION('',(0.,1.,-0.));
+#392 = DIRECTION('',(0.,0.,1.));
+#393 = DEFINITIONAL_REPRESENTATION('',(#394),#398);
+#394 = LINE('',#395,#396);
+#395 = CARTESIAN_POINT('',(0.,0.));
+#396 = VECTOR('',#397,1.);
+#397 = DIRECTION('',(1.11022302E-16,-1.));
+#398 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#399 = ORIENTED_EDGE('',*,*,#400,.T.);
+#400 = EDGE_CURVE('',#366,#401,#403,.T.);
+#401 = VERTEX_POINT('',#402);
+#402 = CARTESIAN_POINT('',(0.,30.,0.));
+#403 = SURFACE_CURVE('',#404,(#408,#415),.PCURVE_S1.);
+#404 = LINE('',#405,#406);
+#405 = CARTESIAN_POINT('',(0.,0.,0.));
+#406 = VECTOR('',#407,1.);
+#407 = DIRECTION('',(0.,1.,-0.));
+#408 = PCURVE('',#376,#409);
+#409 = DEFINITIONAL_REPRESENTATION('',(#410),#414);
+#410 = LINE('',#411,#412);
+#411 = CARTESIAN_POINT('',(0.,0.));
+#412 = VECTOR('',#413,1.);
+#413 = DIRECTION('',(0.,1.));
+#414 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#415 = PCURVE('',#416,#421);
+#416 = PLANE('',#417);
+#417 = AXIS2_PLACEMENT_3D('',#418,#419,#420);
+#418 = CARTESIAN_POINT('',(0.,0.,0.));
+#419 = DIRECTION('',(-1.,0.,1.11022302E-16));
+#420 = DIRECTION('',(-1.11022302E-16,0.,-1.));
+#421 = DEFINITIONAL_REPRESENTATION('',(#422),#426);
+#422 = LINE('',#423,#424);
+#423 = CARTESIAN_POINT('',(0.,0.));
+#424 = VECTOR('',#425,1.);
+#425 = DIRECTION('',(0.,-1.));
+#426 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#427 = ORIENTED_EDGE('',*,*,#428,.T.);
+#428 = EDGE_CURVE('',#401,#429,#431,.T.);
+#429 = VERTEX_POINT('',#430);
+#430 = CARTESIAN_POINT('',(-0.3,30.,3.33066906E-17));
+#431 = SURFACE_CURVE('',#432,(#436,#443),.PCURVE_S1.);
+#432 = LINE('',#433,#434);
+#433 = CARTESIAN_POINT('',(0.,30.,0.));
+#434 = VECTOR('',#435,1.);
+#435 = DIRECTION('',(-1.,0.,1.11022302E-16));
+#436 = PCURVE('',#376,#437);
+#437 = DEFINITIONAL_REPRESENTATION('',(#438),#442);
+#438 = LINE('',#439,#440);
+#439 = CARTESIAN_POINT('',(0.,30.));
+#440 = VECTOR('',#441,1.);
+#441 = DIRECTION('',(-1.,0.));
+#442 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#443 = PCURVE('',#444,#449);
+#444 = PLANE('',#445);
+#445 = AXIS2_PLACEMENT_3D('',#446,#447,#448);
+#446 = CARTESIAN_POINT('',(0.,30.,0.));
+#447 = DIRECTION('',(0.,1.,-0.));
+#448 = DIRECTION('',(0.,0.,1.));
+#449 = DEFINITIONAL_REPRESENTATION('',(#450),#454);
+#450 = LINE('',#451,#452);
+#451 = CARTESIAN_POINT('',(0.,0.));
+#452 = VECTOR('',#453,1.);
+#453 = DIRECTION('',(1.11022302E-16,-1.));
+#454 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#455 = ORIENTED_EDGE('',*,*,#456,.F.);
+#456 = EDGE_CURVE('',#368,#429,#457,.T.);
+#457 = SURFACE_CURVE('',#458,(#462,#469),.PCURVE_S1.);
+#458 = LINE('',#459,#460);
+#459 = CARTESIAN_POINT('',(-0.3,0.,3.33066906E-17));
+#460 = VECTOR('',#461,1.);
+#461 = DIRECTION('',(0.,1.,-0.));
+#462 = PCURVE('',#376,#463);
+#463 = DEFINITIONAL_REPRESENTATION('',(#464),#468);
+#464 = LINE('',#465,#466);
+#465 = CARTESIAN_POINT('',(-0.3,0.));
+#466 = VECTOR('',#467,1.);
+#467 = DIRECTION('',(0.,1.));
+#468 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#469 = PCURVE('',#470,#475);
+#470 = PLANE('',#471);
+#471 = AXIS2_PLACEMENT_3D('',#472,#473,#474);
+#472 = CARTESIAN_POINT('',(-0.3,0.,3.33066906E-17));
+#473 = DIRECTION('',(-1.,0.,1.11022302E-16));
+#474 = DIRECTION('',(-1.11022302E-16,0.,-1.));
+#475 = DEFINITIONAL_REPRESENTATION('',(#476),#480);
+#476 = LINE('',#477,#478);
+#477 = CARTESIAN_POINT('',(0.,0.));
+#478 = VECTOR('',#479,1.);
+#479 = DIRECTION('',(0.,-1.));
+#480 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#481 = ADVANCED_FACE('',(#482),#496,.T.);
+#482 = FACE_BOUND('',#483,.T.);
+#483 = EDGE_LOOP('',(#484,#514,#537,#560));
+#484 = ORIENTED_EDGE('',*,*,#485,.F.);
+#485 = EDGE_CURVE('',#486,#488,#490,.T.);
+#486 = VERTEX_POINT('',#487);
+#487 = CARTESIAN_POINT('',(3.108624456E-15,0.,28.));
+#488 = VERTEX_POINT('',#489);
+#489 = CARTESIAN_POINT('',(-0.3,0.,28.));
+#490 = SURFACE_CURVE('',#491,(#495,#507),.PCURVE_S1.);
+#491 = LINE('',#492,#493);
+#492 = CARTESIAN_POINT('',(3.108624456E-15,0.,28.));
+#493 = VECTOR('',#494,1.);
+#494 = DIRECTION('',(-1.,0.,1.11022302E-16));
+#495 = PCURVE('',#496,#501);
+#496 = PLANE('',#497);
+#497 = AXIS2_PLACEMENT_3D('',#498,#499,#500);
+#498 = CARTESIAN_POINT('',(3.108624456E-15,0.,28.));
+#499 = DIRECTION('',(1.11022302E-16,0.,1.));
+#500 = DIRECTION('',(1.,0.,-1.11022302E-16));
+#501 = DEFINITIONAL_REPRESENTATION('',(#502),#506);
+#502 = LINE('',#503,#504);
+#503 = CARTESIAN_POINT('',(0.,0.));
+#504 = VECTOR('',#505,1.);
+#505 = DIRECTION('',(-1.,0.));
+#506 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#507 = PCURVE('',#388,#508);
+#508 = DEFINITIONAL_REPRESENTATION('',(#509),#513);
+#509 = LINE('',#510,#511);
+#510 = CARTESIAN_POINT('',(28.,3.108624456E-15));
+#511 = VECTOR('',#512,1.);
+#512 = DIRECTION('',(1.11022302E-16,-1.));
+#513 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#514 = ORIENTED_EDGE('',*,*,#515,.T.);
+#515 = EDGE_CURVE('',#486,#516,#518,.T.);
+#516 = VERTEX_POINT('',#517);
+#517 = CARTESIAN_POINT('',(3.108624456E-15,30.,28.));
+#518 = SURFACE_CURVE('',#519,(#523,#530),.PCURVE_S1.);
+#519 = LINE('',#520,#521);
+#520 = CARTESIAN_POINT('',(3.108624456E-15,0.,28.));
+#521 = VECTOR('',#522,1.);
+#522 = DIRECTION('',(0.,1.,-0.));
+#523 = PCURVE('',#496,#524);
+#524 = DEFINITIONAL_REPRESENTATION('',(#525),#529);
+#525 = LINE('',#526,#527);
+#526 = CARTESIAN_POINT('',(0.,0.));
+#527 = VECTOR('',#528,1.);
+#528 = DIRECTION('',(0.,1.));
+#529 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#530 = PCURVE('',#416,#531);
+#531 = DEFINITIONAL_REPRESENTATION('',(#532),#536);
+#532 = LINE('',#533,#534);
+#533 = CARTESIAN_POINT('',(-28.,0.));
+#534 = VECTOR('',#535,1.);
+#535 = DIRECTION('',(0.,-1.));
+#536 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#537 = ORIENTED_EDGE('',*,*,#538,.T.);
+#538 = EDGE_CURVE('',#516,#539,#541,.T.);
+#539 = VERTEX_POINT('',#540);
+#540 = CARTESIAN_POINT('',(-0.3,30.,28.));
+#541 = SURFACE_CURVE('',#542,(#546,#553),.PCURVE_S1.);
+#542 = LINE('',#543,#544);
+#543 = CARTESIAN_POINT('',(3.108624456E-15,30.,28.));
+#544 = VECTOR('',#545,1.);
+#545 = DIRECTION('',(-1.,0.,1.11022302E-16));
+#546 = PCURVE('',#496,#547);
+#547 = DEFINITIONAL_REPRESENTATION('',(#548),#552);
+#548 = LINE('',#549,#550);
+#549 = CARTESIAN_POINT('',(0.,30.));
+#550 = VECTOR('',#551,1.);
+#551 = DIRECTION('',(-1.,0.));
+#552 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#553 = PCURVE('',#444,#554);
+#554 = DEFINITIONAL_REPRESENTATION('',(#555),#559);
+#555 = LINE('',#556,#557);
+#556 = CARTESIAN_POINT('',(28.,3.108624456E-15));
+#557 = VECTOR('',#558,1.);
+#558 = DIRECTION('',(1.11022302E-16,-1.));
+#559 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#560 = ORIENTED_EDGE('',*,*,#561,.F.);
+#561 = EDGE_CURVE('',#488,#539,#562,.T.);
+#562 = SURFACE_CURVE('',#563,(#567,#574),.PCURVE_S1.);
+#563 = LINE('',#564,#565);
+#564 = CARTESIAN_POINT('',(-0.3,0.,28.));
+#565 = VECTOR('',#566,1.);
+#566 = DIRECTION('',(0.,1.,0.));
+#567 = PCURVE('',#496,#568);
+#568 = DEFINITIONAL_REPRESENTATION('',(#569),#573);
+#569 = LINE('',#570,#571);
+#570 = CARTESIAN_POINT('',(-0.3,0.));
+#571 = VECTOR('',#572,1.);
+#572 = DIRECTION('',(0.,1.));
+#573 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#574 = PCURVE('',#470,#575);
+#575 = DEFINITIONAL_REPRESENTATION('',(#576),#580);
+#576 = LINE('',#577,#578);
+#577 = CARTESIAN_POINT('',(-28.,0.));
+#578 = VECTOR('',#579,1.);
+#579 = DIRECTION('',(0.,-1.));
+#580 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#581 = ADVANCED_FACE('',(#582),#388,.F.);
+#582 = FACE_BOUND('',#583,.F.);
+#583 = EDGE_LOOP('',(#584,#605,#606,#627));
+#584 = ORIENTED_EDGE('',*,*,#585,.F.);
+#585 = EDGE_CURVE('',#366,#486,#586,.T.);
+#586 = SURFACE_CURVE('',#587,(#591,#598),.PCURVE_S1.);
+#587 = LINE('',#588,#589);
+#588 = CARTESIAN_POINT('',(0.,0.,0.));
+#589 = VECTOR('',#590,1.);
+#590 = DIRECTION('',(1.11022302E-16,0.,1.));
+#591 = PCURVE('',#388,#592);
+#592 = DEFINITIONAL_REPRESENTATION('',(#593),#597);
+#593 = LINE('',#594,#595);
+#594 = CARTESIAN_POINT('',(0.,0.));
+#595 = VECTOR('',#596,1.);
+#596 = DIRECTION('',(1.,1.11022302E-16));
+#597 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#598 = PCURVE('',#416,#599);
+#599 = DEFINITIONAL_REPRESENTATION('',(#600),#604);
+#600 = LINE('',#601,#602);
+#601 = CARTESIAN_POINT('',(0.,0.));
+#602 = VECTOR('',#603,1.);
+#603 = DIRECTION('',(-1.,0.));
+#604 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#605 = ORIENTED_EDGE('',*,*,#365,.T.);
+#606 = ORIENTED_EDGE('',*,*,#607,.T.);
+#607 = EDGE_CURVE('',#368,#488,#608,.T.);
+#608 = SURFACE_CURVE('',#609,(#613,#620),.PCURVE_S1.);
+#609 = LINE('',#610,#611);
+#610 = CARTESIAN_POINT('',(-0.3,0.,3.33066906E-17));
+#611 = VECTOR('',#612,1.);
+#612 = DIRECTION('',(1.11022302E-16,0.,1.));
+#613 = PCURVE('',#388,#614);
+#614 = DEFINITIONAL_REPRESENTATION('',(#615),#619);
+#615 = LINE('',#616,#617);
+#616 = CARTESIAN_POINT('',(3.33066906E-17,-0.3));
+#617 = VECTOR('',#618,1.);
+#618 = DIRECTION('',(1.,1.11022302E-16));
+#619 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#620 = PCURVE('',#470,#621);
+#621 = DEFINITIONAL_REPRESENTATION('',(#622),#626);
+#622 = LINE('',#623,#624);
+#623 = CARTESIAN_POINT('',(0.,0.));
+#624 = VECTOR('',#625,1.);
+#625 = DIRECTION('',(-1.,0.));
+#626 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#627 = ORIENTED_EDGE('',*,*,#485,.F.);
+#628 = ADVANCED_FACE('',(#629),#444,.T.);
+#629 = FACE_BOUND('',#630,.T.);
+#630 = EDGE_LOOP('',(#631,#652,#653,#674));
+#631 = ORIENTED_EDGE('',*,*,#632,.F.);
+#632 = EDGE_CURVE('',#401,#516,#633,.T.);
+#633 = SURFACE_CURVE('',#634,(#638,#645),.PCURVE_S1.);
+#634 = LINE('',#635,#636);
+#635 = CARTESIAN_POINT('',(0.,30.,0.));
+#636 = VECTOR('',#637,1.);
+#637 = DIRECTION('',(1.11022302E-16,0.,1.));
+#638 = PCURVE('',#444,#639);
+#639 = DEFINITIONAL_REPRESENTATION('',(#640),#644);
+#640 = LINE('',#641,#642);
+#641 = CARTESIAN_POINT('',(0.,0.));
+#642 = VECTOR('',#643,1.);
+#643 = DIRECTION('',(1.,1.11022302E-16));
+#644 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#645 = PCURVE('',#416,#646);
+#646 = DEFINITIONAL_REPRESENTATION('',(#647),#651);
+#647 = LINE('',#648,#649);
+#648 = CARTESIAN_POINT('',(0.,-30.));
+#649 = VECTOR('',#650,1.);
+#650 = DIRECTION('',(-1.,0.));
+#651 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#652 = ORIENTED_EDGE('',*,*,#428,.T.);
+#653 = ORIENTED_EDGE('',*,*,#654,.T.);
+#654 = EDGE_CURVE('',#429,#539,#655,.T.);
+#655 = SURFACE_CURVE('',#656,(#660,#667),.PCURVE_S1.);
+#656 = LINE('',#657,#658);
+#657 = CARTESIAN_POINT('',(-0.3,30.,3.33066906E-17));
+#658 = VECTOR('',#659,1.);
+#659 = DIRECTION('',(1.11022302E-16,0.,1.));
+#660 = PCURVE('',#444,#661);
+#661 = DEFINITIONAL_REPRESENTATION('',(#662),#666);
+#662 = LINE('',#663,#664);
+#663 = CARTESIAN_POINT('',(3.33066906E-17,-0.3));
+#664 = VECTOR('',#665,1.);
+#665 = DIRECTION('',(1.,1.11022302E-16));
+#666 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#667 = PCURVE('',#470,#668);
+#668 = DEFINITIONAL_REPRESENTATION('',(#669),#673);
+#669 = LINE('',#670,#671);
+#670 = CARTESIAN_POINT('',(0.,-30.));
+#671 = VECTOR('',#672,1.);
+#672 = DIRECTION('',(-1.,0.));
+#673 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#674 = ORIENTED_EDGE('',*,*,#538,.F.);
+#675 = ADVANCED_FACE('',(#676),#416,.F.);
+#676 = FACE_BOUND('',#677,.F.);
+#677 = EDGE_LOOP('',(#678,#679,#680,#681));
+#678 = ORIENTED_EDGE('',*,*,#400,.F.);
+#679 = ORIENTED_EDGE('',*,*,#585,.T.);
+#680 = ORIENTED_EDGE('',*,*,#515,.T.);
+#681 = ORIENTED_EDGE('',*,*,#632,.F.);
+#682 = ADVANCED_FACE('',(#683),#470,.T.);
+#683 = FACE_BOUND('',#684,.T.);
+#684 = EDGE_LOOP('',(#685,#686,#687,#688));
+#685 = ORIENTED_EDGE('',*,*,#456,.F.);
+#686 = ORIENTED_EDGE('',*,*,#607,.T.);
+#687 = ORIENTED_EDGE('',*,*,#561,.T.);
+#688 = ORIENTED_EDGE('',*,*,#654,.F.);
+#689 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#693)) GLOBAL_UNIT_ASSIGNED_CONTEXT
+((#690,#691,#692)) REPRESENTATION_CONTEXT('Context #1',
+  '3D Context with UNIT and UNCERTAINTY') );
+#690 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#691 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#692 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#693 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#690,
+  'distance_accuracy_value','confusion accuracy');
+#694 = PRODUCT_TYPE('part',$,(#355));
+#695 = SHAPE_DEFINITION_REPRESENTATION(#696,#702);
+#696 = PRODUCT_DEFINITION_SHAPE('','',#697);
+#697 = PRODUCT_DEFINITION('design','',#698,#701);
+#698 = PRODUCT_DEFINITION_FORMATION('','',#699);
+#699 = PRODUCT('Open CASCADE STEP translator 6.8 23',
+  'Open CASCADE STEP translator 6.8 23','',(#700));
+#700 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#701 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#702 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#703),#1033);
+#703 = MANIFOLD_SOLID_BREP('',#704);
+#704 = CLOSED_SHELL('',(#705,#825,#925,#972,#1019,#1026));
+#705 = ADVANCED_FACE('',(#706),#720,.F.);
+#706 = FACE_BOUND('',#707,.F.);
+#707 = EDGE_LOOP('',(#708,#743,#771,#799));
+#708 = ORIENTED_EDGE('',*,*,#709,.F.);
+#709 = EDGE_CURVE('',#710,#712,#714,.T.);
+#710 = VERTEX_POINT('',#711);
+#711 = CARTESIAN_POINT('',(0.,0.,0.));
+#712 = VERTEX_POINT('',#713);
+#713 = CARTESIAN_POINT('',(0.,-0.3,3.33066906E-17));
+#714 = SURFACE_CURVE('',#715,(#719,#731),.PCURVE_S1.);
+#715 = LINE('',#716,#717);
+#716 = CARTESIAN_POINT('',(0.,0.,0.));
+#717 = VECTOR('',#718,1.);
+#718 = DIRECTION('',(0.,-1.,1.11022302E-16));
+#719 = PCURVE('',#720,#725);
+#720 = PLANE('',#721);
+#721 = AXIS2_PLACEMENT_3D('',#722,#723,#724);
+#722 = CARTESIAN_POINT('',(0.,0.,0.));
+#723 = DIRECTION('',(1.,0.,0.));
+#724 = DIRECTION('',(-0.,0.,1.));
+#725 = DEFINITIONAL_REPRESENTATION('',(#726),#730);
+#726 = LINE('',#727,#728);
+#727 = CARTESIAN_POINT('',(0.,0.));
+#728 = VECTOR('',#729,1.);
+#729 = DIRECTION('',(1.11022302E-16,1.));
+#730 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#731 = PCURVE('',#732,#737);
+#732 = PLANE('',#733);
+#733 = AXIS2_PLACEMENT_3D('',#734,#735,#736);
+#734 = CARTESIAN_POINT('',(0.,0.,0.));
+#735 = DIRECTION('',(-0.,1.11022302E-16,1.));
+#736 = DIRECTION('',(0.,1.,-1.11022302E-16));
+#737 = DEFINITIONAL_REPRESENTATION('',(#738),#742);
+#738 = LINE('',#739,#740);
+#739 = CARTESIAN_POINT('',(0.,0.));
+#740 = VECTOR('',#741,1.);
+#741 = DIRECTION('',(-1.,-0.));
+#742 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#743 = ORIENTED_EDGE('',*,*,#744,.T.);
+#744 = EDGE_CURVE('',#710,#745,#747,.T.);
+#745 = VERTEX_POINT('',#746);
+#746 = CARTESIAN_POINT('',(0.,3.108624456E-15,28.));
+#747 = SURFACE_CURVE('',#748,(#752,#759),.PCURVE_S1.);
+#748 = LINE('',#749,#750);
+#749 = CARTESIAN_POINT('',(0.,0.,0.));
+#750 = VECTOR('',#751,1.);
+#751 = DIRECTION('',(-0.,1.11022302E-16,1.));
+#752 = PCURVE('',#720,#753);
+#753 = DEFINITIONAL_REPRESENTATION('',(#754),#758);
+#754 = LINE('',#755,#756);
+#755 = CARTESIAN_POINT('',(0.,0.));
+#756 = VECTOR('',#757,1.);
+#757 = DIRECTION('',(1.,-1.11022302E-16));
+#758 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#759 = PCURVE('',#760,#765);
+#760 = PLANE('',#761);
+#761 = AXIS2_PLACEMENT_3D('',#762,#763,#764);
+#762 = CARTESIAN_POINT('',(0.,0.,0.));
+#763 = DIRECTION('',(0.,-1.,1.11022302E-16));
+#764 = DIRECTION('',(0.,-1.11022302E-16,-1.));
+#765 = DEFINITIONAL_REPRESENTATION('',(#766),#770);
+#766 = LINE('',#767,#768);
+#767 = CARTESIAN_POINT('',(0.,0.));
+#768 = VECTOR('',#769,1.);
+#769 = DIRECTION('',(-1.,0.));
+#770 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#771 = ORIENTED_EDGE('',*,*,#772,.T.);
+#772 = EDGE_CURVE('',#745,#773,#775,.T.);
+#773 = VERTEX_POINT('',#774);
+#774 = CARTESIAN_POINT('',(0.,-0.3,28.));
+#775 = SURFACE_CURVE('',#776,(#780,#787),.PCURVE_S1.);
+#776 = LINE('',#777,#778);
+#777 = CARTESIAN_POINT('',(0.,3.108624456E-15,28.));
+#778 = VECTOR('',#779,1.);
+#779 = DIRECTION('',(0.,-1.,1.11022302E-16));
+#780 = PCURVE('',#720,#781);
+#781 = DEFINITIONAL_REPRESENTATION('',(#782),#786);
+#782 = LINE('',#783,#784);
+#783 = CARTESIAN_POINT('',(28.,-3.108624456E-15));
+#784 = VECTOR('',#785,1.);
+#785 = DIRECTION('',(1.11022302E-16,1.));
+#786 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#787 = PCURVE('',#788,#793);
+#788 = PLANE('',#789);
+#789 = AXIS2_PLACEMENT_3D('',#790,#791,#792);
+#790 = CARTESIAN_POINT('',(0.,3.108624456E-15,28.));
+#791 = DIRECTION('',(-0.,1.11022302E-16,1.));
+#792 = DIRECTION('',(0.,1.,-1.11022302E-16));
+#793 = DEFINITIONAL_REPRESENTATION('',(#794),#798);
+#794 = LINE('',#795,#796);
+#795 = CARTESIAN_POINT('',(0.,0.));
+#796 = VECTOR('',#797,1.);
+#797 = DIRECTION('',(-1.,-0.));
+#798 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#799 = ORIENTED_EDGE('',*,*,#800,.F.);
+#800 = EDGE_CURVE('',#712,#773,#801,.T.);
+#801 = SURFACE_CURVE('',#802,(#806,#813),.PCURVE_S1.);
+#802 = LINE('',#803,#804);
+#803 = CARTESIAN_POINT('',(0.,-0.3,3.33066906E-17));
+#804 = VECTOR('',#805,1.);
+#805 = DIRECTION('',(-0.,1.11022302E-16,1.));
+#806 = PCURVE('',#720,#807);
+#807 = DEFINITIONAL_REPRESENTATION('',(#808),#812);
+#808 = LINE('',#809,#810);
+#809 = CARTESIAN_POINT('',(3.33066906E-17,0.3));
+#810 = VECTOR('',#811,1.);
+#811 = DIRECTION('',(1.,-1.11022302E-16));
+#812 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#813 = PCURVE('',#814,#819);
+#814 = PLANE('',#815);
+#815 = AXIS2_PLACEMENT_3D('',#816,#817,#818);
+#816 = CARTESIAN_POINT('',(0.,-0.3,3.33066906E-17));
+#817 = DIRECTION('',(0.,-1.,1.11022302E-16));
+#818 = DIRECTION('',(0.,-1.11022302E-16,-1.));
+#819 = DEFINITIONAL_REPRESENTATION('',(#820),#824);
+#820 = LINE('',#821,#822);
+#821 = CARTESIAN_POINT('',(0.,0.));
+#822 = VECTOR('',#823,1.);
+#823 = DIRECTION('',(-1.,0.));
+#824 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#825 = ADVANCED_FACE('',(#826),#840,.T.);
+#826 = FACE_BOUND('',#827,.T.);
+#827 = EDGE_LOOP('',(#828,#858,#881,#904));
+#828 = ORIENTED_EDGE('',*,*,#829,.F.);
+#829 = EDGE_CURVE('',#830,#832,#834,.T.);
+#830 = VERTEX_POINT('',#831);
+#831 = CARTESIAN_POINT('',(30.,0.,0.));
+#832 = VERTEX_POINT('',#833);
+#833 = CARTESIAN_POINT('',(30.,-0.3,3.33066906E-17));
+#834 = SURFACE_CURVE('',#835,(#839,#851),.PCURVE_S1.);
+#835 = LINE('',#836,#837);
+#836 = CARTESIAN_POINT('',(30.,0.,0.));
+#837 = VECTOR('',#838,1.);
+#838 = DIRECTION('',(0.,-1.,1.11022302E-16));
+#839 = PCURVE('',#840,#845);
+#840 = PLANE('',#841);
+#841 = AXIS2_PLACEMENT_3D('',#842,#843,#844);
+#842 = CARTESIAN_POINT('',(30.,0.,0.));
+#843 = DIRECTION('',(1.,0.,0.));
+#844 = DIRECTION('',(-0.,0.,1.));
+#845 = DEFINITIONAL_REPRESENTATION('',(#846),#850);
+#846 = LINE('',#847,#848);
+#847 = CARTESIAN_POINT('',(0.,0.));
+#848 = VECTOR('',#849,1.);
+#849 = DIRECTION('',(1.11022302E-16,1.));
+#850 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#851 = PCURVE('',#732,#852);
+#852 = DEFINITIONAL_REPRESENTATION('',(#853),#857);
+#853 = LINE('',#854,#855);
+#854 = CARTESIAN_POINT('',(0.,-30.));
+#855 = VECTOR('',#856,1.);
+#856 = DIRECTION('',(-1.,-0.));
+#857 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#858 = ORIENTED_EDGE('',*,*,#859,.T.);
+#859 = EDGE_CURVE('',#830,#860,#862,.T.);
+#860 = VERTEX_POINT('',#861);
+#861 = CARTESIAN_POINT('',(30.,3.108624456E-15,28.));
+#862 = SURFACE_CURVE('',#863,(#867,#874),.PCURVE_S1.);
+#863 = LINE('',#864,#865);
+#864 = CARTESIAN_POINT('',(30.,0.,0.));
+#865 = VECTOR('',#866,1.);
+#866 = DIRECTION('',(-0.,1.11022302E-16,1.));
+#867 = PCURVE('',#840,#868);
+#868 = DEFINITIONAL_REPRESENTATION('',(#869),#873);
+#869 = LINE('',#870,#871);
+#870 = CARTESIAN_POINT('',(0.,0.));
+#871 = VECTOR('',#872,1.);
+#872 = DIRECTION('',(1.,-1.11022302E-16));
+#873 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#874 = PCURVE('',#760,#875);
+#875 = DEFINITIONAL_REPRESENTATION('',(#876),#880);
+#876 = LINE('',#877,#878);
+#877 = CARTESIAN_POINT('',(0.,30.));
+#878 = VECTOR('',#879,1.);
+#879 = DIRECTION('',(-1.,0.));
+#880 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#881 = ORIENTED_EDGE('',*,*,#882,.T.);
+#882 = EDGE_CURVE('',#860,#883,#885,.T.);
+#883 = VERTEX_POINT('',#884);
+#884 = CARTESIAN_POINT('',(30.,-0.3,28.));
+#885 = SURFACE_CURVE('',#886,(#890,#897),.PCURVE_S1.);
+#886 = LINE('',#887,#888);
+#887 = CARTESIAN_POINT('',(30.,3.108624456E-15,28.));
+#888 = VECTOR('',#889,1.);
+#889 = DIRECTION('',(0.,-1.,1.11022302E-16));
+#890 = PCURVE('',#840,#891);
+#891 = DEFINITIONAL_REPRESENTATION('',(#892),#896);
+#892 = LINE('',#893,#894);
+#893 = CARTESIAN_POINT('',(28.,-3.108624456E-15));
+#894 = VECTOR('',#895,1.);
+#895 = DIRECTION('',(1.11022302E-16,1.));
+#896 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#897 = PCURVE('',#788,#898);
+#898 = DEFINITIONAL_REPRESENTATION('',(#899),#903);
+#899 = LINE('',#900,#901);
+#900 = CARTESIAN_POINT('',(0.,-30.));
+#901 = VECTOR('',#902,1.);
+#902 = DIRECTION('',(-1.,-0.));
+#903 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#904 = ORIENTED_EDGE('',*,*,#905,.F.);
+#905 = EDGE_CURVE('',#832,#883,#906,.T.);
+#906 = SURFACE_CURVE('',#907,(#911,#918),.PCURVE_S1.);
+#907 = LINE('',#908,#909);
+#908 = CARTESIAN_POINT('',(30.,-0.3,3.33066906E-17));
+#909 = VECTOR('',#910,1.);
+#910 = DIRECTION('',(0.,1.11022302E-16,1.));
+#911 = PCURVE('',#840,#912);
+#912 = DEFINITIONAL_REPRESENTATION('',(#913),#917);
+#913 = LINE('',#914,#915);
+#914 = CARTESIAN_POINT('',(3.33066906E-17,0.3));
+#915 = VECTOR('',#916,1.);
+#916 = DIRECTION('',(1.,-1.11022302E-16));
+#917 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#918 = PCURVE('',#814,#919);
+#919 = DEFINITIONAL_REPRESENTATION('',(#920),#924);
+#920 = LINE('',#921,#922);
+#921 = CARTESIAN_POINT('',(0.,30.));
+#922 = VECTOR('',#923,1.);
+#923 = DIRECTION('',(-1.,0.));
+#924 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#925 = ADVANCED_FACE('',(#926),#732,.F.);
+#926 = FACE_BOUND('',#927,.F.);
+#927 = EDGE_LOOP('',(#928,#949,#950,#971));
+#928 = ORIENTED_EDGE('',*,*,#929,.F.);
+#929 = EDGE_CURVE('',#710,#830,#930,.T.);
+#930 = SURFACE_CURVE('',#931,(#935,#942),.PCURVE_S1.);
+#931 = LINE('',#932,#933);
+#932 = CARTESIAN_POINT('',(0.,0.,0.));
+#933 = VECTOR('',#934,1.);
+#934 = DIRECTION('',(1.,0.,0.));
+#935 = PCURVE('',#732,#936);
+#936 = DEFINITIONAL_REPRESENTATION('',(#937),#941);
+#937 = LINE('',#938,#939);
+#938 = CARTESIAN_POINT('',(0.,0.));
+#939 = VECTOR('',#940,1.);
+#940 = DIRECTION('',(0.,-1.));
+#941 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#942 = PCURVE('',#760,#943);
+#943 = DEFINITIONAL_REPRESENTATION('',(#944),#948);
+#944 = LINE('',#945,#946);
+#945 = CARTESIAN_POINT('',(0.,0.));
+#946 = VECTOR('',#947,1.);
+#947 = DIRECTION('',(0.,1.));
+#948 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#949 = ORIENTED_EDGE('',*,*,#709,.T.);
+#950 = ORIENTED_EDGE('',*,*,#951,.T.);
+#951 = EDGE_CURVE('',#712,#832,#952,.T.);
+#952 = SURFACE_CURVE('',#953,(#957,#964),.PCURVE_S1.);
+#953 = LINE('',#954,#955);
+#954 = CARTESIAN_POINT('',(0.,-0.3,3.33066906E-17));
+#955 = VECTOR('',#956,1.);
+#956 = DIRECTION('',(1.,0.,0.));
+#957 = PCURVE('',#732,#958);
+#958 = DEFINITIONAL_REPRESENTATION('',(#959),#963);
+#959 = LINE('',#960,#961);
+#960 = CARTESIAN_POINT('',(-0.3,-0.));
+#961 = VECTOR('',#962,1.);
+#962 = DIRECTION('',(0.,-1.));
+#963 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#964 = PCURVE('',#814,#965);
+#965 = DEFINITIONAL_REPRESENTATION('',(#966),#970);
+#966 = LINE('',#967,#968);
+#967 = CARTESIAN_POINT('',(0.,0.));
+#968 = VECTOR('',#969,1.);
+#969 = DIRECTION('',(0.,1.));
+#970 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#971 = ORIENTED_EDGE('',*,*,#829,.F.);
+#972 = ADVANCED_FACE('',(#973),#788,.T.);
+#973 = FACE_BOUND('',#974,.T.);
+#974 = EDGE_LOOP('',(#975,#996,#997,#1018));
+#975 = ORIENTED_EDGE('',*,*,#976,.F.);
+#976 = EDGE_CURVE('',#745,#860,#977,.T.);
+#977 = SURFACE_CURVE('',#978,(#982,#989),.PCURVE_S1.);
+#978 = LINE('',#979,#980);
+#979 = CARTESIAN_POINT('',(0.,3.108624456E-15,28.));
+#980 = VECTOR('',#981,1.);
+#981 = DIRECTION('',(1.,0.,0.));
+#982 = PCURVE('',#788,#983);
+#983 = DEFINITIONAL_REPRESENTATION('',(#984),#988);
+#984 = LINE('',#985,#986);
+#985 = CARTESIAN_POINT('',(0.,0.));
+#986 = VECTOR('',#987,1.);
+#987 = DIRECTION('',(0.,-1.));
+#988 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#989 = PCURVE('',#760,#990);
+#990 = DEFINITIONAL_REPRESENTATION('',(#991),#995);
+#991 = LINE('',#992,#993);
+#992 = CARTESIAN_POINT('',(-28.,0.));
+#993 = VECTOR('',#994,1.);
+#994 = DIRECTION('',(0.,1.));
+#995 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#996 = ORIENTED_EDGE('',*,*,#772,.T.);
+#997 = ORIENTED_EDGE('',*,*,#998,.T.);
+#998 = EDGE_CURVE('',#773,#883,#999,.T.);
+#999 = SURFACE_CURVE('',#1000,(#1004,#1011),.PCURVE_S1.);
+#1000 = LINE('',#1001,#1002);
+#1001 = CARTESIAN_POINT('',(0.,-0.3,28.));
+#1002 = VECTOR('',#1003,1.);
+#1003 = DIRECTION('',(1.,0.,0.));
+#1004 = PCURVE('',#788,#1005);
+#1005 = DEFINITIONAL_REPRESENTATION('',(#1006),#1010);
+#1006 = LINE('',#1007,#1008);
+#1007 = CARTESIAN_POINT('',(-0.3,-0.));
+#1008 = VECTOR('',#1009,1.);
+#1009 = DIRECTION('',(0.,-1.));
+#1010 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1011 = PCURVE('',#814,#1012);
+#1012 = DEFINITIONAL_REPRESENTATION('',(#1013),#1017);
+#1013 = LINE('',#1014,#1015);
+#1014 = CARTESIAN_POINT('',(-28.,0.));
+#1015 = VECTOR('',#1016,1.);
+#1016 = DIRECTION('',(0.,1.));
+#1017 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1018 = ORIENTED_EDGE('',*,*,#882,.F.);
+#1019 = ADVANCED_FACE('',(#1020),#760,.F.);
+#1020 = FACE_BOUND('',#1021,.F.);
+#1021 = EDGE_LOOP('',(#1022,#1023,#1024,#1025));
+#1022 = ORIENTED_EDGE('',*,*,#744,.F.);
+#1023 = ORIENTED_EDGE('',*,*,#929,.T.);
+#1024 = ORIENTED_EDGE('',*,*,#859,.T.);
+#1025 = ORIENTED_EDGE('',*,*,#976,.F.);
+#1026 = ADVANCED_FACE('',(#1027),#814,.T.);
+#1027 = FACE_BOUND('',#1028,.T.);
+#1028 = EDGE_LOOP('',(#1029,#1030,#1031,#1032));
+#1029 = ORIENTED_EDGE('',*,*,#800,.F.);
+#1030 = ORIENTED_EDGE('',*,*,#951,.T.);
+#1031 = ORIENTED_EDGE('',*,*,#905,.T.);
+#1032 = ORIENTED_EDGE('',*,*,#998,.F.);
+#1033 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#1037)) 
+GLOBAL_UNIT_ASSIGNED_CONTEXT((#1034,#1035,#1036)) REPRESENTATION_CONTEXT
+('Context #1','3D Context with UNIT and UNCERTAINTY') );
+#1034 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#1035 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#1036 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#1037 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#1034,
+  'distance_accuracy_value','confusion accuracy');
+#1038 = PRODUCT_TYPE('part',$,(#699));
+#1039 = SHAPE_DEFINITION_REPRESENTATION(#1040,#1046);
+#1040 = PRODUCT_DEFINITION_SHAPE('','',#1041);
+#1041 = PRODUCT_DEFINITION('design','',#1042,#1045);
+#1042 = PRODUCT_DEFINITION_FORMATION('','',#1043);
+#1043 = PRODUCT('Open CASCADE STEP translator 6.8 24',
+  'Open CASCADE STEP translator 6.8 24','',(#1044));
+#1044 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#1045 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#1046 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#1047),#1689);
+#1047 = MANIFOLD_SOLID_BREP('',#1048);
+#1048 = CLOSED_SHELL('',(#1049,#1169,#1245,#1294,#1343,#1477,#1557,#1606
+    ,#1655,#1682));
+#1049 = ADVANCED_FACE('',(#1050),#1064,.F.);
+#1050 = FACE_BOUND('',#1051,.F.);
+#1051 = EDGE_LOOP('',(#1052,#1087,#1115,#1143));
+#1052 = ORIENTED_EDGE('',*,*,#1053,.F.);
+#1053 = EDGE_CURVE('',#1054,#1056,#1058,.T.);
+#1054 = VERTEX_POINT('',#1055);
+#1055 = CARTESIAN_POINT('',(3.,5.,0.));
+#1056 = VERTEX_POINT('',#1057);
+#1057 = CARTESIAN_POINT('',(3.,5.,20.));
+#1058 = SURFACE_CURVE('',#1059,(#1063,#1075),.PCURVE_S1.);
+#1059 = LINE('',#1060,#1061);
+#1060 = CARTESIAN_POINT('',(3.,5.,0.));
+#1061 = VECTOR('',#1062,1.);
+#1062 = DIRECTION('',(0.,0.,1.));
+#1063 = PCURVE('',#1064,#1069);
+#1064 = PLANE('',#1065);
+#1065 = AXIS2_PLACEMENT_3D('',#1066,#1067,#1068);
+#1066 = CARTESIAN_POINT('',(3.,5.,0.));
+#1067 = DIRECTION('',(1.,0.,0.));
+#1068 = DIRECTION('',(-0.,0.,1.));
+#1069 = DEFINITIONAL_REPRESENTATION('',(#1070),#1074);
+#1070 = LINE('',#1071,#1072);
+#1071 = CARTESIAN_POINT('',(0.,0.));
+#1072 = VECTOR('',#1073,1.);
+#1073 = DIRECTION('',(1.,0.));
+#1074 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1075 = PCURVE('',#1076,#1081);
+#1076 = PLANE('',#1077);
+#1077 = AXIS2_PLACEMENT_3D('',#1078,#1079,#1080);
+#1078 = CARTESIAN_POINT('',(3.,5.,0.));
+#1079 = DIRECTION('',(0.,1.,0.));
+#1080 = DIRECTION('',(0.,-0.,1.));
+#1081 = DEFINITIONAL_REPRESENTATION('',(#1082),#1086);
+#1082 = LINE('',#1083,#1084);
+#1083 = CARTESIAN_POINT('',(0.,0.));
+#1084 = VECTOR('',#1085,1.);
+#1085 = DIRECTION('',(1.,0.));
+#1086 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1087 = ORIENTED_EDGE('',*,*,#1088,.T.);
+#1088 = EDGE_CURVE('',#1054,#1089,#1091,.T.);
+#1089 = VERTEX_POINT('',#1090);
+#1090 = CARTESIAN_POINT('',(3.,25.,0.));
+#1091 = SURFACE_CURVE('',#1092,(#1096,#1103),.PCURVE_S1.);
+#1092 = LINE('',#1093,#1094);
+#1093 = CARTESIAN_POINT('',(3.,5.,0.));
+#1094 = VECTOR('',#1095,1.);
+#1095 = DIRECTION('',(0.,1.,0.));
+#1096 = PCURVE('',#1064,#1097);
+#1097 = DEFINITIONAL_REPRESENTATION('',(#1098),#1102);
+#1098 = LINE('',#1099,#1100);
+#1099 = CARTESIAN_POINT('',(0.,0.));
+#1100 = VECTOR('',#1101,1.);
+#1101 = DIRECTION('',(0.,-1.));
+#1102 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1103 = PCURVE('',#1104,#1109);
+#1104 = PLANE('',#1105);
+#1105 = AXIS2_PLACEMENT_3D('',#1106,#1107,#1108);
+#1106 = CARTESIAN_POINT('',(3.,5.,0.));
+#1107 = DIRECTION('',(0.,0.,1.));
+#1108 = DIRECTION('',(1.,0.,-0.));
+#1109 = DEFINITIONAL_REPRESENTATION('',(#1110),#1114);
+#1110 = LINE('',#1111,#1112);
+#1111 = CARTESIAN_POINT('',(0.,0.));
+#1112 = VECTOR('',#1113,1.);
+#1113 = DIRECTION('',(0.,1.));
+#1114 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1115 = ORIENTED_EDGE('',*,*,#1116,.T.);
+#1116 = EDGE_CURVE('',#1089,#1117,#1119,.T.);
+#1117 = VERTEX_POINT('',#1118);
+#1118 = CARTESIAN_POINT('',(3.,25.,20.));
+#1119 = SURFACE_CURVE('',#1120,(#1124,#1131),.PCURVE_S1.);
+#1120 = LINE('',#1121,#1122);
+#1121 = CARTESIAN_POINT('',(3.,25.,0.));
+#1122 = VECTOR('',#1123,1.);
+#1123 = DIRECTION('',(0.,0.,1.));
+#1124 = PCURVE('',#1064,#1125);
+#1125 = DEFINITIONAL_REPRESENTATION('',(#1126),#1130);
+#1126 = LINE('',#1127,#1128);
+#1127 = CARTESIAN_POINT('',(0.,-20.));
+#1128 = VECTOR('',#1129,1.);
+#1129 = DIRECTION('',(1.,0.));
+#1130 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1131 = PCURVE('',#1132,#1137);
+#1132 = PLANE('',#1133);
+#1133 = AXIS2_PLACEMENT_3D('',#1134,#1135,#1136);
+#1134 = CARTESIAN_POINT('',(3.,25.,0.));
+#1135 = DIRECTION('',(0.,1.,0.));
+#1136 = DIRECTION('',(0.,-0.,1.));
+#1137 = DEFINITIONAL_REPRESENTATION('',(#1138),#1142);
+#1138 = LINE('',#1139,#1140);
+#1139 = CARTESIAN_POINT('',(0.,0.));
+#1140 = VECTOR('',#1141,1.);
+#1141 = DIRECTION('',(1.,0.));
+#1142 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1143 = ORIENTED_EDGE('',*,*,#1144,.F.);
+#1144 = EDGE_CURVE('',#1056,#1117,#1145,.T.);
+#1145 = SURFACE_CURVE('',#1146,(#1150,#1157),.PCURVE_S1.);
+#1146 = LINE('',#1147,#1148);
+#1147 = CARTESIAN_POINT('',(3.,5.,20.));
+#1148 = VECTOR('',#1149,1.);
+#1149 = DIRECTION('',(0.,1.,0.));
+#1150 = PCURVE('',#1064,#1151);
+#1151 = DEFINITIONAL_REPRESENTATION('',(#1152),#1156);
+#1152 = LINE('',#1153,#1154);
+#1153 = CARTESIAN_POINT('',(20.,0.));
+#1154 = VECTOR('',#1155,1.);
+#1155 = DIRECTION('',(0.,-1.));
+#1156 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1157 = PCURVE('',#1158,#1163);
+#1158 = PLANE('',#1159);
+#1159 = AXIS2_PLACEMENT_3D('',#1160,#1161,#1162);
+#1160 = CARTESIAN_POINT('',(3.,5.,20.));
+#1161 = DIRECTION('',(0.,0.,1.));
+#1162 = DIRECTION('',(1.,0.,-0.));
+#1163 = DEFINITIONAL_REPRESENTATION('',(#1164),#1168);
+#1164 = LINE('',#1165,#1166);
+#1165 = CARTESIAN_POINT('',(0.,0.));
+#1166 = VECTOR('',#1167,1.);
+#1167 = DIRECTION('',(0.,1.));
+#1168 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1169 = ADVANCED_FACE('',(#1170),#1076,.F.);
+#1170 = FACE_BOUND('',#1171,.F.);
+#1171 = EDGE_LOOP('',(#1172,#1195,#1196,#1219));
+#1172 = ORIENTED_EDGE('',*,*,#1173,.F.);
+#1173 = EDGE_CURVE('',#1054,#1174,#1176,.T.);
+#1174 = VERTEX_POINT('',#1175);
+#1175 = CARTESIAN_POINT('',(30.,5.,0.));
+#1176 = SURFACE_CURVE('',#1177,(#1181,#1188),.PCURVE_S1.);
+#1177 = LINE('',#1178,#1179);
+#1178 = CARTESIAN_POINT('',(3.,5.,0.));
+#1179 = VECTOR('',#1180,1.);
+#1180 = DIRECTION('',(1.,0.,0.));
+#1181 = PCURVE('',#1076,#1182);
+#1182 = DEFINITIONAL_REPRESENTATION('',(#1183),#1187);
+#1183 = LINE('',#1184,#1185);
+#1184 = CARTESIAN_POINT('',(0.,0.));
+#1185 = VECTOR('',#1186,1.);
+#1186 = DIRECTION('',(0.,1.));
+#1187 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1188 = PCURVE('',#1104,#1189);
+#1189 = DEFINITIONAL_REPRESENTATION('',(#1190),#1194);
+#1190 = LINE('',#1191,#1192);
+#1191 = CARTESIAN_POINT('',(0.,0.));
+#1192 = VECTOR('',#1193,1.);
+#1193 = DIRECTION('',(1.,0.));
+#1194 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1195 = ORIENTED_EDGE('',*,*,#1053,.T.);
+#1196 = ORIENTED_EDGE('',*,*,#1197,.T.);
+#1197 = EDGE_CURVE('',#1056,#1198,#1200,.T.);
+#1198 = VERTEX_POINT('',#1199);
+#1199 = CARTESIAN_POINT('',(30.,5.,20.));
+#1200 = SURFACE_CURVE('',#1201,(#1205,#1212),.PCURVE_S1.);
+#1201 = LINE('',#1202,#1203);
+#1202 = CARTESIAN_POINT('',(3.,5.,20.));
+#1203 = VECTOR('',#1204,1.);
+#1204 = DIRECTION('',(1.,0.,0.));
+#1205 = PCURVE('',#1076,#1206);
+#1206 = DEFINITIONAL_REPRESENTATION('',(#1207),#1211);
+#1207 = LINE('',#1208,#1209);
+#1208 = CARTESIAN_POINT('',(20.,0.));
+#1209 = VECTOR('',#1210,1.);
+#1210 = DIRECTION('',(0.,1.));
+#1211 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1212 = PCURVE('',#1158,#1213);
+#1213 = DEFINITIONAL_REPRESENTATION('',(#1214),#1218);
+#1214 = LINE('',#1215,#1216);
+#1215 = CARTESIAN_POINT('',(0.,0.));
+#1216 = VECTOR('',#1217,1.);
+#1217 = DIRECTION('',(1.,0.));
+#1218 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1219 = ORIENTED_EDGE('',*,*,#1220,.F.);
+#1220 = EDGE_CURVE('',#1174,#1198,#1221,.T.);
+#1221 = SURFACE_CURVE('',#1222,(#1226,#1233),.PCURVE_S1.);
+#1222 = LINE('',#1223,#1224);
+#1223 = CARTESIAN_POINT('',(30.,5.,0.));
+#1224 = VECTOR('',#1225,1.);
+#1225 = DIRECTION('',(0.,0.,1.));
+#1226 = PCURVE('',#1076,#1227);
+#1227 = DEFINITIONAL_REPRESENTATION('',(#1228),#1232);
+#1228 = LINE('',#1229,#1230);
+#1229 = CARTESIAN_POINT('',(0.,27.));
+#1230 = VECTOR('',#1231,1.);
+#1231 = DIRECTION('',(1.,0.));
+#1232 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1233 = PCURVE('',#1234,#1239);
+#1234 = PLANE('',#1235);
+#1235 = AXIS2_PLACEMENT_3D('',#1236,#1237,#1238);
+#1236 = CARTESIAN_POINT('',(30.,5.,0.));
+#1237 = DIRECTION('',(1.,0.,0.));
+#1238 = DIRECTION('',(-0.,0.,1.));
+#1239 = DEFINITIONAL_REPRESENTATION('',(#1240),#1244);
+#1240 = LINE('',#1241,#1242);
+#1241 = CARTESIAN_POINT('',(0.,0.));
+#1242 = VECTOR('',#1243,1.);
+#1243 = DIRECTION('',(1.,0.));
+#1244 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1245 = ADVANCED_FACE('',(#1246),#1158,.T.);
+#1246 = FACE_BOUND('',#1247,.T.);
+#1247 = EDGE_LOOP('',(#1248,#1249,#1250,#1273));
+#1248 = ORIENTED_EDGE('',*,*,#1144,.F.);
+#1249 = ORIENTED_EDGE('',*,*,#1197,.T.);
+#1250 = ORIENTED_EDGE('',*,*,#1251,.T.);
+#1251 = EDGE_CURVE('',#1198,#1252,#1254,.T.);
+#1252 = VERTEX_POINT('',#1253);
+#1253 = CARTESIAN_POINT('',(30.,25.,20.));
+#1254 = SURFACE_CURVE('',#1255,(#1259,#1266),.PCURVE_S1.);
+#1255 = LINE('',#1256,#1257);
+#1256 = CARTESIAN_POINT('',(30.,5.,20.));
+#1257 = VECTOR('',#1258,1.);
+#1258 = DIRECTION('',(0.,1.,0.));
+#1259 = PCURVE('',#1158,#1260);
+#1260 = DEFINITIONAL_REPRESENTATION('',(#1261),#1265);
+#1261 = LINE('',#1262,#1263);
+#1262 = CARTESIAN_POINT('',(27.,0.));
+#1263 = VECTOR('',#1264,1.);
+#1264 = DIRECTION('',(0.,1.));
+#1265 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1266 = PCURVE('',#1234,#1267);
+#1267 = DEFINITIONAL_REPRESENTATION('',(#1268),#1272);
+#1268 = LINE('',#1269,#1270);
+#1269 = CARTESIAN_POINT('',(20.,0.));
+#1270 = VECTOR('',#1271,1.);
+#1271 = DIRECTION('',(0.,-1.));
+#1272 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1273 = ORIENTED_EDGE('',*,*,#1274,.F.);
+#1274 = EDGE_CURVE('',#1117,#1252,#1275,.T.);
+#1275 = SURFACE_CURVE('',#1276,(#1280,#1287),.PCURVE_S1.);
+#1276 = LINE('',#1277,#1278);
+#1277 = CARTESIAN_POINT('',(3.,25.,20.));
+#1278 = VECTOR('',#1279,1.);
+#1279 = DIRECTION('',(1.,0.,0.));
+#1280 = PCURVE('',#1158,#1281);
+#1281 = DEFINITIONAL_REPRESENTATION('',(#1282),#1286);
+#1282 = LINE('',#1283,#1284);
+#1283 = CARTESIAN_POINT('',(0.,20.));
+#1284 = VECTOR('',#1285,1.);
+#1285 = DIRECTION('',(1.,0.));
+#1286 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1287 = PCURVE('',#1132,#1288);
+#1288 = DEFINITIONAL_REPRESENTATION('',(#1289),#1293);
+#1289 = LINE('',#1290,#1291);
+#1290 = CARTESIAN_POINT('',(20.,0.));
+#1291 = VECTOR('',#1292,1.);
+#1292 = DIRECTION('',(0.,1.));
+#1293 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1294 = ADVANCED_FACE('',(#1295),#1132,.T.);
+#1295 = FACE_BOUND('',#1296,.T.);
+#1296 = EDGE_LOOP('',(#1297,#1320,#1321,#1322));
+#1297 = ORIENTED_EDGE('',*,*,#1298,.F.);
+#1298 = EDGE_CURVE('',#1089,#1299,#1301,.T.);
+#1299 = VERTEX_POINT('',#1300);
+#1300 = CARTESIAN_POINT('',(30.,25.,0.));
+#1301 = SURFACE_CURVE('',#1302,(#1306,#1313),.PCURVE_S1.);
+#1302 = LINE('',#1303,#1304);
+#1303 = CARTESIAN_POINT('',(3.,25.,0.));
+#1304 = VECTOR('',#1305,1.);
+#1305 = DIRECTION('',(1.,0.,0.));
+#1306 = PCURVE('',#1132,#1307);
+#1307 = DEFINITIONAL_REPRESENTATION('',(#1308),#1312);
+#1308 = LINE('',#1309,#1310);
+#1309 = CARTESIAN_POINT('',(0.,0.));
+#1310 = VECTOR('',#1311,1.);
+#1311 = DIRECTION('',(0.,1.));
+#1312 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1313 = PCURVE('',#1104,#1314);
+#1314 = DEFINITIONAL_REPRESENTATION('',(#1315),#1319);
+#1315 = LINE('',#1316,#1317);
+#1316 = CARTESIAN_POINT('',(0.,20.));
+#1317 = VECTOR('',#1318,1.);
+#1318 = DIRECTION('',(1.,0.));
+#1319 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1320 = ORIENTED_EDGE('',*,*,#1116,.T.);
+#1321 = ORIENTED_EDGE('',*,*,#1274,.T.);
+#1322 = ORIENTED_EDGE('',*,*,#1323,.F.);
+#1323 = EDGE_CURVE('',#1299,#1252,#1324,.T.);
+#1324 = SURFACE_CURVE('',#1325,(#1329,#1336),.PCURVE_S1.);
+#1325 = LINE('',#1326,#1327);
+#1326 = CARTESIAN_POINT('',(30.,25.,0.));
+#1327 = VECTOR('',#1328,1.);
+#1328 = DIRECTION('',(0.,0.,1.));
+#1329 = PCURVE('',#1132,#1330);
+#1330 = DEFINITIONAL_REPRESENTATION('',(#1331),#1335);
+#1331 = LINE('',#1332,#1333);
+#1332 = CARTESIAN_POINT('',(0.,27.));
+#1333 = VECTOR('',#1334,1.);
+#1334 = DIRECTION('',(1.,0.));
+#1335 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1336 = PCURVE('',#1234,#1337);
+#1337 = DEFINITIONAL_REPRESENTATION('',(#1338),#1342);
+#1338 = LINE('',#1339,#1340);
+#1339 = CARTESIAN_POINT('',(0.,-20.));
+#1340 = VECTOR('',#1341,1.);
+#1341 = DIRECTION('',(1.,0.));
+#1342 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1343 = ADVANCED_FACE('',(#1344),#1104,.F.);
+#1344 = FACE_BOUND('',#1345,.F.);
+#1345 = EDGE_LOOP('',(#1346,#1347,#1348,#1349,#1372,#1400,#1428,#1456));
+#1346 = ORIENTED_EDGE('',*,*,#1298,.F.);
+#1347 = ORIENTED_EDGE('',*,*,#1088,.F.);
+#1348 = ORIENTED_EDGE('',*,*,#1173,.T.);
+#1349 = ORIENTED_EDGE('',*,*,#1350,.T.);
+#1350 = EDGE_CURVE('',#1174,#1351,#1353,.T.);
+#1351 = VERTEX_POINT('',#1352);
+#1352 = CARTESIAN_POINT('',(30.,5.3,0.));
+#1353 = SURFACE_CURVE('',#1354,(#1358,#1365),.PCURVE_S1.);
+#1354 = LINE('',#1355,#1356);
+#1355 = CARTESIAN_POINT('',(30.,5.,0.));
+#1356 = VECTOR('',#1357,1.);
+#1357 = DIRECTION('',(0.,1.,0.));
+#1358 = PCURVE('',#1104,#1359);
+#1359 = DEFINITIONAL_REPRESENTATION('',(#1360),#1364);
+#1360 = LINE('',#1361,#1362);
+#1361 = CARTESIAN_POINT('',(27.,0.));
+#1362 = VECTOR('',#1363,1.);
+#1363 = DIRECTION('',(0.,1.));
+#1364 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1365 = PCURVE('',#1234,#1366);
+#1366 = DEFINITIONAL_REPRESENTATION('',(#1367),#1371);
+#1367 = LINE('',#1368,#1369);
+#1368 = CARTESIAN_POINT('',(0.,0.));
+#1369 = VECTOR('',#1370,1.);
+#1370 = DIRECTION('',(0.,-1.));
+#1371 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1372 = ORIENTED_EDGE('',*,*,#1373,.F.);
+#1373 = EDGE_CURVE('',#1374,#1351,#1376,.T.);
+#1374 = VERTEX_POINT('',#1375);
+#1375 = CARTESIAN_POINT('',(3.3,5.3,0.));
+#1376 = SURFACE_CURVE('',#1377,(#1381,#1388),.PCURVE_S1.);
+#1377 = LINE('',#1378,#1379);
+#1378 = CARTESIAN_POINT('',(3.3,5.3,0.));
+#1379 = VECTOR('',#1380,1.);
+#1380 = DIRECTION('',(1.,0.,-0.));
+#1381 = PCURVE('',#1104,#1382);
+#1382 = DEFINITIONAL_REPRESENTATION('',(#1383),#1387);
+#1383 = LINE('',#1384,#1385);
+#1384 = CARTESIAN_POINT('',(0.3,0.3));
+#1385 = VECTOR('',#1386,1.);
+#1386 = DIRECTION('',(1.,0.));
+#1387 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1388 = PCURVE('',#1389,#1394);
+#1389 = PLANE('',#1390);
+#1390 = AXIS2_PLACEMENT_3D('',#1391,#1392,#1393);
+#1391 = CARTESIAN_POINT('',(3.3,5.3,0.));
+#1392 = DIRECTION('',(-0.,1.,0.));
+#1393 = DIRECTION('',(0.,0.,1.));
+#1394 = DEFINITIONAL_REPRESENTATION('',(#1395),#1399);
+#1395 = LINE('',#1396,#1397);
+#1396 = CARTESIAN_POINT('',(0.,0.));
+#1397 = VECTOR('',#1398,1.);
+#1398 = DIRECTION('',(0.,1.));
+#1399 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1400 = ORIENTED_EDGE('',*,*,#1401,.T.);
+#1401 = EDGE_CURVE('',#1374,#1402,#1404,.T.);
+#1402 = VERTEX_POINT('',#1403);
+#1403 = CARTESIAN_POINT('',(3.3,24.7,0.));
+#1404 = SURFACE_CURVE('',#1405,(#1409,#1416),.PCURVE_S1.);
+#1405 = LINE('',#1406,#1407);
+#1406 = CARTESIAN_POINT('',(3.3,5.3,0.));
+#1407 = VECTOR('',#1408,1.);
+#1408 = DIRECTION('',(-0.,1.,0.));
+#1409 = PCURVE('',#1104,#1410);
+#1410 = DEFINITIONAL_REPRESENTATION('',(#1411),#1415);
+#1411 = LINE('',#1412,#1413);
+#1412 = CARTESIAN_POINT('',(0.3,0.3));
+#1413 = VECTOR('',#1414,1.);
+#1414 = DIRECTION('',(0.,1.));
+#1415 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1416 = PCURVE('',#1417,#1422);
+#1417 = PLANE('',#1418);
+#1418 = AXIS2_PLACEMENT_3D('',#1419,#1420,#1421);
+#1419 = CARTESIAN_POINT('',(3.3,5.3,0.));
+#1420 = DIRECTION('',(1.,0.,-0.));
+#1421 = DIRECTION('',(0.,0.,1.));
+#1422 = DEFINITIONAL_REPRESENTATION('',(#1423),#1427);
+#1423 = LINE('',#1424,#1425);
+#1424 = CARTESIAN_POINT('',(0.,0.));
+#1425 = VECTOR('',#1426,1.);
+#1426 = DIRECTION('',(0.,-1.));
+#1427 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1428 = ORIENTED_EDGE('',*,*,#1429,.T.);
+#1429 = EDGE_CURVE('',#1402,#1430,#1432,.T.);
+#1430 = VERTEX_POINT('',#1431);
+#1431 = CARTESIAN_POINT('',(30.,24.7,0.));
+#1432 = SURFACE_CURVE('',#1433,(#1437,#1444),.PCURVE_S1.);
+#1433 = LINE('',#1434,#1435);
+#1434 = CARTESIAN_POINT('',(3.3,24.7,0.));
+#1435 = VECTOR('',#1436,1.);
+#1436 = DIRECTION('',(1.,0.,-0.));
+#1437 = PCURVE('',#1104,#1438);
+#1438 = DEFINITIONAL_REPRESENTATION('',(#1439),#1443);
+#1439 = LINE('',#1440,#1441);
+#1440 = CARTESIAN_POINT('',(0.3,19.7));
+#1441 = VECTOR('',#1442,1.);
+#1442 = DIRECTION('',(1.,0.));
+#1443 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1444 = PCURVE('',#1445,#1450);
+#1445 = PLANE('',#1446);
+#1446 = AXIS2_PLACEMENT_3D('',#1447,#1448,#1449);
+#1447 = CARTESIAN_POINT('',(3.3,24.7,0.));
+#1448 = DIRECTION('',(-0.,1.,0.));
+#1449 = DIRECTION('',(0.,0.,1.));
+#1450 = DEFINITIONAL_REPRESENTATION('',(#1451),#1455);
+#1451 = LINE('',#1452,#1453);
+#1452 = CARTESIAN_POINT('',(0.,0.));
+#1453 = VECTOR('',#1454,1.);
+#1454 = DIRECTION('',(0.,1.));
+#1455 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1456 = ORIENTED_EDGE('',*,*,#1457,.T.);
+#1457 = EDGE_CURVE('',#1430,#1299,#1458,.T.);
+#1458 = SURFACE_CURVE('',#1459,(#1463,#1470),.PCURVE_S1.);
+#1459 = LINE('',#1460,#1461);
+#1460 = CARTESIAN_POINT('',(30.,5.,0.));
+#1461 = VECTOR('',#1462,1.);
+#1462 = DIRECTION('',(0.,1.,0.));
+#1463 = PCURVE('',#1104,#1464);
+#1464 = DEFINITIONAL_REPRESENTATION('',(#1465),#1469);
+#1465 = LINE('',#1466,#1467);
+#1466 = CARTESIAN_POINT('',(27.,0.));
+#1467 = VECTOR('',#1468,1.);
+#1468 = DIRECTION('',(0.,1.));
+#1469 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1470 = PCURVE('',#1234,#1471);
+#1471 = DEFINITIONAL_REPRESENTATION('',(#1472),#1476);
+#1472 = LINE('',#1473,#1474);
+#1473 = CARTESIAN_POINT('',(0.,0.));
+#1474 = VECTOR('',#1475,1.);
+#1475 = DIRECTION('',(0.,-1.));
+#1476 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1477 = ADVANCED_FACE('',(#1478),#1234,.T.);
+#1478 = FACE_BOUND('',#1479,.T.);
+#1479 = EDGE_LOOP('',(#1480,#1481,#1482,#1483,#1506,#1534,#1555,#1556));
+#1480 = ORIENTED_EDGE('',*,*,#1251,.F.);
+#1481 = ORIENTED_EDGE('',*,*,#1220,.F.);
+#1482 = ORIENTED_EDGE('',*,*,#1350,.T.);
+#1483 = ORIENTED_EDGE('',*,*,#1484,.T.);
+#1484 = EDGE_CURVE('',#1351,#1485,#1487,.T.);
+#1485 = VERTEX_POINT('',#1486);
+#1486 = CARTESIAN_POINT('',(30.,5.3,19.7));
+#1487 = SURFACE_CURVE('',#1488,(#1492,#1499),.PCURVE_S1.);
+#1488 = LINE('',#1489,#1490);
+#1489 = CARTESIAN_POINT('',(30.,5.3,0.));
+#1490 = VECTOR('',#1491,1.);
+#1491 = DIRECTION('',(0.,0.,1.));
+#1492 = PCURVE('',#1234,#1493);
+#1493 = DEFINITIONAL_REPRESENTATION('',(#1494),#1498);
+#1494 = LINE('',#1495,#1496);
+#1495 = CARTESIAN_POINT('',(0.,-0.3));
+#1496 = VECTOR('',#1497,1.);
+#1497 = DIRECTION('',(1.,0.));
+#1498 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1499 = PCURVE('',#1389,#1500);
+#1500 = DEFINITIONAL_REPRESENTATION('',(#1501),#1505);
+#1501 = LINE('',#1502,#1503);
+#1502 = CARTESIAN_POINT('',(0.,26.7));
+#1503 = VECTOR('',#1504,1.);
+#1504 = DIRECTION('',(1.,0.));
+#1505 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1506 = ORIENTED_EDGE('',*,*,#1507,.T.);
+#1507 = EDGE_CURVE('',#1485,#1508,#1510,.T.);
+#1508 = VERTEX_POINT('',#1509);
+#1509 = CARTESIAN_POINT('',(30.,24.7,19.7));
+#1510 = SURFACE_CURVE('',#1511,(#1515,#1522),.PCURVE_S1.);
+#1511 = LINE('',#1512,#1513);
+#1512 = CARTESIAN_POINT('',(30.,5.3,19.7));
+#1513 = VECTOR('',#1514,1.);
+#1514 = DIRECTION('',(0.,1.,0.));
+#1515 = PCURVE('',#1234,#1516);
+#1516 = DEFINITIONAL_REPRESENTATION('',(#1517),#1521);
+#1517 = LINE('',#1518,#1519);
+#1518 = CARTESIAN_POINT('',(19.7,-0.3));
+#1519 = VECTOR('',#1520,1.);
+#1520 = DIRECTION('',(0.,-1.));
+#1521 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1522 = PCURVE('',#1523,#1528);
+#1523 = PLANE('',#1524);
+#1524 = AXIS2_PLACEMENT_3D('',#1525,#1526,#1527);
+#1525 = CARTESIAN_POINT('',(3.3,5.3,19.7));
+#1526 = DIRECTION('',(0.,0.,1.));
+#1527 = DIRECTION('',(1.,0.,-0.));
+#1528 = DEFINITIONAL_REPRESENTATION('',(#1529),#1533);
+#1529 = LINE('',#1530,#1531);
+#1530 = CARTESIAN_POINT('',(26.7,0.));
+#1531 = VECTOR('',#1532,1.);
+#1532 = DIRECTION('',(0.,1.));
+#1533 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1534 = ORIENTED_EDGE('',*,*,#1535,.F.);
+#1535 = EDGE_CURVE('',#1430,#1508,#1536,.T.);
+#1536 = SURFACE_CURVE('',#1537,(#1541,#1548),.PCURVE_S1.);
+#1537 = LINE('',#1538,#1539);
+#1538 = CARTESIAN_POINT('',(30.,24.7,0.));
+#1539 = VECTOR('',#1540,1.);
+#1540 = DIRECTION('',(0.,0.,1.));
+#1541 = PCURVE('',#1234,#1542);
+#1542 = DEFINITIONAL_REPRESENTATION('',(#1543),#1547);
+#1543 = LINE('',#1544,#1545);
+#1544 = CARTESIAN_POINT('',(0.,-19.7));
+#1545 = VECTOR('',#1546,1.);
+#1546 = DIRECTION('',(1.,0.));
+#1547 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1548 = PCURVE('',#1445,#1549);
+#1549 = DEFINITIONAL_REPRESENTATION('',(#1550),#1554);
+#1550 = LINE('',#1551,#1552);
+#1551 = CARTESIAN_POINT('',(0.,26.7));
+#1552 = VECTOR('',#1553,1.);
+#1553 = DIRECTION('',(1.,0.));
+#1554 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1555 = ORIENTED_EDGE('',*,*,#1457,.T.);
+#1556 = ORIENTED_EDGE('',*,*,#1323,.T.);
+#1557 = ADVANCED_FACE('',(#1558),#1445,.F.);
+#1558 = FACE_BOUND('',#1559,.F.);
+#1559 = EDGE_LOOP('',(#1560,#1561,#1584,#1605));
+#1560 = ORIENTED_EDGE('',*,*,#1429,.F.);
+#1561 = ORIENTED_EDGE('',*,*,#1562,.T.);
+#1562 = EDGE_CURVE('',#1402,#1563,#1565,.T.);
+#1563 = VERTEX_POINT('',#1564);
+#1564 = CARTESIAN_POINT('',(3.3,24.7,19.7));
+#1565 = SURFACE_CURVE('',#1566,(#1570,#1577),.PCURVE_S1.);
+#1566 = LINE('',#1567,#1568);
+#1567 = CARTESIAN_POINT('',(3.3,24.7,0.));
+#1568 = VECTOR('',#1569,1.);
+#1569 = DIRECTION('',(0.,0.,1.));
+#1570 = PCURVE('',#1445,#1571);
+#1571 = DEFINITIONAL_REPRESENTATION('',(#1572),#1576);
+#1572 = LINE('',#1573,#1574);
+#1573 = CARTESIAN_POINT('',(0.,0.));
+#1574 = VECTOR('',#1575,1.);
+#1575 = DIRECTION('',(1.,0.));
+#1576 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1577 = PCURVE('',#1417,#1578);
+#1578 = DEFINITIONAL_REPRESENTATION('',(#1579),#1583);
+#1579 = LINE('',#1580,#1581);
+#1580 = CARTESIAN_POINT('',(0.,-19.4));
+#1581 = VECTOR('',#1582,1.);
+#1582 = DIRECTION('',(1.,0.));
+#1583 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1584 = ORIENTED_EDGE('',*,*,#1585,.T.);
+#1585 = EDGE_CURVE('',#1563,#1508,#1586,.T.);
+#1586 = SURFACE_CURVE('',#1587,(#1591,#1598),.PCURVE_S1.);
+#1587 = LINE('',#1588,#1589);
+#1588 = CARTESIAN_POINT('',(3.3,24.7,19.7));
+#1589 = VECTOR('',#1590,1.);
+#1590 = DIRECTION('',(1.,0.,-0.));
+#1591 = PCURVE('',#1445,#1592);
+#1592 = DEFINITIONAL_REPRESENTATION('',(#1593),#1597);
+#1593 = LINE('',#1594,#1595);
+#1594 = CARTESIAN_POINT('',(19.7,0.));
+#1595 = VECTOR('',#1596,1.);
+#1596 = DIRECTION('',(0.,1.));
+#1597 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1598 = PCURVE('',#1523,#1599);
+#1599 = DEFINITIONAL_REPRESENTATION('',(#1600),#1604);
+#1600 = LINE('',#1601,#1602);
+#1601 = CARTESIAN_POINT('',(0.,19.4));
+#1602 = VECTOR('',#1603,1.);
+#1603 = DIRECTION('',(1.,0.));
+#1604 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1605 = ORIENTED_EDGE('',*,*,#1535,.F.);
+#1606 = ADVANCED_FACE('',(#1607),#1417,.T.);
+#1607 = FACE_BOUND('',#1608,.T.);
+#1608 = EDGE_LOOP('',(#1609,#1632,#1633,#1634));
+#1609 = ORIENTED_EDGE('',*,*,#1610,.F.);
+#1610 = EDGE_CURVE('',#1374,#1611,#1613,.T.);
+#1611 = VERTEX_POINT('',#1612);
+#1612 = CARTESIAN_POINT('',(3.3,5.3,19.7));
+#1613 = SURFACE_CURVE('',#1614,(#1618,#1625),.PCURVE_S1.);
+#1614 = LINE('',#1615,#1616);
+#1615 = CARTESIAN_POINT('',(3.3,5.3,0.));
+#1616 = VECTOR('',#1617,1.);
+#1617 = DIRECTION('',(0.,0.,1.));
+#1618 = PCURVE('',#1417,#1619);
+#1619 = DEFINITIONAL_REPRESENTATION('',(#1620),#1624);
+#1620 = LINE('',#1621,#1622);
+#1621 = CARTESIAN_POINT('',(0.,0.));
+#1622 = VECTOR('',#1623,1.);
+#1623 = DIRECTION('',(1.,0.));
+#1624 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1625 = PCURVE('',#1389,#1626);
+#1626 = DEFINITIONAL_REPRESENTATION('',(#1627),#1631);
+#1627 = LINE('',#1628,#1629);
+#1628 = CARTESIAN_POINT('',(0.,0.));
+#1629 = VECTOR('',#1630,1.);
+#1630 = DIRECTION('',(1.,0.));
+#1631 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1632 = ORIENTED_EDGE('',*,*,#1401,.T.);
+#1633 = ORIENTED_EDGE('',*,*,#1562,.T.);
+#1634 = ORIENTED_EDGE('',*,*,#1635,.F.);
+#1635 = EDGE_CURVE('',#1611,#1563,#1636,.T.);
+#1636 = SURFACE_CURVE('',#1637,(#1641,#1648),.PCURVE_S1.);
+#1637 = LINE('',#1638,#1639);
+#1638 = CARTESIAN_POINT('',(3.3,5.3,19.7));
+#1639 = VECTOR('',#1640,1.);
+#1640 = DIRECTION('',(-0.,1.,0.));
+#1641 = PCURVE('',#1417,#1642);
+#1642 = DEFINITIONAL_REPRESENTATION('',(#1643),#1647);
+#1643 = LINE('',#1644,#1645);
+#1644 = CARTESIAN_POINT('',(19.7,0.));
+#1645 = VECTOR('',#1646,1.);
+#1646 = DIRECTION('',(0.,-1.));
+#1647 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1648 = PCURVE('',#1523,#1649);
+#1649 = DEFINITIONAL_REPRESENTATION('',(#1650),#1654);
+#1650 = LINE('',#1651,#1652);
+#1651 = CARTESIAN_POINT('',(0.,0.));
+#1652 = VECTOR('',#1653,1.);
+#1653 = DIRECTION('',(0.,1.));
+#1654 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1655 = ADVANCED_FACE('',(#1656),#1389,.T.);
+#1656 = FACE_BOUND('',#1657,.T.);
+#1657 = EDGE_LOOP('',(#1658,#1659,#1660,#1681));
+#1658 = ORIENTED_EDGE('',*,*,#1373,.F.);
+#1659 = ORIENTED_EDGE('',*,*,#1610,.T.);
+#1660 = ORIENTED_EDGE('',*,*,#1661,.T.);
+#1661 = EDGE_CURVE('',#1611,#1485,#1662,.T.);
+#1662 = SURFACE_CURVE('',#1663,(#1667,#1674),.PCURVE_S1.);
+#1663 = LINE('',#1664,#1665);
+#1664 = CARTESIAN_POINT('',(3.3,5.3,19.7));
+#1665 = VECTOR('',#1666,1.);
+#1666 = DIRECTION('',(1.,0.,-0.));
+#1667 = PCURVE('',#1389,#1668);
+#1668 = DEFINITIONAL_REPRESENTATION('',(#1669),#1673);
+#1669 = LINE('',#1670,#1671);
+#1670 = CARTESIAN_POINT('',(19.7,0.));
+#1671 = VECTOR('',#1672,1.);
+#1672 = DIRECTION('',(0.,1.));
+#1673 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1674 = PCURVE('',#1523,#1675);
+#1675 = DEFINITIONAL_REPRESENTATION('',(#1676),#1680);
+#1676 = LINE('',#1677,#1678);
+#1677 = CARTESIAN_POINT('',(0.,0.));
+#1678 = VECTOR('',#1679,1.);
+#1679 = DIRECTION('',(1.,0.));
+#1680 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1681 = ORIENTED_EDGE('',*,*,#1484,.F.);
+#1682 = ADVANCED_FACE('',(#1683),#1523,.F.);
+#1683 = FACE_BOUND('',#1684,.F.);
+#1684 = EDGE_LOOP('',(#1685,#1686,#1687,#1688));
+#1685 = ORIENTED_EDGE('',*,*,#1635,.F.);
+#1686 = ORIENTED_EDGE('',*,*,#1661,.T.);
+#1687 = ORIENTED_EDGE('',*,*,#1507,.T.);
+#1688 = ORIENTED_EDGE('',*,*,#1585,.F.);
+#1689 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#1693)) 
+GLOBAL_UNIT_ASSIGNED_CONTEXT((#1690,#1691,#1692)) REPRESENTATION_CONTEXT
+('Context #1','3D Context with UNIT and UNCERTAINTY') );
+#1690 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#1691 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#1692 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#1693 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#1690,
+  'distance_accuracy_value','confusion accuracy');
+#1694 = PRODUCT_TYPE('part',$,(#1043));
+#1695 = SHAPE_DEFINITION_REPRESENTATION(#1696,#1702);
+#1696 = PRODUCT_DEFINITION_SHAPE('','',#1697);
+#1697 = PRODUCT_DEFINITION('design','',#1698,#1701);
+#1698 = PRODUCT_DEFINITION_FORMATION('','',#1699);
+#1699 = PRODUCT('Open CASCADE STEP translator 6.8 25',
+  'Open CASCADE STEP translator 6.8 25','',(#1700));
+#1700 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#1701 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#1702 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#1703),#2345);
+#1703 = MANIFOLD_SOLID_BREP('',#1704);
+#1704 = CLOSED_SHELL('',(#1705,#1825,#1901,#2062,#2111,#2230,#2257,#2284
+    ,#2311,#2338));
+#1705 = ADVANCED_FACE('',(#1706),#1720,.F.);
+#1706 = FACE_BOUND('',#1707,.F.);
+#1707 = EDGE_LOOP('',(#1708,#1743,#1771,#1799));
+#1708 = ORIENTED_EDGE('',*,*,#1709,.F.);
+#1709 = EDGE_CURVE('',#1710,#1712,#1714,.T.);
+#1710 = VERTEX_POINT('',#1711);
+#1711 = CARTESIAN_POINT('',(0.,0.,0.));
+#1712 = VERTEX_POINT('',#1713);
+#1713 = CARTESIAN_POINT('',(0.,0.,0.3));
+#1714 = SURFACE_CURVE('',#1715,(#1719,#1731),.PCURVE_S1.);
+#1715 = LINE('',#1716,#1717);
+#1716 = CARTESIAN_POINT('',(0.,0.,0.));
+#1717 = VECTOR('',#1718,1.);
+#1718 = DIRECTION('',(0.,0.,1.));
+#1719 = PCURVE('',#1720,#1725);
+#1720 = PLANE('',#1721);
+#1721 = AXIS2_PLACEMENT_3D('',#1722,#1723,#1724);
+#1722 = CARTESIAN_POINT('',(0.,0.,0.));
+#1723 = DIRECTION('',(1.,0.,-0.));
+#1724 = DIRECTION('',(0.,0.,1.));
+#1725 = DEFINITIONAL_REPRESENTATION('',(#1726),#1730);
+#1726 = LINE('',#1727,#1728);
+#1727 = CARTESIAN_POINT('',(0.,0.));
+#1728 = VECTOR('',#1729,1.);
+#1729 = DIRECTION('',(1.,0.));
+#1730 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1731 = PCURVE('',#1732,#1737);
+#1732 = PLANE('',#1733);
+#1733 = AXIS2_PLACEMENT_3D('',#1734,#1735,#1736);
+#1734 = CARTESIAN_POINT('',(0.,0.,0.));
+#1735 = DIRECTION('',(-0.,1.,0.));
+#1736 = DIRECTION('',(0.,0.,1.));
+#1737 = DEFINITIONAL_REPRESENTATION('',(#1738),#1742);
+#1738 = LINE('',#1739,#1740);
+#1739 = CARTESIAN_POINT('',(0.,0.));
+#1740 = VECTOR('',#1741,1.);
+#1741 = DIRECTION('',(1.,0.));
+#1742 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1743 = ORIENTED_EDGE('',*,*,#1744,.T.);
+#1744 = EDGE_CURVE('',#1710,#1745,#1747,.T.);
+#1745 = VERTEX_POINT('',#1746);
+#1746 = CARTESIAN_POINT('',(0.,30.,0.));
+#1747 = SURFACE_CURVE('',#1748,(#1752,#1759),.PCURVE_S1.);
+#1748 = LINE('',#1749,#1750);
+#1749 = CARTESIAN_POINT('',(0.,0.,0.));
+#1750 = VECTOR('',#1751,1.);
+#1751 = DIRECTION('',(-0.,1.,0.));
+#1752 = PCURVE('',#1720,#1753);
+#1753 = DEFINITIONAL_REPRESENTATION('',(#1754),#1758);
+#1754 = LINE('',#1755,#1756);
+#1755 = CARTESIAN_POINT('',(0.,0.));
+#1756 = VECTOR('',#1757,1.);
+#1757 = DIRECTION('',(0.,-1.));
+#1758 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1759 = PCURVE('',#1760,#1765);
+#1760 = PLANE('',#1761);
+#1761 = AXIS2_PLACEMENT_3D('',#1762,#1763,#1764);
+#1762 = CARTESIAN_POINT('',(0.,0.,0.));
+#1763 = DIRECTION('',(0.,0.,1.));
+#1764 = DIRECTION('',(1.,0.,-0.));
+#1765 = DEFINITIONAL_REPRESENTATION('',(#1766),#1770);
+#1766 = LINE('',#1767,#1768);
+#1767 = CARTESIAN_POINT('',(0.,0.));
+#1768 = VECTOR('',#1769,1.);
+#1769 = DIRECTION('',(0.,1.));
+#1770 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1771 = ORIENTED_EDGE('',*,*,#1772,.T.);
+#1772 = EDGE_CURVE('',#1745,#1773,#1775,.T.);
+#1773 = VERTEX_POINT('',#1774);
+#1774 = CARTESIAN_POINT('',(0.,30.,0.3));
+#1775 = SURFACE_CURVE('',#1776,(#1780,#1787),.PCURVE_S1.);
+#1776 = LINE('',#1777,#1778);
+#1777 = CARTESIAN_POINT('',(0.,30.,0.));
+#1778 = VECTOR('',#1779,1.);
+#1779 = DIRECTION('',(0.,0.,1.));
+#1780 = PCURVE('',#1720,#1781);
+#1781 = DEFINITIONAL_REPRESENTATION('',(#1782),#1786);
+#1782 = LINE('',#1783,#1784);
+#1783 = CARTESIAN_POINT('',(0.,-30.));
+#1784 = VECTOR('',#1785,1.);
+#1785 = DIRECTION('',(1.,0.));
+#1786 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1787 = PCURVE('',#1788,#1793);
+#1788 = PLANE('',#1789);
+#1789 = AXIS2_PLACEMENT_3D('',#1790,#1791,#1792);
+#1790 = CARTESIAN_POINT('',(0.,30.,0.));
+#1791 = DIRECTION('',(-0.,1.,0.));
+#1792 = DIRECTION('',(0.,0.,1.));
+#1793 = DEFINITIONAL_REPRESENTATION('',(#1794),#1798);
+#1794 = LINE('',#1795,#1796);
+#1795 = CARTESIAN_POINT('',(0.,0.));
+#1796 = VECTOR('',#1797,1.);
+#1797 = DIRECTION('',(1.,0.));
+#1798 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1799 = ORIENTED_EDGE('',*,*,#1800,.F.);
+#1800 = EDGE_CURVE('',#1712,#1773,#1801,.T.);
+#1801 = SURFACE_CURVE('',#1802,(#1806,#1813),.PCURVE_S1.);
+#1802 = LINE('',#1803,#1804);
+#1803 = CARTESIAN_POINT('',(0.,0.,0.3));
+#1804 = VECTOR('',#1805,1.);
+#1805 = DIRECTION('',(-0.,1.,0.));
+#1806 = PCURVE('',#1720,#1807);
+#1807 = DEFINITIONAL_REPRESENTATION('',(#1808),#1812);
+#1808 = LINE('',#1809,#1810);
+#1809 = CARTESIAN_POINT('',(0.3,0.));
+#1810 = VECTOR('',#1811,1.);
+#1811 = DIRECTION('',(0.,-1.));
+#1812 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1813 = PCURVE('',#1814,#1819);
+#1814 = PLANE('',#1815);
+#1815 = AXIS2_PLACEMENT_3D('',#1816,#1817,#1818);
+#1816 = CARTESIAN_POINT('',(0.,0.,0.3));
+#1817 = DIRECTION('',(0.,0.,1.));
+#1818 = DIRECTION('',(1.,0.,-0.));
+#1819 = DEFINITIONAL_REPRESENTATION('',(#1820),#1824);
+#1820 = LINE('',#1821,#1822);
+#1821 = CARTESIAN_POINT('',(0.,0.));
+#1822 = VECTOR('',#1823,1.);
+#1823 = DIRECTION('',(0.,1.));
+#1824 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1825 = ADVANCED_FACE('',(#1826),#1732,.F.);
+#1826 = FACE_BOUND('',#1827,.F.);
+#1827 = EDGE_LOOP('',(#1828,#1851,#1852,#1875));
+#1828 = ORIENTED_EDGE('',*,*,#1829,.F.);
+#1829 = EDGE_CURVE('',#1710,#1830,#1832,.T.);
+#1830 = VERTEX_POINT('',#1831);
+#1831 = CARTESIAN_POINT('',(30.,0.,0.));
+#1832 = SURFACE_CURVE('',#1833,(#1837,#1844),.PCURVE_S1.);
+#1833 = LINE('',#1834,#1835);
+#1834 = CARTESIAN_POINT('',(0.,0.,0.));
+#1835 = VECTOR('',#1836,1.);
+#1836 = DIRECTION('',(1.,0.,-0.));
+#1837 = PCURVE('',#1732,#1838);
+#1838 = DEFINITIONAL_REPRESENTATION('',(#1839),#1843);
+#1839 = LINE('',#1840,#1841);
+#1840 = CARTESIAN_POINT('',(0.,0.));
+#1841 = VECTOR('',#1842,1.);
+#1842 = DIRECTION('',(0.,1.));
+#1843 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1844 = PCURVE('',#1760,#1845);
+#1845 = DEFINITIONAL_REPRESENTATION('',(#1846),#1850);
+#1846 = LINE('',#1847,#1848);
+#1847 = CARTESIAN_POINT('',(0.,0.));
+#1848 = VECTOR('',#1849,1.);
+#1849 = DIRECTION('',(1.,0.));
+#1850 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1851 = ORIENTED_EDGE('',*,*,#1709,.T.);
+#1852 = ORIENTED_EDGE('',*,*,#1853,.T.);
+#1853 = EDGE_CURVE('',#1712,#1854,#1856,.T.);
+#1854 = VERTEX_POINT('',#1855);
+#1855 = CARTESIAN_POINT('',(30.,0.,0.3));
+#1856 = SURFACE_CURVE('',#1857,(#1861,#1868),.PCURVE_S1.);
+#1857 = LINE('',#1858,#1859);
+#1858 = CARTESIAN_POINT('',(0.,0.,0.3));
+#1859 = VECTOR('',#1860,1.);
+#1860 = DIRECTION('',(1.,0.,-0.));
+#1861 = PCURVE('',#1732,#1862);
+#1862 = DEFINITIONAL_REPRESENTATION('',(#1863),#1867);
+#1863 = LINE('',#1864,#1865);
+#1864 = CARTESIAN_POINT('',(0.3,0.));
+#1865 = VECTOR('',#1866,1.);
+#1866 = DIRECTION('',(0.,1.));
+#1867 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1868 = PCURVE('',#1814,#1869);
+#1869 = DEFINITIONAL_REPRESENTATION('',(#1870),#1874);
+#1870 = LINE('',#1871,#1872);
+#1871 = CARTESIAN_POINT('',(0.,0.));
+#1872 = VECTOR('',#1873,1.);
+#1873 = DIRECTION('',(1.,0.));
+#1874 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1875 = ORIENTED_EDGE('',*,*,#1876,.F.);
+#1876 = EDGE_CURVE('',#1830,#1854,#1877,.T.);
+#1877 = SURFACE_CURVE('',#1878,(#1882,#1889),.PCURVE_S1.);
+#1878 = LINE('',#1879,#1880);
+#1879 = CARTESIAN_POINT('',(30.,0.,0.));
+#1880 = VECTOR('',#1881,1.);
+#1881 = DIRECTION('',(0.,0.,1.));
+#1882 = PCURVE('',#1732,#1883);
+#1883 = DEFINITIONAL_REPRESENTATION('',(#1884),#1888);
+#1884 = LINE('',#1885,#1886);
+#1885 = CARTESIAN_POINT('',(0.,30.));
+#1886 = VECTOR('',#1887,1.);
+#1887 = DIRECTION('',(1.,0.));
+#1888 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1889 = PCURVE('',#1890,#1895);
+#1890 = PLANE('',#1891);
+#1891 = AXIS2_PLACEMENT_3D('',#1892,#1893,#1894);
+#1892 = CARTESIAN_POINT('',(30.,0.,0.));
+#1893 = DIRECTION('',(1.,0.,-0.));
+#1894 = DIRECTION('',(0.,0.,1.));
+#1895 = DEFINITIONAL_REPRESENTATION('',(#1896),#1900);
+#1896 = LINE('',#1897,#1898);
+#1897 = CARTESIAN_POINT('',(0.,0.));
+#1898 = VECTOR('',#1899,1.);
+#1899 = DIRECTION('',(1.,0.));
+#1900 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1901 = ADVANCED_FACE('',(#1902),#1814,.T.);
+#1902 = FACE_BOUND('',#1903,.T.);
+#1903 = EDGE_LOOP('',(#1904,#1927,#1928,#1929,#1952,#1980,#2008,#2036));
+#1904 = ORIENTED_EDGE('',*,*,#1905,.F.);
+#1905 = EDGE_CURVE('',#1773,#1906,#1908,.T.);
+#1906 = VERTEX_POINT('',#1907);
+#1907 = CARTESIAN_POINT('',(30.,30.,0.3));
+#1908 = SURFACE_CURVE('',#1909,(#1913,#1920),.PCURVE_S1.);
+#1909 = LINE('',#1910,#1911);
+#1910 = CARTESIAN_POINT('',(0.,30.,0.3));
+#1911 = VECTOR('',#1912,1.);
+#1912 = DIRECTION('',(1.,0.,-0.));
+#1913 = PCURVE('',#1814,#1914);
+#1914 = DEFINITIONAL_REPRESENTATION('',(#1915),#1919);
+#1915 = LINE('',#1916,#1917);
+#1916 = CARTESIAN_POINT('',(0.,30.));
+#1917 = VECTOR('',#1918,1.);
+#1918 = DIRECTION('',(1.,0.));
+#1919 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1920 = PCURVE('',#1788,#1921);
+#1921 = DEFINITIONAL_REPRESENTATION('',(#1922),#1926);
+#1922 = LINE('',#1923,#1924);
+#1923 = CARTESIAN_POINT('',(0.3,0.));
+#1924 = VECTOR('',#1925,1.);
+#1925 = DIRECTION('',(0.,1.));
+#1926 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1927 = ORIENTED_EDGE('',*,*,#1800,.F.);
+#1928 = ORIENTED_EDGE('',*,*,#1853,.T.);
+#1929 = ORIENTED_EDGE('',*,*,#1930,.T.);
+#1930 = EDGE_CURVE('',#1854,#1931,#1933,.T.);
+#1931 = VERTEX_POINT('',#1932);
+#1932 = CARTESIAN_POINT('',(30.,5.3,0.3));
+#1933 = SURFACE_CURVE('',#1934,(#1938,#1945),.PCURVE_S1.);
+#1934 = LINE('',#1935,#1936);
+#1935 = CARTESIAN_POINT('',(30.,0.,0.3));
+#1936 = VECTOR('',#1937,1.);
+#1937 = DIRECTION('',(0.,1.,0.));
+#1938 = PCURVE('',#1814,#1939);
+#1939 = DEFINITIONAL_REPRESENTATION('',(#1940),#1944);
+#1940 = LINE('',#1941,#1942);
+#1941 = CARTESIAN_POINT('',(30.,0.));
+#1942 = VECTOR('',#1943,1.);
+#1943 = DIRECTION('',(0.,1.));
+#1944 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1945 = PCURVE('',#1890,#1946);
+#1946 = DEFINITIONAL_REPRESENTATION('',(#1947),#1951);
+#1947 = LINE('',#1948,#1949);
+#1948 = CARTESIAN_POINT('',(0.3,0.));
+#1949 = VECTOR('',#1950,1.);
+#1950 = DIRECTION('',(0.,-1.));
+#1951 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1952 = ORIENTED_EDGE('',*,*,#1953,.T.);
+#1953 = EDGE_CURVE('',#1931,#1954,#1956,.T.);
+#1954 = VERTEX_POINT('',#1955);
+#1955 = CARTESIAN_POINT('',(3.3,5.3,0.3));
+#1956 = SURFACE_CURVE('',#1957,(#1961,#1968),.PCURVE_S1.);
+#1957 = LINE('',#1958,#1959);
+#1958 = CARTESIAN_POINT('',(1.65,5.3,0.3));
+#1959 = VECTOR('',#1960,1.);
+#1960 = DIRECTION('',(-1.,0.,0.));
+#1961 = PCURVE('',#1814,#1962);
+#1962 = DEFINITIONAL_REPRESENTATION('',(#1963),#1967);
+#1963 = LINE('',#1964,#1965);
+#1964 = CARTESIAN_POINT('',(1.65,5.3));
+#1965 = VECTOR('',#1966,1.);
+#1966 = DIRECTION('',(-1.,0.));
+#1967 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1968 = PCURVE('',#1969,#1974);
+#1969 = PLANE('',#1970);
+#1970 = AXIS2_PLACEMENT_3D('',#1971,#1972,#1973);
+#1971 = CARTESIAN_POINT('',(3.3,5.3,-0.3));
+#1972 = DIRECTION('',(0.,1.,0.));
+#1973 = DIRECTION('',(0.,-0.,1.));
+#1974 = DEFINITIONAL_REPRESENTATION('',(#1975),#1979);
+#1975 = LINE('',#1976,#1977);
+#1976 = CARTESIAN_POINT('',(0.6,-1.65));
+#1977 = VECTOR('',#1978,1.);
+#1978 = DIRECTION('',(0.,-1.));
+#1979 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1980 = ORIENTED_EDGE('',*,*,#1981,.T.);
+#1981 = EDGE_CURVE('',#1954,#1982,#1984,.T.);
+#1982 = VERTEX_POINT('',#1983);
+#1983 = CARTESIAN_POINT('',(3.3,24.7,0.3));
+#1984 = SURFACE_CURVE('',#1985,(#1989,#1996),.PCURVE_S1.);
+#1985 = LINE('',#1986,#1987);
+#1986 = CARTESIAN_POINT('',(3.3,2.65,0.3));
+#1987 = VECTOR('',#1988,1.);
+#1988 = DIRECTION('',(0.,1.,0.));
+#1989 = PCURVE('',#1814,#1990);
+#1990 = DEFINITIONAL_REPRESENTATION('',(#1991),#1995);
+#1991 = LINE('',#1992,#1993);
+#1992 = CARTESIAN_POINT('',(3.3,2.65));
+#1993 = VECTOR('',#1994,1.);
+#1994 = DIRECTION('',(0.,1.));
+#1995 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#1996 = PCURVE('',#1997,#2002);
+#1997 = PLANE('',#1998);
+#1998 = AXIS2_PLACEMENT_3D('',#1999,#2000,#2001);
+#1999 = CARTESIAN_POINT('',(3.3,5.3,-0.3));
+#2000 = DIRECTION('',(1.,0.,0.));
+#2001 = DIRECTION('',(-0.,0.,1.));
+#2002 = DEFINITIONAL_REPRESENTATION('',(#2003),#2007);
+#2003 = LINE('',#2004,#2005);
+#2004 = CARTESIAN_POINT('',(0.6,2.65));
+#2005 = VECTOR('',#2006,1.);
+#2006 = DIRECTION('',(0.,-1.));
+#2007 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2008 = ORIENTED_EDGE('',*,*,#2009,.F.);
+#2009 = EDGE_CURVE('',#2010,#1982,#2012,.T.);
+#2010 = VERTEX_POINT('',#2011);
+#2011 = CARTESIAN_POINT('',(30.,24.7,0.3));
+#2012 = SURFACE_CURVE('',#2013,(#2017,#2024),.PCURVE_S1.);
+#2013 = LINE('',#2014,#2015);
+#2014 = CARTESIAN_POINT('',(1.65,24.7,0.3));
+#2015 = VECTOR('',#2016,1.);
+#2016 = DIRECTION('',(-1.,0.,0.));
+#2017 = PCURVE('',#1814,#2018);
+#2018 = DEFINITIONAL_REPRESENTATION('',(#2019),#2023);
+#2019 = LINE('',#2020,#2021);
+#2020 = CARTESIAN_POINT('',(1.65,24.7));
+#2021 = VECTOR('',#2022,1.);
+#2022 = DIRECTION('',(-1.,0.));
+#2023 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2024 = PCURVE('',#2025,#2030);
+#2025 = PLANE('',#2026);
+#2026 = AXIS2_PLACEMENT_3D('',#2027,#2028,#2029);
+#2027 = CARTESIAN_POINT('',(3.3,24.7,-0.3));
+#2028 = DIRECTION('',(0.,1.,0.));
+#2029 = DIRECTION('',(0.,-0.,1.));
+#2030 = DEFINITIONAL_REPRESENTATION('',(#2031),#2035);
+#2031 = LINE('',#2032,#2033);
+#2032 = CARTESIAN_POINT('',(0.6,-1.65));
+#2033 = VECTOR('',#2034,1.);
+#2034 = DIRECTION('',(0.,-1.));
+#2035 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2036 = ORIENTED_EDGE('',*,*,#2037,.T.);
+#2037 = EDGE_CURVE('',#2010,#1906,#2038,.T.);
+#2038 = SURFACE_CURVE('',#2039,(#2043,#2050),.PCURVE_S1.);
+#2039 = LINE('',#2040,#2041);
+#2040 = CARTESIAN_POINT('',(30.,0.,0.3));
+#2041 = VECTOR('',#2042,1.);
+#2042 = DIRECTION('',(0.,1.,0.));
+#2043 = PCURVE('',#1814,#2044);
+#2044 = DEFINITIONAL_REPRESENTATION('',(#2045),#2049);
+#2045 = LINE('',#2046,#2047);
+#2046 = CARTESIAN_POINT('',(30.,0.));
+#2047 = VECTOR('',#2048,1.);
+#2048 = DIRECTION('',(0.,1.));
+#2049 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2050 = PCURVE('',#2051,#2056);
+#2051 = PLANE('',#2052);
+#2052 = AXIS2_PLACEMENT_3D('',#2053,#2054,#2055);
+#2053 = CARTESIAN_POINT('',(30.,0.,0.));
+#2054 = DIRECTION('',(1.,0.,-0.));
+#2055 = DIRECTION('',(0.,0.,1.));
+#2056 = DEFINITIONAL_REPRESENTATION('',(#2057),#2061);
+#2057 = LINE('',#2058,#2059);
+#2058 = CARTESIAN_POINT('',(0.3,0.));
+#2059 = VECTOR('',#2060,1.);
+#2060 = DIRECTION('',(0.,-1.));
+#2061 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2062 = ADVANCED_FACE('',(#2063),#1788,.T.);
+#2063 = FACE_BOUND('',#2064,.T.);
+#2064 = EDGE_LOOP('',(#2065,#2088,#2089,#2090));
+#2065 = ORIENTED_EDGE('',*,*,#2066,.F.);
+#2066 = EDGE_CURVE('',#1745,#2067,#2069,.T.);
+#2067 = VERTEX_POINT('',#2068);
+#2068 = CARTESIAN_POINT('',(30.,30.,0.));
+#2069 = SURFACE_CURVE('',#2070,(#2074,#2081),.PCURVE_S1.);
+#2070 = LINE('',#2071,#2072);
+#2071 = CARTESIAN_POINT('',(0.,30.,0.));
+#2072 = VECTOR('',#2073,1.);
+#2073 = DIRECTION('',(1.,0.,-0.));
+#2074 = PCURVE('',#1788,#2075);
+#2075 = DEFINITIONAL_REPRESENTATION('',(#2076),#2080);
+#2076 = LINE('',#2077,#2078);
+#2077 = CARTESIAN_POINT('',(0.,0.));
+#2078 = VECTOR('',#2079,1.);
+#2079 = DIRECTION('',(0.,1.));
+#2080 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2081 = PCURVE('',#1760,#2082);
+#2082 = DEFINITIONAL_REPRESENTATION('',(#2083),#2087);
+#2083 = LINE('',#2084,#2085);
+#2084 = CARTESIAN_POINT('',(0.,30.));
+#2085 = VECTOR('',#2086,1.);
+#2086 = DIRECTION('',(1.,0.));
+#2087 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2088 = ORIENTED_EDGE('',*,*,#1772,.T.);
+#2089 = ORIENTED_EDGE('',*,*,#1905,.T.);
+#2090 = ORIENTED_EDGE('',*,*,#2091,.F.);
+#2091 = EDGE_CURVE('',#2067,#1906,#2092,.T.);
+#2092 = SURFACE_CURVE('',#2093,(#2097,#2104),.PCURVE_S1.);
+#2093 = LINE('',#2094,#2095);
+#2094 = CARTESIAN_POINT('',(30.,30.,0.));
+#2095 = VECTOR('',#2096,1.);
+#2096 = DIRECTION('',(0.,0.,1.));
+#2097 = PCURVE('',#1788,#2098);
+#2098 = DEFINITIONAL_REPRESENTATION('',(#2099),#2103);
+#2099 = LINE('',#2100,#2101);
+#2100 = CARTESIAN_POINT('',(0.,30.));
+#2101 = VECTOR('',#2102,1.);
+#2102 = DIRECTION('',(1.,0.));
+#2103 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2104 = PCURVE('',#2051,#2105);
+#2105 = DEFINITIONAL_REPRESENTATION('',(#2106),#2110);
+#2106 = LINE('',#2107,#2108);
+#2107 = CARTESIAN_POINT('',(0.,-30.));
+#2108 = VECTOR('',#2109,1.);
+#2109 = DIRECTION('',(1.,0.));
+#2110 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2111 = ADVANCED_FACE('',(#2112),#1760,.F.);
+#2112 = FACE_BOUND('',#2113,.F.);
+#2113 = EDGE_LOOP('',(#2114,#2115,#2116,#2117,#2140,#2163,#2186,#2209));
+#2114 = ORIENTED_EDGE('',*,*,#2066,.F.);
+#2115 = ORIENTED_EDGE('',*,*,#1744,.F.);
+#2116 = ORIENTED_EDGE('',*,*,#1829,.T.);
+#2117 = ORIENTED_EDGE('',*,*,#2118,.T.);
+#2118 = EDGE_CURVE('',#1830,#2119,#2121,.T.);
+#2119 = VERTEX_POINT('',#2120);
+#2120 = CARTESIAN_POINT('',(30.,5.3,0.));
+#2121 = SURFACE_CURVE('',#2122,(#2126,#2133),.PCURVE_S1.);
+#2122 = LINE('',#2123,#2124);
+#2123 = CARTESIAN_POINT('',(30.,0.,0.));
+#2124 = VECTOR('',#2125,1.);
+#2125 = DIRECTION('',(-0.,1.,0.));
+#2126 = PCURVE('',#1760,#2127);
+#2127 = DEFINITIONAL_REPRESENTATION('',(#2128),#2132);
+#2128 = LINE('',#2129,#2130);
+#2129 = CARTESIAN_POINT('',(30.,0.));
+#2130 = VECTOR('',#2131,1.);
+#2131 = DIRECTION('',(0.,1.));
+#2132 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2133 = PCURVE('',#1890,#2134);
+#2134 = DEFINITIONAL_REPRESENTATION('',(#2135),#2139);
+#2135 = LINE('',#2136,#2137);
+#2136 = CARTESIAN_POINT('',(0.,0.));
+#2137 = VECTOR('',#2138,1.);
+#2138 = DIRECTION('',(0.,-1.));
+#2139 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2140 = ORIENTED_EDGE('',*,*,#2141,.T.);
+#2141 = EDGE_CURVE('',#2119,#2142,#2144,.T.);
+#2142 = VERTEX_POINT('',#2143);
+#2143 = CARTESIAN_POINT('',(3.3,5.3,0.));
+#2144 = SURFACE_CURVE('',#2145,(#2149,#2156),.PCURVE_S1.);
+#2145 = LINE('',#2146,#2147);
+#2146 = CARTESIAN_POINT('',(1.65,5.3,0.));
+#2147 = VECTOR('',#2148,1.);
+#2148 = DIRECTION('',(-1.,0.,0.));
+#2149 = PCURVE('',#1760,#2150);
+#2150 = DEFINITIONAL_REPRESENTATION('',(#2151),#2155);
+#2151 = LINE('',#2152,#2153);
+#2152 = CARTESIAN_POINT('',(1.65,5.3));
+#2153 = VECTOR('',#2154,1.);
+#2154 = DIRECTION('',(-1.,0.));
+#2155 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2156 = PCURVE('',#1969,#2157);
+#2157 = DEFINITIONAL_REPRESENTATION('',(#2158),#2162);
+#2158 = LINE('',#2159,#2160);
+#2159 = CARTESIAN_POINT('',(0.3,-1.65));
+#2160 = VECTOR('',#2161,1.);
+#2161 = DIRECTION('',(0.,-1.));
+#2162 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2163 = ORIENTED_EDGE('',*,*,#2164,.T.);
+#2164 = EDGE_CURVE('',#2142,#2165,#2167,.T.);
+#2165 = VERTEX_POINT('',#2166);
+#2166 = CARTESIAN_POINT('',(3.3,24.7,0.));
+#2167 = SURFACE_CURVE('',#2168,(#2172,#2179),.PCURVE_S1.);
+#2168 = LINE('',#2169,#2170);
+#2169 = CARTESIAN_POINT('',(3.3,2.65,0.));
+#2170 = VECTOR('',#2171,1.);
+#2171 = DIRECTION('',(0.,1.,0.));
+#2172 = PCURVE('',#1760,#2173);
+#2173 = DEFINITIONAL_REPRESENTATION('',(#2174),#2178);
+#2174 = LINE('',#2175,#2176);
+#2175 = CARTESIAN_POINT('',(3.3,2.65));
+#2176 = VECTOR('',#2177,1.);
+#2177 = DIRECTION('',(0.,1.));
+#2178 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2179 = PCURVE('',#1997,#2180);
+#2180 = DEFINITIONAL_REPRESENTATION('',(#2181),#2185);
+#2181 = LINE('',#2182,#2183);
+#2182 = CARTESIAN_POINT('',(0.3,2.65));
+#2183 = VECTOR('',#2184,1.);
+#2184 = DIRECTION('',(0.,-1.));
+#2185 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2186 = ORIENTED_EDGE('',*,*,#2187,.F.);
+#2187 = EDGE_CURVE('',#2188,#2165,#2190,.T.);
+#2188 = VERTEX_POINT('',#2189);
+#2189 = CARTESIAN_POINT('',(30.,24.7,0.));
+#2190 = SURFACE_CURVE('',#2191,(#2195,#2202),.PCURVE_S1.);
+#2191 = LINE('',#2192,#2193);
+#2192 = CARTESIAN_POINT('',(1.65,24.7,0.));
+#2193 = VECTOR('',#2194,1.);
+#2194 = DIRECTION('',(-1.,0.,0.));
+#2195 = PCURVE('',#1760,#2196);
+#2196 = DEFINITIONAL_REPRESENTATION('',(#2197),#2201);
+#2197 = LINE('',#2198,#2199);
+#2198 = CARTESIAN_POINT('',(1.65,24.7));
+#2199 = VECTOR('',#2200,1.);
+#2200 = DIRECTION('',(-1.,0.));
+#2201 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2202 = PCURVE('',#2025,#2203);
+#2203 = DEFINITIONAL_REPRESENTATION('',(#2204),#2208);
+#2204 = LINE('',#2205,#2206);
+#2205 = CARTESIAN_POINT('',(0.3,-1.65));
+#2206 = VECTOR('',#2207,1.);
+#2207 = DIRECTION('',(0.,-1.));
+#2208 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2209 = ORIENTED_EDGE('',*,*,#2210,.T.);
+#2210 = EDGE_CURVE('',#2188,#2067,#2211,.T.);
+#2211 = SURFACE_CURVE('',#2212,(#2216,#2223),.PCURVE_S1.);
+#2212 = LINE('',#2213,#2214);
+#2213 = CARTESIAN_POINT('',(30.,0.,0.));
+#2214 = VECTOR('',#2215,1.);
+#2215 = DIRECTION('',(-0.,1.,0.));
+#2216 = PCURVE('',#1760,#2217);
+#2217 = DEFINITIONAL_REPRESENTATION('',(#2218),#2222);
+#2218 = LINE('',#2219,#2220);
+#2219 = CARTESIAN_POINT('',(30.,0.));
+#2220 = VECTOR('',#2221,1.);
+#2221 = DIRECTION('',(0.,1.));
+#2222 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2223 = PCURVE('',#2051,#2224);
+#2224 = DEFINITIONAL_REPRESENTATION('',(#2225),#2229);
+#2225 = LINE('',#2226,#2227);
+#2226 = CARTESIAN_POINT('',(0.,0.));
+#2227 = VECTOR('',#2228,1.);
+#2228 = DIRECTION('',(0.,-1.));
+#2229 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2230 = ADVANCED_FACE('',(#2231),#1890,.T.);
+#2231 = FACE_BOUND('',#2232,.T.);
+#2232 = EDGE_LOOP('',(#2233,#2234,#2235,#2236));
+#2233 = ORIENTED_EDGE('',*,*,#1930,.F.);
+#2234 = ORIENTED_EDGE('',*,*,#1876,.F.);
+#2235 = ORIENTED_EDGE('',*,*,#2118,.T.);
+#2236 = ORIENTED_EDGE('',*,*,#2237,.T.);
+#2237 = EDGE_CURVE('',#2119,#1931,#2238,.T.);
+#2238 = SURFACE_CURVE('',#2239,(#2243,#2250),.PCURVE_S1.);
+#2239 = LINE('',#2240,#2241);
+#2240 = CARTESIAN_POINT('',(30.,5.3,-0.3));
+#2241 = VECTOR('',#2242,1.);
+#2242 = DIRECTION('',(0.,0.,1.));
+#2243 = PCURVE('',#1890,#2244);
+#2244 = DEFINITIONAL_REPRESENTATION('',(#2245),#2249);
+#2245 = LINE('',#2246,#2247);
+#2246 = CARTESIAN_POINT('',(-0.3,-5.3));
+#2247 = VECTOR('',#2248,1.);
+#2248 = DIRECTION('',(1.,0.));
+#2249 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2250 = PCURVE('',#1969,#2251);
+#2251 = DEFINITIONAL_REPRESENTATION('',(#2252),#2256);
+#2252 = LINE('',#2253,#2254);
+#2253 = CARTESIAN_POINT('',(0.,26.7));
+#2254 = VECTOR('',#2255,1.);
+#2255 = DIRECTION('',(1.,0.));
+#2256 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2257 = ADVANCED_FACE('',(#2258),#2051,.T.);
+#2258 = FACE_BOUND('',#2259,.T.);
+#2259 = EDGE_LOOP('',(#2260,#2261,#2282,#2283));
+#2260 = ORIENTED_EDGE('',*,*,#2037,.F.);
+#2261 = ORIENTED_EDGE('',*,*,#2262,.F.);
+#2262 = EDGE_CURVE('',#2188,#2010,#2263,.T.);
+#2263 = SURFACE_CURVE('',#2264,(#2268,#2275),.PCURVE_S1.);
+#2264 = LINE('',#2265,#2266);
+#2265 = CARTESIAN_POINT('',(30.,24.7,-0.3));
+#2266 = VECTOR('',#2267,1.);
+#2267 = DIRECTION('',(0.,0.,1.));
+#2268 = PCURVE('',#2051,#2269);
+#2269 = DEFINITIONAL_REPRESENTATION('',(#2270),#2274);
+#2270 = LINE('',#2271,#2272);
+#2271 = CARTESIAN_POINT('',(-0.3,-24.7));
+#2272 = VECTOR('',#2273,1.);
+#2273 = DIRECTION('',(1.,0.));
+#2274 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2275 = PCURVE('',#2025,#2276);
+#2276 = DEFINITIONAL_REPRESENTATION('',(#2277),#2281);
+#2277 = LINE('',#2278,#2279);
+#2278 = CARTESIAN_POINT('',(0.,26.7));
+#2279 = VECTOR('',#2280,1.);
+#2280 = DIRECTION('',(1.,0.));
+#2281 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2282 = ORIENTED_EDGE('',*,*,#2210,.T.);
+#2283 = ORIENTED_EDGE('',*,*,#2091,.T.);
+#2284 = ADVANCED_FACE('',(#2285),#2025,.F.);
+#2285 = FACE_BOUND('',#2286,.F.);
+#2286 = EDGE_LOOP('',(#2287,#2288,#2289,#2310));
+#2287 = ORIENTED_EDGE('',*,*,#2262,.F.);
+#2288 = ORIENTED_EDGE('',*,*,#2187,.T.);
+#2289 = ORIENTED_EDGE('',*,*,#2290,.T.);
+#2290 = EDGE_CURVE('',#2165,#1982,#2291,.T.);
+#2291 = SURFACE_CURVE('',#2292,(#2296,#2303),.PCURVE_S1.);
+#2292 = LINE('',#2293,#2294);
+#2293 = CARTESIAN_POINT('',(3.3,24.7,-0.3));
+#2294 = VECTOR('',#2295,1.);
+#2295 = DIRECTION('',(0.,0.,1.));
+#2296 = PCURVE('',#2025,#2297);
+#2297 = DEFINITIONAL_REPRESENTATION('',(#2298),#2302);
+#2298 = LINE('',#2299,#2300);
+#2299 = CARTESIAN_POINT('',(0.,0.));
+#2300 = VECTOR('',#2301,1.);
+#2301 = DIRECTION('',(1.,0.));
+#2302 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2303 = PCURVE('',#1997,#2304);
+#2304 = DEFINITIONAL_REPRESENTATION('',(#2305),#2309);
+#2305 = LINE('',#2306,#2307);
+#2306 = CARTESIAN_POINT('',(0.,-19.4));
+#2307 = VECTOR('',#2308,1.);
+#2308 = DIRECTION('',(1.,0.));
+#2309 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2310 = ORIENTED_EDGE('',*,*,#2009,.F.);
+#2311 = ADVANCED_FACE('',(#2312),#1997,.T.);
+#2312 = FACE_BOUND('',#2313,.T.);
+#2313 = EDGE_LOOP('',(#2314,#2335,#2336,#2337));
+#2314 = ORIENTED_EDGE('',*,*,#2315,.F.);
+#2315 = EDGE_CURVE('',#2142,#1954,#2316,.T.);
+#2316 = SURFACE_CURVE('',#2317,(#2321,#2328),.PCURVE_S1.);
+#2317 = LINE('',#2318,#2319);
+#2318 = CARTESIAN_POINT('',(3.3,5.3,-0.3));
+#2319 = VECTOR('',#2320,1.);
+#2320 = DIRECTION('',(0.,0.,1.));
+#2321 = PCURVE('',#1997,#2322);
+#2322 = DEFINITIONAL_REPRESENTATION('',(#2323),#2327);
+#2323 = LINE('',#2324,#2325);
+#2324 = CARTESIAN_POINT('',(0.,0.));
+#2325 = VECTOR('',#2326,1.);
+#2326 = DIRECTION('',(1.,0.));
+#2327 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2328 = PCURVE('',#1969,#2329);
+#2329 = DEFINITIONAL_REPRESENTATION('',(#2330),#2334);
+#2330 = LINE('',#2331,#2332);
+#2331 = CARTESIAN_POINT('',(0.,0.));
+#2332 = VECTOR('',#2333,1.);
+#2333 = DIRECTION('',(1.,0.));
+#2334 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2335 = ORIENTED_EDGE('',*,*,#2164,.T.);
+#2336 = ORIENTED_EDGE('',*,*,#2290,.T.);
+#2337 = ORIENTED_EDGE('',*,*,#1981,.F.);
+#2338 = ADVANCED_FACE('',(#2339),#1969,.T.);
+#2339 = FACE_BOUND('',#2340,.T.);
+#2340 = EDGE_LOOP('',(#2341,#2342,#2343,#2344));
+#2341 = ORIENTED_EDGE('',*,*,#2237,.F.);
+#2342 = ORIENTED_EDGE('',*,*,#2141,.T.);
+#2343 = ORIENTED_EDGE('',*,*,#2315,.T.);
+#2344 = ORIENTED_EDGE('',*,*,#1953,.F.);
+#2345 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#2349)) 
+GLOBAL_UNIT_ASSIGNED_CONTEXT((#2346,#2347,#2348)) REPRESENTATION_CONTEXT
+('Context #1','3D Context with UNIT and UNCERTAINTY') );
+#2346 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#2347 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#2348 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#2349 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#2346,
+  'distance_accuracy_value','confusion accuracy');
+#2350 = PRODUCT_TYPE('part',$,(#1699));
+#2351 = SHAPE_DEFINITION_REPRESENTATION(#2352,#2358);
+#2352 = PRODUCT_DEFINITION_SHAPE('','',#2353);
+#2353 = PRODUCT_DEFINITION('design','',#2354,#2357);
+#2354 = PRODUCT_DEFINITION_FORMATION('','',#2355);
+#2355 = PRODUCT('Open CASCADE STEP translator 6.8 26',
+  'Open CASCADE STEP translator 6.8 26','',(#2356));
+#2356 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#2357 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#2358 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#2359),#2457);
+#2359 = MANIFOLD_SOLID_BREP('',#2360);
+#2360 = CLOSED_SHELL('',(#2361,#2449,#2453));
+#2361 = ADVANCED_FACE('',(#2362),#2375,.T.);
+#2362 = FACE_BOUND('',#2363,.T.);
+#2363 = EDGE_LOOP('',(#2364,#2398,#2421,#2448));
+#2364 = ORIENTED_EDGE('',*,*,#2365,.F.);
+#2365 = EDGE_CURVE('',#2366,#2366,#2368,.T.);
+#2366 = VERTEX_POINT('',#2367);
+#2367 = CARTESIAN_POINT('',(22.5,24.7,6.));
+#2368 = SURFACE_CURVE('',#2369,(#2374,#2386),.PCURVE_S1.);
+#2369 = CIRCLE('',#2370,0.5);
+#2370 = AXIS2_PLACEMENT_3D('',#2371,#2372,#2373);
+#2371 = CARTESIAN_POINT('',(23.,24.7,6.));
+#2372 = DIRECTION('',(1.110223024625E-16,1.,-0.));
+#2373 = DIRECTION('',(-1.,1.110223024625E-16,0.));
+#2374 = PCURVE('',#2375,#2380);
+#2375 = CYLINDRICAL_SURFACE('',#2376,0.5);
+#2376 = AXIS2_PLACEMENT_3D('',#2377,#2378,#2379);
+#2377 = CARTESIAN_POINT('',(23.,5.3,6.));
+#2378 = DIRECTION('',(1.110223024625E-16,1.,-0.));
+#2379 = DIRECTION('',(-1.,1.110223024625E-16,0.));
+#2380 = DEFINITIONAL_REPRESENTATION('',(#2381),#2385);
+#2381 = LINE('',#2382,#2383);
+#2382 = CARTESIAN_POINT('',(0.,19.4));
+#2383 = VECTOR('',#2384,1.);
+#2384 = DIRECTION('',(1.,0.));
+#2385 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2386 = PCURVE('',#2387,#2392);
+#2387 = PLANE('',#2388);
+#2388 = AXIS2_PLACEMENT_3D('',#2389,#2390,#2391);
+#2389 = CARTESIAN_POINT('',(23.,24.7,6.));
+#2390 = DIRECTION('',(1.110223024625E-16,1.,-0.));
+#2391 = DIRECTION('',(-1.,1.110223024625E-16,0.));
+#2392 = DEFINITIONAL_REPRESENTATION('',(#2393),#2397);
+#2393 = CIRCLE('',#2394,0.5);
+#2394 = AXIS2_PLACEMENT_2D('',#2395,#2396);
+#2395 = CARTESIAN_POINT('',(0.,0.));
+#2396 = DIRECTION('',(1.,0.));
+#2397 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2398 = ORIENTED_EDGE('',*,*,#2399,.F.);
+#2399 = EDGE_CURVE('',#2400,#2366,#2402,.T.);
+#2400 = VERTEX_POINT('',#2401);
+#2401 = CARTESIAN_POINT('',(22.5,5.3,6.));
+#2402 = SEAM_CURVE('',#2403,(#2407,#2414),.PCURVE_S1.);
+#2403 = LINE('',#2404,#2405);
+#2404 = CARTESIAN_POINT('',(22.5,5.3,6.));
+#2405 = VECTOR('',#2406,1.);
+#2406 = DIRECTION('',(1.110223024625E-16,1.,0.));
+#2407 = PCURVE('',#2375,#2408);
+#2408 = DEFINITIONAL_REPRESENTATION('',(#2409),#2413);
+#2409 = LINE('',#2410,#2411);
+#2410 = CARTESIAN_POINT('',(0.,-0.));
+#2411 = VECTOR('',#2412,1.);
+#2412 = DIRECTION('',(0.,1.));
+#2413 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2414 = PCURVE('',#2375,#2415);
+#2415 = DEFINITIONAL_REPRESENTATION('',(#2416),#2420);
+#2416 = LINE('',#2417,#2418);
+#2417 = CARTESIAN_POINT('',(6.28318530718,-0.));
+#2418 = VECTOR('',#2419,1.);
+#2419 = DIRECTION('',(0.,1.));
+#2420 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2421 = ORIENTED_EDGE('',*,*,#2422,.T.);
+#2422 = EDGE_CURVE('',#2400,#2400,#2423,.T.);
+#2423 = SURFACE_CURVE('',#2424,(#2429,#2436),.PCURVE_S1.);
+#2424 = CIRCLE('',#2425,0.5);
+#2425 = AXIS2_PLACEMENT_3D('',#2426,#2427,#2428);
+#2426 = CARTESIAN_POINT('',(23.,5.3,6.));
+#2427 = DIRECTION('',(1.110223024625E-16,1.,-0.));
+#2428 = DIRECTION('',(-1.,1.110223024625E-16,0.));
+#2429 = PCURVE('',#2375,#2430);
+#2430 = DEFINITIONAL_REPRESENTATION('',(#2431),#2435);
+#2431 = LINE('',#2432,#2433);
+#2432 = CARTESIAN_POINT('',(0.,0.));
+#2433 = VECTOR('',#2434,1.);
+#2434 = DIRECTION('',(1.,0.));
+#2435 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2436 = PCURVE('',#2437,#2442);
+#2437 = PLANE('',#2438);
+#2438 = AXIS2_PLACEMENT_3D('',#2439,#2440,#2441);
+#2439 = CARTESIAN_POINT('',(23.,5.3,6.));
+#2440 = DIRECTION('',(1.110223024625E-16,1.,-0.));
+#2441 = DIRECTION('',(-1.,1.110223024625E-16,0.));
+#2442 = DEFINITIONAL_REPRESENTATION('',(#2443),#2447);
+#2443 = CIRCLE('',#2444,0.5);
+#2444 = AXIS2_PLACEMENT_2D('',#2445,#2446);
+#2445 = CARTESIAN_POINT('',(0.,0.));
+#2446 = DIRECTION('',(1.,0.));
+#2447 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2448 = ORIENTED_EDGE('',*,*,#2399,.T.);
+#2449 = ADVANCED_FACE('',(#2450),#2387,.T.);
+#2450 = FACE_BOUND('',#2451,.T.);
+#2451 = EDGE_LOOP('',(#2452));
+#2452 = ORIENTED_EDGE('',*,*,#2365,.T.);
+#2453 = ADVANCED_FACE('',(#2454),#2437,.F.);
+#2454 = FACE_BOUND('',#2455,.T.);
+#2455 = EDGE_LOOP('',(#2456));
+#2456 = ORIENTED_EDGE('',*,*,#2422,.F.);
+#2457 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#2461)) 
+GLOBAL_UNIT_ASSIGNED_CONTEXT((#2458,#2459,#2460)) REPRESENTATION_CONTEXT
+('Context #1','3D Context with UNIT and UNCERTAINTY') );
+#2458 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#2459 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#2460 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#2461 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#2458,
+  'distance_accuracy_value','confusion accuracy');
+#2462 = PRODUCT_TYPE('part',$,(#2355));
+#2463 = SHAPE_DEFINITION_REPRESENTATION(#2464,#2470);
+#2464 = PRODUCT_DEFINITION_SHAPE('','',#2465);
+#2465 = PRODUCT_DEFINITION('design','',#2466,#2469);
+#2466 = PRODUCT_DEFINITION_FORMATION('','',#2467);
+#2467 = PRODUCT('Open CASCADE STEP translator 6.8 27',
+  'Open CASCADE STEP translator 6.8 27','',(#2468));
+#2468 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#2469 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#2470 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#2471),#2801);
+#2471 = MANIFOLD_SOLID_BREP('',#2472);
+#2472 = CLOSED_SHELL('',(#2473,#2593,#2693,#2740,#2787,#2794));
+#2473 = ADVANCED_FACE('',(#2474),#2488,.F.);
+#2474 = FACE_BOUND('',#2475,.F.);
+#2475 = EDGE_LOOP('',(#2476,#2511,#2539,#2567));
+#2476 = ORIENTED_EDGE('',*,*,#2477,.F.);
+#2477 = EDGE_CURVE('',#2478,#2480,#2482,.T.);
+#2478 = VERTEX_POINT('',#2479);
+#2479 = CARTESIAN_POINT('',(23.5,5.3,5.8));
+#2480 = VERTEX_POINT('',#2481);
+#2481 = CARTESIAN_POINT('',(23.5,5.3,6.1));
+#2482 = SURFACE_CURVE('',#2483,(#2487,#2499),.PCURVE_S1.);
+#2483 = LINE('',#2484,#2485);
+#2484 = CARTESIAN_POINT('',(23.5,5.3,5.8));
+#2485 = VECTOR('',#2486,1.);
+#2486 = DIRECTION('',(0.,0.,1.));
+#2487 = PCURVE('',#2488,#2493);
+#2488 = PLANE('',#2489);
+#2489 = AXIS2_PLACEMENT_3D('',#2490,#2491,#2492);
+#2490 = CARTESIAN_POINT('',(23.5,5.3,5.8));
+#2491 = DIRECTION('',(1.,0.,0.));
+#2492 = DIRECTION('',(-0.,0.,1.));
+#2493 = DEFINITIONAL_REPRESENTATION('',(#2494),#2498);
+#2494 = LINE('',#2495,#2496);
+#2495 = CARTESIAN_POINT('',(0.,0.));
+#2496 = VECTOR('',#2497,1.);
+#2497 = DIRECTION('',(1.,0.));
+#2498 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2499 = PCURVE('',#2500,#2505);
+#2500 = PLANE('',#2501);
+#2501 = AXIS2_PLACEMENT_3D('',#2502,#2503,#2504);
+#2502 = CARTESIAN_POINT('',(23.5,5.3,5.8));
+#2503 = DIRECTION('',(0.,1.,0.));
+#2504 = DIRECTION('',(0.,-0.,1.));
+#2505 = DEFINITIONAL_REPRESENTATION('',(#2506),#2510);
+#2506 = LINE('',#2507,#2508);
+#2507 = CARTESIAN_POINT('',(0.,0.));
+#2508 = VECTOR('',#2509,1.);
+#2509 = DIRECTION('',(1.,0.));
+#2510 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2511 = ORIENTED_EDGE('',*,*,#2512,.T.);
+#2512 = EDGE_CURVE('',#2478,#2513,#2515,.T.);
+#2513 = VERTEX_POINT('',#2514);
+#2514 = CARTESIAN_POINT('',(23.5,24.7,5.8));
+#2515 = SURFACE_CURVE('',#2516,(#2520,#2527),.PCURVE_S1.);
+#2516 = LINE('',#2517,#2518);
+#2517 = CARTESIAN_POINT('',(23.5,5.3,5.8));
+#2518 = VECTOR('',#2519,1.);
+#2519 = DIRECTION('',(0.,1.,0.));
+#2520 = PCURVE('',#2488,#2521);
+#2521 = DEFINITIONAL_REPRESENTATION('',(#2522),#2526);
+#2522 = LINE('',#2523,#2524);
+#2523 = CARTESIAN_POINT('',(0.,0.));
+#2524 = VECTOR('',#2525,1.);
+#2525 = DIRECTION('',(0.,-1.));
+#2526 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2527 = PCURVE('',#2528,#2533);
+#2528 = PLANE('',#2529);
+#2529 = AXIS2_PLACEMENT_3D('',#2530,#2531,#2532);
+#2530 = CARTESIAN_POINT('',(23.5,5.3,5.8));
+#2531 = DIRECTION('',(0.,0.,1.));
+#2532 = DIRECTION('',(1.,0.,-0.));
+#2533 = DEFINITIONAL_REPRESENTATION('',(#2534),#2538);
+#2534 = LINE('',#2535,#2536);
+#2535 = CARTESIAN_POINT('',(0.,0.));
+#2536 = VECTOR('',#2537,1.);
+#2537 = DIRECTION('',(0.,1.));
+#2538 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2539 = ORIENTED_EDGE('',*,*,#2540,.T.);
+#2540 = EDGE_CURVE('',#2513,#2541,#2543,.T.);
+#2541 = VERTEX_POINT('',#2542);
+#2542 = CARTESIAN_POINT('',(23.5,24.7,6.1));
+#2543 = SURFACE_CURVE('',#2544,(#2548,#2555),.PCURVE_S1.);
+#2544 = LINE('',#2545,#2546);
+#2545 = CARTESIAN_POINT('',(23.5,24.7,5.8));
+#2546 = VECTOR('',#2547,1.);
+#2547 = DIRECTION('',(0.,0.,1.));
+#2548 = PCURVE('',#2488,#2549);
+#2549 = DEFINITIONAL_REPRESENTATION('',(#2550),#2554);
+#2550 = LINE('',#2551,#2552);
+#2551 = CARTESIAN_POINT('',(0.,-19.4));
+#2552 = VECTOR('',#2553,1.);
+#2553 = DIRECTION('',(1.,0.));
+#2554 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2555 = PCURVE('',#2556,#2561);
+#2556 = PLANE('',#2557);
+#2557 = AXIS2_PLACEMENT_3D('',#2558,#2559,#2560);
+#2558 = CARTESIAN_POINT('',(23.5,24.7,5.8));
+#2559 = DIRECTION('',(0.,1.,0.));
+#2560 = DIRECTION('',(0.,-0.,1.));
+#2561 = DEFINITIONAL_REPRESENTATION('',(#2562),#2566);
+#2562 = LINE('',#2563,#2564);
+#2563 = CARTESIAN_POINT('',(0.,0.));
+#2564 = VECTOR('',#2565,1.);
+#2565 = DIRECTION('',(1.,0.));
+#2566 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2567 = ORIENTED_EDGE('',*,*,#2568,.F.);
+#2568 = EDGE_CURVE('',#2480,#2541,#2569,.T.);
+#2569 = SURFACE_CURVE('',#2570,(#2574,#2581),.PCURVE_S1.);
+#2570 = LINE('',#2571,#2572);
+#2571 = CARTESIAN_POINT('',(23.5,5.3,6.1));
+#2572 = VECTOR('',#2573,1.);
+#2573 = DIRECTION('',(0.,1.,0.));
+#2574 = PCURVE('',#2488,#2575);
+#2575 = DEFINITIONAL_REPRESENTATION('',(#2576),#2580);
+#2576 = LINE('',#2577,#2578);
+#2577 = CARTESIAN_POINT('',(0.3,0.));
+#2578 = VECTOR('',#2579,1.);
+#2579 = DIRECTION('',(0.,-1.));
+#2580 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2581 = PCURVE('',#2582,#2587);
+#2582 = PLANE('',#2583);
+#2583 = AXIS2_PLACEMENT_3D('',#2584,#2585,#2586);
+#2584 = CARTESIAN_POINT('',(23.5,5.3,6.1));
+#2585 = DIRECTION('',(0.,0.,1.));
+#2586 = DIRECTION('',(1.,0.,-0.));
+#2587 = DEFINITIONAL_REPRESENTATION('',(#2588),#2592);
+#2588 = LINE('',#2589,#2590);
+#2589 = CARTESIAN_POINT('',(0.,0.));
+#2590 = VECTOR('',#2591,1.);
+#2591 = DIRECTION('',(0.,1.));
+#2592 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2593 = ADVANCED_FACE('',(#2594),#2608,.T.);
+#2594 = FACE_BOUND('',#2595,.T.);
+#2595 = EDGE_LOOP('',(#2596,#2626,#2649,#2672));
+#2596 = ORIENTED_EDGE('',*,*,#2597,.F.);
+#2597 = EDGE_CURVE('',#2598,#2600,#2602,.T.);
+#2598 = VERTEX_POINT('',#2599);
+#2599 = CARTESIAN_POINT('',(29.,5.3,5.8));
+#2600 = VERTEX_POINT('',#2601);
+#2601 = CARTESIAN_POINT('',(29.,5.3,6.1));
+#2602 = SURFACE_CURVE('',#2603,(#2607,#2619),.PCURVE_S1.);
+#2603 = LINE('',#2604,#2605);
+#2604 = CARTESIAN_POINT('',(29.,5.3,5.8));
+#2605 = VECTOR('',#2606,1.);
+#2606 = DIRECTION('',(0.,0.,1.));
+#2607 = PCURVE('',#2608,#2613);
+#2608 = PLANE('',#2609);
+#2609 = AXIS2_PLACEMENT_3D('',#2610,#2611,#2612);
+#2610 = CARTESIAN_POINT('',(29.,5.3,5.8));
+#2611 = DIRECTION('',(1.,0.,0.));
+#2612 = DIRECTION('',(-0.,0.,1.));
+#2613 = DEFINITIONAL_REPRESENTATION('',(#2614),#2618);
+#2614 = LINE('',#2615,#2616);
+#2615 = CARTESIAN_POINT('',(0.,0.));
+#2616 = VECTOR('',#2617,1.);
+#2617 = DIRECTION('',(1.,0.));
+#2618 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2619 = PCURVE('',#2500,#2620);
+#2620 = DEFINITIONAL_REPRESENTATION('',(#2621),#2625);
+#2621 = LINE('',#2622,#2623);
+#2622 = CARTESIAN_POINT('',(0.,5.5));
+#2623 = VECTOR('',#2624,1.);
+#2624 = DIRECTION('',(1.,0.));
+#2625 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2626 = ORIENTED_EDGE('',*,*,#2627,.T.);
+#2627 = EDGE_CURVE('',#2598,#2628,#2630,.T.);
+#2628 = VERTEX_POINT('',#2629);
+#2629 = CARTESIAN_POINT('',(29.,24.7,5.8));
+#2630 = SURFACE_CURVE('',#2631,(#2635,#2642),.PCURVE_S1.);
+#2631 = LINE('',#2632,#2633);
+#2632 = CARTESIAN_POINT('',(29.,5.3,5.8));
+#2633 = VECTOR('',#2634,1.);
+#2634 = DIRECTION('',(0.,1.,0.));
+#2635 = PCURVE('',#2608,#2636);
+#2636 = DEFINITIONAL_REPRESENTATION('',(#2637),#2641);
+#2637 = LINE('',#2638,#2639);
+#2638 = CARTESIAN_POINT('',(0.,0.));
+#2639 = VECTOR('',#2640,1.);
+#2640 = DIRECTION('',(0.,-1.));
+#2641 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2642 = PCURVE('',#2528,#2643);
+#2643 = DEFINITIONAL_REPRESENTATION('',(#2644),#2648);
+#2644 = LINE('',#2645,#2646);
+#2645 = CARTESIAN_POINT('',(5.5,0.));
+#2646 = VECTOR('',#2647,1.);
+#2647 = DIRECTION('',(0.,1.));
+#2648 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2649 = ORIENTED_EDGE('',*,*,#2650,.T.);
+#2650 = EDGE_CURVE('',#2628,#2651,#2653,.T.);
+#2651 = VERTEX_POINT('',#2652);
+#2652 = CARTESIAN_POINT('',(29.,24.7,6.1));
+#2653 = SURFACE_CURVE('',#2654,(#2658,#2665),.PCURVE_S1.);
+#2654 = LINE('',#2655,#2656);
+#2655 = CARTESIAN_POINT('',(29.,24.7,5.8));
+#2656 = VECTOR('',#2657,1.);
+#2657 = DIRECTION('',(0.,0.,1.));
+#2658 = PCURVE('',#2608,#2659);
+#2659 = DEFINITIONAL_REPRESENTATION('',(#2660),#2664);
+#2660 = LINE('',#2661,#2662);
+#2661 = CARTESIAN_POINT('',(0.,-19.4));
+#2662 = VECTOR('',#2663,1.);
+#2663 = DIRECTION('',(1.,0.));
+#2664 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2665 = PCURVE('',#2556,#2666);
+#2666 = DEFINITIONAL_REPRESENTATION('',(#2667),#2671);
+#2667 = LINE('',#2668,#2669);
+#2668 = CARTESIAN_POINT('',(0.,5.5));
+#2669 = VECTOR('',#2670,1.);
+#2670 = DIRECTION('',(1.,0.));
+#2671 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2672 = ORIENTED_EDGE('',*,*,#2673,.F.);
+#2673 = EDGE_CURVE('',#2600,#2651,#2674,.T.);
+#2674 = SURFACE_CURVE('',#2675,(#2679,#2686),.PCURVE_S1.);
+#2675 = LINE('',#2676,#2677);
+#2676 = CARTESIAN_POINT('',(29.,5.3,6.1));
+#2677 = VECTOR('',#2678,1.);
+#2678 = DIRECTION('',(0.,1.,0.));
+#2679 = PCURVE('',#2608,#2680);
+#2680 = DEFINITIONAL_REPRESENTATION('',(#2681),#2685);
+#2681 = LINE('',#2682,#2683);
+#2682 = CARTESIAN_POINT('',(0.3,0.));
+#2683 = VECTOR('',#2684,1.);
+#2684 = DIRECTION('',(0.,-1.));
+#2685 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2686 = PCURVE('',#2582,#2687);
+#2687 = DEFINITIONAL_REPRESENTATION('',(#2688),#2692);
+#2688 = LINE('',#2689,#2690);
+#2689 = CARTESIAN_POINT('',(5.5,0.));
+#2690 = VECTOR('',#2691,1.);
+#2691 = DIRECTION('',(0.,1.));
+#2692 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2693 = ADVANCED_FACE('',(#2694),#2500,.F.);
+#2694 = FACE_BOUND('',#2695,.F.);
+#2695 = EDGE_LOOP('',(#2696,#2717,#2718,#2739));
+#2696 = ORIENTED_EDGE('',*,*,#2697,.F.);
+#2697 = EDGE_CURVE('',#2478,#2598,#2698,.T.);
+#2698 = SURFACE_CURVE('',#2699,(#2703,#2710),.PCURVE_S1.);
+#2699 = LINE('',#2700,#2701);
+#2700 = CARTESIAN_POINT('',(23.5,5.3,5.8));
+#2701 = VECTOR('',#2702,1.);
+#2702 = DIRECTION('',(1.,0.,0.));
+#2703 = PCURVE('',#2500,#2704);
+#2704 = DEFINITIONAL_REPRESENTATION('',(#2705),#2709);
+#2705 = LINE('',#2706,#2707);
+#2706 = CARTESIAN_POINT('',(0.,0.));
+#2707 = VECTOR('',#2708,1.);
+#2708 = DIRECTION('',(0.,1.));
+#2709 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2710 = PCURVE('',#2528,#2711);
+#2711 = DEFINITIONAL_REPRESENTATION('',(#2712),#2716);
+#2712 = LINE('',#2713,#2714);
+#2713 = CARTESIAN_POINT('',(0.,0.));
+#2714 = VECTOR('',#2715,1.);
+#2715 = DIRECTION('',(1.,0.));
+#2716 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2717 = ORIENTED_EDGE('',*,*,#2477,.T.);
+#2718 = ORIENTED_EDGE('',*,*,#2719,.T.);
+#2719 = EDGE_CURVE('',#2480,#2600,#2720,.T.);
+#2720 = SURFACE_CURVE('',#2721,(#2725,#2732),.PCURVE_S1.);
+#2721 = LINE('',#2722,#2723);
+#2722 = CARTESIAN_POINT('',(23.5,5.3,6.1));
+#2723 = VECTOR('',#2724,1.);
+#2724 = DIRECTION('',(1.,0.,0.));
+#2725 = PCURVE('',#2500,#2726);
+#2726 = DEFINITIONAL_REPRESENTATION('',(#2727),#2731);
+#2727 = LINE('',#2728,#2729);
+#2728 = CARTESIAN_POINT('',(0.3,0.));
+#2729 = VECTOR('',#2730,1.);
+#2730 = DIRECTION('',(0.,1.));
+#2731 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2732 = PCURVE('',#2582,#2733);
+#2733 = DEFINITIONAL_REPRESENTATION('',(#2734),#2738);
+#2734 = LINE('',#2735,#2736);
+#2735 = CARTESIAN_POINT('',(0.,0.));
+#2736 = VECTOR('',#2737,1.);
+#2737 = DIRECTION('',(1.,0.));
+#2738 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2739 = ORIENTED_EDGE('',*,*,#2597,.F.);
+#2740 = ADVANCED_FACE('',(#2741),#2556,.T.);
+#2741 = FACE_BOUND('',#2742,.T.);
+#2742 = EDGE_LOOP('',(#2743,#2764,#2765,#2786));
+#2743 = ORIENTED_EDGE('',*,*,#2744,.F.);
+#2744 = EDGE_CURVE('',#2513,#2628,#2745,.T.);
+#2745 = SURFACE_CURVE('',#2746,(#2750,#2757),.PCURVE_S1.);
+#2746 = LINE('',#2747,#2748);
+#2747 = CARTESIAN_POINT('',(23.5,24.7,5.8));
+#2748 = VECTOR('',#2749,1.);
+#2749 = DIRECTION('',(1.,0.,0.));
+#2750 = PCURVE('',#2556,#2751);
+#2751 = DEFINITIONAL_REPRESENTATION('',(#2752),#2756);
+#2752 = LINE('',#2753,#2754);
+#2753 = CARTESIAN_POINT('',(0.,0.));
+#2754 = VECTOR('',#2755,1.);
+#2755 = DIRECTION('',(0.,1.));
+#2756 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2757 = PCURVE('',#2528,#2758);
+#2758 = DEFINITIONAL_REPRESENTATION('',(#2759),#2763);
+#2759 = LINE('',#2760,#2761);
+#2760 = CARTESIAN_POINT('',(0.,19.4));
+#2761 = VECTOR('',#2762,1.);
+#2762 = DIRECTION('',(1.,0.));
+#2763 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2764 = ORIENTED_EDGE('',*,*,#2540,.T.);
+#2765 = ORIENTED_EDGE('',*,*,#2766,.T.);
+#2766 = EDGE_CURVE('',#2541,#2651,#2767,.T.);
+#2767 = SURFACE_CURVE('',#2768,(#2772,#2779),.PCURVE_S1.);
+#2768 = LINE('',#2769,#2770);
+#2769 = CARTESIAN_POINT('',(23.5,24.7,6.1));
+#2770 = VECTOR('',#2771,1.);
+#2771 = DIRECTION('',(1.,0.,0.));
+#2772 = PCURVE('',#2556,#2773);
+#2773 = DEFINITIONAL_REPRESENTATION('',(#2774),#2778);
+#2774 = LINE('',#2775,#2776);
+#2775 = CARTESIAN_POINT('',(0.3,0.));
+#2776 = VECTOR('',#2777,1.);
+#2777 = DIRECTION('',(0.,1.));
+#2778 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2779 = PCURVE('',#2582,#2780);
+#2780 = DEFINITIONAL_REPRESENTATION('',(#2781),#2785);
+#2781 = LINE('',#2782,#2783);
+#2782 = CARTESIAN_POINT('',(0.,19.4));
+#2783 = VECTOR('',#2784,1.);
+#2784 = DIRECTION('',(1.,0.));
+#2785 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2786 = ORIENTED_EDGE('',*,*,#2650,.F.);
+#2787 = ADVANCED_FACE('',(#2788),#2528,.F.);
+#2788 = FACE_BOUND('',#2789,.F.);
+#2789 = EDGE_LOOP('',(#2790,#2791,#2792,#2793));
+#2790 = ORIENTED_EDGE('',*,*,#2512,.F.);
+#2791 = ORIENTED_EDGE('',*,*,#2697,.T.);
+#2792 = ORIENTED_EDGE('',*,*,#2627,.T.);
+#2793 = ORIENTED_EDGE('',*,*,#2744,.F.);
+#2794 = ADVANCED_FACE('',(#2795),#2582,.T.);
+#2795 = FACE_BOUND('',#2796,.T.);
+#2796 = EDGE_LOOP('',(#2797,#2798,#2799,#2800));
+#2797 = ORIENTED_EDGE('',*,*,#2568,.F.);
+#2798 = ORIENTED_EDGE('',*,*,#2719,.T.);
+#2799 = ORIENTED_EDGE('',*,*,#2673,.T.);
+#2800 = ORIENTED_EDGE('',*,*,#2766,.F.);
+#2801 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#2805)) 
+GLOBAL_UNIT_ASSIGNED_CONTEXT((#2802,#2803,#2804)) REPRESENTATION_CONTEXT
+('Context #1','3D Context with UNIT and UNCERTAINTY') );
+#2802 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#2803 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#2804 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#2805 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#2802,
+  'distance_accuracy_value','confusion accuracy');
+#2806 = PRODUCT_TYPE('part',$,(#2467));
+#2807 = SHAPE_DEFINITION_REPRESENTATION(#2808,#2814);
+#2808 = PRODUCT_DEFINITION_SHAPE('','',#2809);
+#2809 = PRODUCT_DEFINITION('design','',#2810,#2813);
+#2810 = PRODUCT_DEFINITION_FORMATION('','',#2811);
+#2811 = PRODUCT('Open CASCADE STEP translator 6.8 28',
+  'Open CASCADE STEP translator 6.8 28','',(#2812));
+#2812 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#2813 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#2814 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#2815),#3145);
+#2815 = MANIFOLD_SOLID_BREP('',#2816);
+#2816 = CLOSED_SHELL('',(#2817,#2937,#3037,#3084,#3131,#3138));
+#2817 = ADVANCED_FACE('',(#2818),#2832,.F.);
+#2818 = FACE_BOUND('',#2819,.F.);
+#2819 = EDGE_LOOP('',(#2820,#2855,#2883,#2911));
+#2820 = ORIENTED_EDGE('',*,*,#2821,.F.);
+#2821 = EDGE_CURVE('',#2822,#2824,#2826,.T.);
+#2822 = VERTEX_POINT('',#2823);
+#2823 = CARTESIAN_POINT('',(23.2,5.3,6.5));
+#2824 = VERTEX_POINT('',#2825);
+#2825 = CARTESIAN_POINT('',(22.9,5.3,6.5));
+#2826 = SURFACE_CURVE('',#2827,(#2831,#2843),.PCURVE_S1.);
+#2827 = LINE('',#2828,#2829);
+#2828 = CARTESIAN_POINT('',(23.2,5.3,6.5));
+#2829 = VECTOR('',#2830,1.);
+#2830 = DIRECTION('',(-1.,0.,1.110223024625E-16));
+#2831 = PCURVE('',#2832,#2837);
+#2832 = PLANE('',#2833);
+#2833 = AXIS2_PLACEMENT_3D('',#2834,#2835,#2836);
+#2834 = CARTESIAN_POINT('',(23.2,5.3,6.5));
+#2835 = DIRECTION('',(1.110223024625E-16,0.,1.));
+#2836 = DIRECTION('',(1.,0.,-1.110223024625E-16));
+#2837 = DEFINITIONAL_REPRESENTATION('',(#2838),#2842);
+#2838 = LINE('',#2839,#2840);
+#2839 = CARTESIAN_POINT('',(0.,0.));
+#2840 = VECTOR('',#2841,1.);
+#2841 = DIRECTION('',(-1.,0.));
+#2842 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2843 = PCURVE('',#2844,#2849);
+#2844 = PLANE('',#2845);
+#2845 = AXIS2_PLACEMENT_3D('',#2846,#2847,#2848);
+#2846 = CARTESIAN_POINT('',(23.2,5.3,6.5));
+#2847 = DIRECTION('',(0.,1.,0.));
+#2848 = DIRECTION('',(0.,-0.,1.));
+#2849 = DEFINITIONAL_REPRESENTATION('',(#2850),#2854);
+#2850 = LINE('',#2851,#2852);
+#2851 = CARTESIAN_POINT('',(0.,0.));
+#2852 = VECTOR('',#2853,1.);
+#2853 = DIRECTION('',(1.110223024625E-16,-1.));
+#2854 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2855 = ORIENTED_EDGE('',*,*,#2856,.T.);
+#2856 = EDGE_CURVE('',#2822,#2857,#2859,.T.);
+#2857 = VERTEX_POINT('',#2858);
+#2858 = CARTESIAN_POINT('',(23.2,24.7,6.5));
+#2859 = SURFACE_CURVE('',#2860,(#2864,#2871),.PCURVE_S1.);
+#2860 = LINE('',#2861,#2862);
+#2861 = CARTESIAN_POINT('',(23.2,5.3,6.5));
+#2862 = VECTOR('',#2863,1.);
+#2863 = DIRECTION('',(0.,1.,0.));
+#2864 = PCURVE('',#2832,#2865);
+#2865 = DEFINITIONAL_REPRESENTATION('',(#2866),#2870);
+#2866 = LINE('',#2867,#2868);
+#2867 = CARTESIAN_POINT('',(0.,0.));
+#2868 = VECTOR('',#2869,1.);
+#2869 = DIRECTION('',(0.,1.));
+#2870 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2871 = PCURVE('',#2872,#2877);
+#2872 = PLANE('',#2873);
+#2873 = AXIS2_PLACEMENT_3D('',#2874,#2875,#2876);
+#2874 = CARTESIAN_POINT('',(23.2,5.3,6.5));
+#2875 = DIRECTION('',(-1.,0.,1.110223024625E-16));
+#2876 = DIRECTION('',(-1.110223024625E-16,0.,-1.));
+#2877 = DEFINITIONAL_REPRESENTATION('',(#2878),#2882);
+#2878 = LINE('',#2879,#2880);
+#2879 = CARTESIAN_POINT('',(0.,0.));
+#2880 = VECTOR('',#2881,1.);
+#2881 = DIRECTION('',(0.,-1.));
+#2882 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2883 = ORIENTED_EDGE('',*,*,#2884,.T.);
+#2884 = EDGE_CURVE('',#2857,#2885,#2887,.T.);
+#2885 = VERTEX_POINT('',#2886);
+#2886 = CARTESIAN_POINT('',(22.9,24.7,6.5));
+#2887 = SURFACE_CURVE('',#2888,(#2892,#2899),.PCURVE_S1.);
+#2888 = LINE('',#2889,#2890);
+#2889 = CARTESIAN_POINT('',(23.2,24.7,6.5));
+#2890 = VECTOR('',#2891,1.);
+#2891 = DIRECTION('',(-1.,0.,1.110223024625E-16));
+#2892 = PCURVE('',#2832,#2893);
+#2893 = DEFINITIONAL_REPRESENTATION('',(#2894),#2898);
+#2894 = LINE('',#2895,#2896);
+#2895 = CARTESIAN_POINT('',(0.,19.4));
+#2896 = VECTOR('',#2897,1.);
+#2897 = DIRECTION('',(-1.,0.));
+#2898 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2899 = PCURVE('',#2900,#2905);
+#2900 = PLANE('',#2901);
+#2901 = AXIS2_PLACEMENT_3D('',#2902,#2903,#2904);
+#2902 = CARTESIAN_POINT('',(23.2,24.7,6.5));
+#2903 = DIRECTION('',(0.,1.,0.));
+#2904 = DIRECTION('',(0.,-0.,1.));
+#2905 = DEFINITIONAL_REPRESENTATION('',(#2906),#2910);
+#2906 = LINE('',#2907,#2908);
+#2907 = CARTESIAN_POINT('',(0.,0.));
+#2908 = VECTOR('',#2909,1.);
+#2909 = DIRECTION('',(1.110223024625E-16,-1.));
+#2910 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2911 = ORIENTED_EDGE('',*,*,#2912,.F.);
+#2912 = EDGE_CURVE('',#2824,#2885,#2913,.T.);
+#2913 = SURFACE_CURVE('',#2914,(#2918,#2925),.PCURVE_S1.);
+#2914 = LINE('',#2915,#2916);
+#2915 = CARTESIAN_POINT('',(22.9,5.3,6.5));
+#2916 = VECTOR('',#2917,1.);
+#2917 = DIRECTION('',(0.,1.,0.));
+#2918 = PCURVE('',#2832,#2919);
+#2919 = DEFINITIONAL_REPRESENTATION('',(#2920),#2924);
+#2920 = LINE('',#2921,#2922);
+#2921 = CARTESIAN_POINT('',(-0.3,0.));
+#2922 = VECTOR('',#2923,1.);
+#2923 = DIRECTION('',(0.,1.));
+#2924 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2925 = PCURVE('',#2926,#2931);
+#2926 = PLANE('',#2927);
+#2927 = AXIS2_PLACEMENT_3D('',#2928,#2929,#2930);
+#2928 = CARTESIAN_POINT('',(22.9,5.3,6.5));
+#2929 = DIRECTION('',(-1.,0.,1.110223024625E-16));
+#2930 = DIRECTION('',(-1.110223024625E-16,0.,-1.));
+#2931 = DEFINITIONAL_REPRESENTATION('',(#2932),#2936);
+#2932 = LINE('',#2933,#2934);
+#2933 = CARTESIAN_POINT('',(0.,0.));
+#2934 = VECTOR('',#2935,1.);
+#2935 = DIRECTION('',(0.,-1.));
+#2936 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2937 = ADVANCED_FACE('',(#2938),#2952,.T.);
+#2938 = FACE_BOUND('',#2939,.T.);
+#2939 = EDGE_LOOP('',(#2940,#2970,#2993,#3016));
+#2940 = ORIENTED_EDGE('',*,*,#2941,.F.);
+#2941 = EDGE_CURVE('',#2942,#2944,#2946,.T.);
+#2942 = VERTEX_POINT('',#2943);
+#2943 = CARTESIAN_POINT('',(23.2,5.3,12.));
+#2944 = VERTEX_POINT('',#2945);
+#2945 = CARTESIAN_POINT('',(22.9,5.3,12.));
+#2946 = SURFACE_CURVE('',#2947,(#2951,#2963),.PCURVE_S1.);
+#2947 = LINE('',#2948,#2949);
+#2948 = CARTESIAN_POINT('',(23.2,5.3,12.));
+#2949 = VECTOR('',#2950,1.);
+#2950 = DIRECTION('',(-1.,0.,1.110223024625E-16));
+#2951 = PCURVE('',#2952,#2957);
+#2952 = PLANE('',#2953);
+#2953 = AXIS2_PLACEMENT_3D('',#2954,#2955,#2956);
+#2954 = CARTESIAN_POINT('',(23.2,5.3,12.));
+#2955 = DIRECTION('',(1.110223024625E-16,0.,1.));
+#2956 = DIRECTION('',(1.,0.,-1.110223024625E-16));
+#2957 = DEFINITIONAL_REPRESENTATION('',(#2958),#2962);
+#2958 = LINE('',#2959,#2960);
+#2959 = CARTESIAN_POINT('',(0.,0.));
+#2960 = VECTOR('',#2961,1.);
+#2961 = DIRECTION('',(-1.,0.));
+#2962 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2963 = PCURVE('',#2844,#2964);
+#2964 = DEFINITIONAL_REPRESENTATION('',(#2965),#2969);
+#2965 = LINE('',#2966,#2967);
+#2966 = CARTESIAN_POINT('',(5.5,0.));
+#2967 = VECTOR('',#2968,1.);
+#2968 = DIRECTION('',(1.110223024625E-16,-1.));
+#2969 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2970 = ORIENTED_EDGE('',*,*,#2971,.T.);
+#2971 = EDGE_CURVE('',#2942,#2972,#2974,.T.);
+#2972 = VERTEX_POINT('',#2973);
+#2973 = CARTESIAN_POINT('',(23.2,24.7,12.));
+#2974 = SURFACE_CURVE('',#2975,(#2979,#2986),.PCURVE_S1.);
+#2975 = LINE('',#2976,#2977);
+#2976 = CARTESIAN_POINT('',(23.2,5.3,12.));
+#2977 = VECTOR('',#2978,1.);
+#2978 = DIRECTION('',(0.,1.,0.));
+#2979 = PCURVE('',#2952,#2980);
+#2980 = DEFINITIONAL_REPRESENTATION('',(#2981),#2985);
+#2981 = LINE('',#2982,#2983);
+#2982 = CARTESIAN_POINT('',(0.,0.));
+#2983 = VECTOR('',#2984,1.);
+#2984 = DIRECTION('',(0.,1.));
+#2985 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2986 = PCURVE('',#2872,#2987);
+#2987 = DEFINITIONAL_REPRESENTATION('',(#2988),#2992);
+#2988 = LINE('',#2989,#2990);
+#2989 = CARTESIAN_POINT('',(-5.5,0.));
+#2990 = VECTOR('',#2991,1.);
+#2991 = DIRECTION('',(0.,-1.));
+#2992 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#2993 = ORIENTED_EDGE('',*,*,#2994,.T.);
+#2994 = EDGE_CURVE('',#2972,#2995,#2997,.T.);
+#2995 = VERTEX_POINT('',#2996);
+#2996 = CARTESIAN_POINT('',(22.9,24.7,12.));
+#2997 = SURFACE_CURVE('',#2998,(#3002,#3009),.PCURVE_S1.);
+#2998 = LINE('',#2999,#3000);
+#2999 = CARTESIAN_POINT('',(23.2,24.7,12.));
+#3000 = VECTOR('',#3001,1.);
+#3001 = DIRECTION('',(-1.,0.,1.110223024625E-16));
+#3002 = PCURVE('',#2952,#3003);
+#3003 = DEFINITIONAL_REPRESENTATION('',(#3004),#3008);
+#3004 = LINE('',#3005,#3006);
+#3005 = CARTESIAN_POINT('',(0.,19.4));
+#3006 = VECTOR('',#3007,1.);
+#3007 = DIRECTION('',(-1.,0.));
+#3008 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3009 = PCURVE('',#2900,#3010);
+#3010 = DEFINITIONAL_REPRESENTATION('',(#3011),#3015);
+#3011 = LINE('',#3012,#3013);
+#3012 = CARTESIAN_POINT('',(5.5,0.));
+#3013 = VECTOR('',#3014,1.);
+#3014 = DIRECTION('',(1.110223024625E-16,-1.));
+#3015 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3016 = ORIENTED_EDGE('',*,*,#3017,.F.);
+#3017 = EDGE_CURVE('',#2944,#2995,#3018,.T.);
+#3018 = SURFACE_CURVE('',#3019,(#3023,#3030),.PCURVE_S1.);
+#3019 = LINE('',#3020,#3021);
+#3020 = CARTESIAN_POINT('',(22.9,5.3,12.));
+#3021 = VECTOR('',#3022,1.);
+#3022 = DIRECTION('',(0.,1.,0.));
+#3023 = PCURVE('',#2952,#3024);
+#3024 = DEFINITIONAL_REPRESENTATION('',(#3025),#3029);
+#3025 = LINE('',#3026,#3027);
+#3026 = CARTESIAN_POINT('',(-0.3,0.));
+#3027 = VECTOR('',#3028,1.);
+#3028 = DIRECTION('',(0.,1.));
+#3029 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3030 = PCURVE('',#2926,#3031);
+#3031 = DEFINITIONAL_REPRESENTATION('',(#3032),#3036);
+#3032 = LINE('',#3033,#3034);
+#3033 = CARTESIAN_POINT('',(-5.5,0.));
+#3034 = VECTOR('',#3035,1.);
+#3035 = DIRECTION('',(0.,-1.));
+#3036 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3037 = ADVANCED_FACE('',(#3038),#2844,.F.);
+#3038 = FACE_BOUND('',#3039,.F.);
+#3039 = EDGE_LOOP('',(#3040,#3061,#3062,#3083));
+#3040 = ORIENTED_EDGE('',*,*,#3041,.F.);
+#3041 = EDGE_CURVE('',#2822,#2942,#3042,.T.);
+#3042 = SURFACE_CURVE('',#3043,(#3047,#3054),.PCURVE_S1.);
+#3043 = LINE('',#3044,#3045);
+#3044 = CARTESIAN_POINT('',(23.2,5.3,6.5));
+#3045 = VECTOR('',#3046,1.);
+#3046 = DIRECTION('',(1.110223024625E-16,0.,1.));
+#3047 = PCURVE('',#2844,#3048);
+#3048 = DEFINITIONAL_REPRESENTATION('',(#3049),#3053);
+#3049 = LINE('',#3050,#3051);
+#3050 = CARTESIAN_POINT('',(0.,0.));
+#3051 = VECTOR('',#3052,1.);
+#3052 = DIRECTION('',(1.,1.110223024625E-16));
+#3053 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3054 = PCURVE('',#2872,#3055);
+#3055 = DEFINITIONAL_REPRESENTATION('',(#3056),#3060);
+#3056 = LINE('',#3057,#3058);
+#3057 = CARTESIAN_POINT('',(0.,0.));
+#3058 = VECTOR('',#3059,1.);
+#3059 = DIRECTION('',(-1.,0.));
+#3060 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3061 = ORIENTED_EDGE('',*,*,#2821,.T.);
+#3062 = ORIENTED_EDGE('',*,*,#3063,.T.);
+#3063 = EDGE_CURVE('',#2824,#2944,#3064,.T.);
+#3064 = SURFACE_CURVE('',#3065,(#3069,#3076),.PCURVE_S1.);
+#3065 = LINE('',#3066,#3067);
+#3066 = CARTESIAN_POINT('',(22.9,5.3,6.5));
+#3067 = VECTOR('',#3068,1.);
+#3068 = DIRECTION('',(1.110223024625E-16,0.,1.));
+#3069 = PCURVE('',#2844,#3070);
+#3070 = DEFINITIONAL_REPRESENTATION('',(#3071),#3075);
+#3071 = LINE('',#3072,#3073);
+#3072 = CARTESIAN_POINT('',(0.,-0.3));
+#3073 = VECTOR('',#3074,1.);
+#3074 = DIRECTION('',(1.,1.110223024625E-16));
+#3075 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3076 = PCURVE('',#2926,#3077);
+#3077 = DEFINITIONAL_REPRESENTATION('',(#3078),#3082);
+#3078 = LINE('',#3079,#3080);
+#3079 = CARTESIAN_POINT('',(0.,0.));
+#3080 = VECTOR('',#3081,1.);
+#3081 = DIRECTION('',(-1.,0.));
+#3082 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3083 = ORIENTED_EDGE('',*,*,#2941,.F.);
+#3084 = ADVANCED_FACE('',(#3085),#2900,.T.);
+#3085 = FACE_BOUND('',#3086,.T.);
+#3086 = EDGE_LOOP('',(#3087,#3108,#3109,#3130));
+#3087 = ORIENTED_EDGE('',*,*,#3088,.F.);
+#3088 = EDGE_CURVE('',#2857,#2972,#3089,.T.);
+#3089 = SURFACE_CURVE('',#3090,(#3094,#3101),.PCURVE_S1.);
+#3090 = LINE('',#3091,#3092);
+#3091 = CARTESIAN_POINT('',(23.2,24.7,6.5));
+#3092 = VECTOR('',#3093,1.);
+#3093 = DIRECTION('',(1.110223024625E-16,0.,1.));
+#3094 = PCURVE('',#2900,#3095);
+#3095 = DEFINITIONAL_REPRESENTATION('',(#3096),#3100);
+#3096 = LINE('',#3097,#3098);
+#3097 = CARTESIAN_POINT('',(0.,0.));
+#3098 = VECTOR('',#3099,1.);
+#3099 = DIRECTION('',(1.,1.110223024625E-16));
+#3100 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3101 = PCURVE('',#2872,#3102);
+#3102 = DEFINITIONAL_REPRESENTATION('',(#3103),#3107);
+#3103 = LINE('',#3104,#3105);
+#3104 = CARTESIAN_POINT('',(0.,-19.4));
+#3105 = VECTOR('',#3106,1.);
+#3106 = DIRECTION('',(-1.,0.));
+#3107 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3108 = ORIENTED_EDGE('',*,*,#2884,.T.);
+#3109 = ORIENTED_EDGE('',*,*,#3110,.T.);
+#3110 = EDGE_CURVE('',#2885,#2995,#3111,.T.);
+#3111 = SURFACE_CURVE('',#3112,(#3116,#3123),.PCURVE_S1.);
+#3112 = LINE('',#3113,#3114);
+#3113 = CARTESIAN_POINT('',(22.9,24.7,6.5));
+#3114 = VECTOR('',#3115,1.);
+#3115 = DIRECTION('',(1.110223024625E-16,0.,1.));
+#3116 = PCURVE('',#2900,#3117);
+#3117 = DEFINITIONAL_REPRESENTATION('',(#3118),#3122);
+#3118 = LINE('',#3119,#3120);
+#3119 = CARTESIAN_POINT('',(0.,-0.3));
+#3120 = VECTOR('',#3121,1.);
+#3121 = DIRECTION('',(1.,1.110223024625E-16));
+#3122 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3123 = PCURVE('',#2926,#3124);
+#3124 = DEFINITIONAL_REPRESENTATION('',(#3125),#3129);
+#3125 = LINE('',#3126,#3127);
+#3126 = CARTESIAN_POINT('',(0.,-19.4));
+#3127 = VECTOR('',#3128,1.);
+#3128 = DIRECTION('',(-1.,0.));
+#3129 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3130 = ORIENTED_EDGE('',*,*,#2994,.F.);
+#3131 = ADVANCED_FACE('',(#3132),#2872,.F.);
+#3132 = FACE_BOUND('',#3133,.F.);
+#3133 = EDGE_LOOP('',(#3134,#3135,#3136,#3137));
+#3134 = ORIENTED_EDGE('',*,*,#2856,.F.);
+#3135 = ORIENTED_EDGE('',*,*,#3041,.T.);
+#3136 = ORIENTED_EDGE('',*,*,#2971,.T.);
+#3137 = ORIENTED_EDGE('',*,*,#3088,.F.);
+#3138 = ADVANCED_FACE('',(#3139),#2926,.T.);
+#3139 = FACE_BOUND('',#3140,.T.);
+#3140 = EDGE_LOOP('',(#3141,#3142,#3143,#3144));
+#3141 = ORIENTED_EDGE('',*,*,#2912,.F.);
+#3142 = ORIENTED_EDGE('',*,*,#3063,.T.);
+#3143 = ORIENTED_EDGE('',*,*,#3017,.T.);
+#3144 = ORIENTED_EDGE('',*,*,#3110,.F.);
+#3145 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#3149)) 
+GLOBAL_UNIT_ASSIGNED_CONTEXT((#3146,#3147,#3148)) REPRESENTATION_CONTEXT
+('Context #1','3D Context with UNIT and UNCERTAINTY') );
+#3146 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#3147 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#3148 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#3149 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#3146,
+  'distance_accuracy_value','confusion accuracy');
+#3150 = PRODUCT_TYPE('part',$,(#2811));
+#3151 = SHAPE_DEFINITION_REPRESENTATION(#3152,#3158);
+#3152 = PRODUCT_DEFINITION_SHAPE('','',#3153);
+#3153 = PRODUCT_DEFINITION('design','',#3154,#3157);
+#3154 = PRODUCT_DEFINITION_FORMATION('','',#3155);
+#3155 = PRODUCT('Open CASCADE STEP translator 6.8 29',
+  'Open CASCADE STEP translator 6.8 29','',(#3156));
+#3156 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#3157 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#3158 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#3159),#3489);
+#3159 = MANIFOLD_SOLID_BREP('',#3160);
+#3160 = CLOSED_SHELL('',(#3161,#3281,#3381,#3428,#3475,#3482));
+#3161 = ADVANCED_FACE('',(#3162),#3176,.F.);
+#3162 = FACE_BOUND('',#3163,.F.);
+#3163 = EDGE_LOOP('',(#3164,#3199,#3227,#3255));
+#3164 = ORIENTED_EDGE('',*,*,#3165,.F.);
+#3165 = EDGE_CURVE('',#3166,#3168,#3170,.T.);
+#3166 = VERTEX_POINT('',#3167);
+#3167 = CARTESIAN_POINT('',(22.5,5.3,6.2));
+#3168 = VERTEX_POINT('',#3169);
+#3169 = CARTESIAN_POINT('',(22.5,5.3,5.9));
+#3170 = SURFACE_CURVE('',#3171,(#3175,#3187),.PCURVE_S1.);
+#3171 = LINE('',#3172,#3173);
+#3172 = CARTESIAN_POINT('',(22.5,5.3,6.2));
+#3173 = VECTOR('',#3174,1.);
+#3174 = DIRECTION('',(-1.224646799147E-16,0.,-1.));
+#3175 = PCURVE('',#3176,#3181);
+#3176 = PLANE('',#3177);
+#3177 = AXIS2_PLACEMENT_3D('',#3178,#3179,#3180);
+#3178 = CARTESIAN_POINT('',(22.5,5.3,6.2));
+#3179 = DIRECTION('',(-1.,0.,1.224646799147E-16));
+#3180 = DIRECTION('',(-1.224646799147E-16,0.,-1.));
+#3181 = DEFINITIONAL_REPRESENTATION('',(#3182),#3186);
+#3182 = LINE('',#3183,#3184);
+#3183 = CARTESIAN_POINT('',(0.,0.));
+#3184 = VECTOR('',#3185,1.);
+#3185 = DIRECTION('',(1.,0.));
+#3186 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3187 = PCURVE('',#3188,#3193);
+#3188 = PLANE('',#3189);
+#3189 = AXIS2_PLACEMENT_3D('',#3190,#3191,#3192);
+#3190 = CARTESIAN_POINT('',(22.5,5.3,6.2));
+#3191 = DIRECTION('',(0.,1.,0.));
+#3192 = DIRECTION('',(0.,-0.,1.));
+#3193 = DEFINITIONAL_REPRESENTATION('',(#3194),#3198);
+#3194 = LINE('',#3195,#3196);
+#3195 = CARTESIAN_POINT('',(0.,0.));
+#3196 = VECTOR('',#3197,1.);
+#3197 = DIRECTION('',(-1.,-1.224646799147E-16));
+#3198 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3199 = ORIENTED_EDGE('',*,*,#3200,.T.);
+#3200 = EDGE_CURVE('',#3166,#3201,#3203,.T.);
+#3201 = VERTEX_POINT('',#3202);
+#3202 = CARTESIAN_POINT('',(22.5,24.7,6.2));
+#3203 = SURFACE_CURVE('',#3204,(#3208,#3215),.PCURVE_S1.);
+#3204 = LINE('',#3205,#3206);
+#3205 = CARTESIAN_POINT('',(22.5,5.3,6.2));
+#3206 = VECTOR('',#3207,1.);
+#3207 = DIRECTION('',(0.,1.,0.));
+#3208 = PCURVE('',#3176,#3209);
+#3209 = DEFINITIONAL_REPRESENTATION('',(#3210),#3214);
+#3210 = LINE('',#3211,#3212);
+#3211 = CARTESIAN_POINT('',(0.,0.));
+#3212 = VECTOR('',#3213,1.);
+#3213 = DIRECTION('',(0.,-1.));
+#3214 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3215 = PCURVE('',#3216,#3221);
+#3216 = PLANE('',#3217);
+#3217 = AXIS2_PLACEMENT_3D('',#3218,#3219,#3220);
+#3218 = CARTESIAN_POINT('',(22.5,5.3,6.2));
+#3219 = DIRECTION('',(-1.224646799147E-16,0.,-1.));
+#3220 = DIRECTION('',(-1.,0.,1.224646799147E-16));
+#3221 = DEFINITIONAL_REPRESENTATION('',(#3222),#3226);
+#3222 = LINE('',#3223,#3224);
+#3223 = CARTESIAN_POINT('',(0.,0.));
+#3224 = VECTOR('',#3225,1.);
+#3225 = DIRECTION('',(0.,1.));
+#3226 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3227 = ORIENTED_EDGE('',*,*,#3228,.T.);
+#3228 = EDGE_CURVE('',#3201,#3229,#3231,.T.);
+#3229 = VERTEX_POINT('',#3230);
+#3230 = CARTESIAN_POINT('',(22.5,24.7,5.9));
+#3231 = SURFACE_CURVE('',#3232,(#3236,#3243),.PCURVE_S1.);
+#3232 = LINE('',#3233,#3234);
+#3233 = CARTESIAN_POINT('',(22.5,24.7,6.2));
+#3234 = VECTOR('',#3235,1.);
+#3235 = DIRECTION('',(-1.224646799147E-16,0.,-1.));
+#3236 = PCURVE('',#3176,#3237);
+#3237 = DEFINITIONAL_REPRESENTATION('',(#3238),#3242);
+#3238 = LINE('',#3239,#3240);
+#3239 = CARTESIAN_POINT('',(0.,-19.4));
+#3240 = VECTOR('',#3241,1.);
+#3241 = DIRECTION('',(1.,0.));
+#3242 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3243 = PCURVE('',#3244,#3249);
+#3244 = PLANE('',#3245);
+#3245 = AXIS2_PLACEMENT_3D('',#3246,#3247,#3248);
+#3246 = CARTESIAN_POINT('',(22.5,24.7,6.2));
+#3247 = DIRECTION('',(0.,1.,0.));
+#3248 = DIRECTION('',(0.,-0.,1.));
+#3249 = DEFINITIONAL_REPRESENTATION('',(#3250),#3254);
+#3250 = LINE('',#3251,#3252);
+#3251 = CARTESIAN_POINT('',(0.,0.));
+#3252 = VECTOR('',#3253,1.);
+#3253 = DIRECTION('',(-1.,-1.224646799147E-16));
+#3254 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3255 = ORIENTED_EDGE('',*,*,#3256,.F.);
+#3256 = EDGE_CURVE('',#3168,#3229,#3257,.T.);
+#3257 = SURFACE_CURVE('',#3258,(#3262,#3269),.PCURVE_S1.);
+#3258 = LINE('',#3259,#3260);
+#3259 = CARTESIAN_POINT('',(22.5,5.3,5.9));
+#3260 = VECTOR('',#3261,1.);
+#3261 = DIRECTION('',(0.,1.,0.));
+#3262 = PCURVE('',#3176,#3263);
+#3263 = DEFINITIONAL_REPRESENTATION('',(#3264),#3268);
+#3264 = LINE('',#3265,#3266);
+#3265 = CARTESIAN_POINT('',(0.3,0.));
+#3266 = VECTOR('',#3267,1.);
+#3267 = DIRECTION('',(0.,-1.));
+#3268 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3269 = PCURVE('',#3270,#3275);
+#3270 = PLANE('',#3271);
+#3271 = AXIS2_PLACEMENT_3D('',#3272,#3273,#3274);
+#3272 = CARTESIAN_POINT('',(22.5,5.3,5.9));
+#3273 = DIRECTION('',(-1.224646799147E-16,0.,-1.));
+#3274 = DIRECTION('',(-1.,0.,1.224646799147E-16));
+#3275 = DEFINITIONAL_REPRESENTATION('',(#3276),#3280);
+#3276 = LINE('',#3277,#3278);
+#3277 = CARTESIAN_POINT('',(0.,0.));
+#3278 = VECTOR('',#3279,1.);
+#3279 = DIRECTION('',(0.,1.));
+#3280 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3281 = ADVANCED_FACE('',(#3282),#3296,.T.);
+#3282 = FACE_BOUND('',#3283,.T.);
+#3283 = EDGE_LOOP('',(#3284,#3314,#3337,#3360));
+#3284 = ORIENTED_EDGE('',*,*,#3285,.F.);
+#3285 = EDGE_CURVE('',#3286,#3288,#3290,.T.);
+#3286 = VERTEX_POINT('',#3287);
+#3287 = CARTESIAN_POINT('',(17.,5.3,6.2));
+#3288 = VERTEX_POINT('',#3289);
+#3289 = CARTESIAN_POINT('',(17.,5.3,5.9));
+#3290 = SURFACE_CURVE('',#3291,(#3295,#3307),.PCURVE_S1.);
+#3291 = LINE('',#3292,#3293);
+#3292 = CARTESIAN_POINT('',(17.,5.3,6.2));
+#3293 = VECTOR('',#3294,1.);
+#3294 = DIRECTION('',(-1.224646799147E-16,0.,-1.));
+#3295 = PCURVE('',#3296,#3301);
+#3296 = PLANE('',#3297);
+#3297 = AXIS2_PLACEMENT_3D('',#3298,#3299,#3300);
+#3298 = CARTESIAN_POINT('',(17.,5.3,6.2));
+#3299 = DIRECTION('',(-1.,0.,1.224646799147E-16));
+#3300 = DIRECTION('',(-1.224646799147E-16,0.,-1.));
+#3301 = DEFINITIONAL_REPRESENTATION('',(#3302),#3306);
+#3302 = LINE('',#3303,#3304);
+#3303 = CARTESIAN_POINT('',(0.,0.));
+#3304 = VECTOR('',#3305,1.);
+#3305 = DIRECTION('',(1.,0.));
+#3306 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3307 = PCURVE('',#3188,#3308);
+#3308 = DEFINITIONAL_REPRESENTATION('',(#3309),#3313);
+#3309 = LINE('',#3310,#3311);
+#3310 = CARTESIAN_POINT('',(8.881784197001E-16,-5.5));
+#3311 = VECTOR('',#3312,1.);
+#3312 = DIRECTION('',(-1.,-1.224646799147E-16));
+#3313 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3314 = ORIENTED_EDGE('',*,*,#3315,.T.);
+#3315 = EDGE_CURVE('',#3286,#3316,#3318,.T.);
+#3316 = VERTEX_POINT('',#3317);
+#3317 = CARTESIAN_POINT('',(17.,24.7,6.2));
+#3318 = SURFACE_CURVE('',#3319,(#3323,#3330),.PCURVE_S1.);
+#3319 = LINE('',#3320,#3321);
+#3320 = CARTESIAN_POINT('',(17.,5.3,6.2));
+#3321 = VECTOR('',#3322,1.);
+#3322 = DIRECTION('',(0.,1.,0.));
+#3323 = PCURVE('',#3296,#3324);
+#3324 = DEFINITIONAL_REPRESENTATION('',(#3325),#3329);
+#3325 = LINE('',#3326,#3327);
+#3326 = CARTESIAN_POINT('',(0.,0.));
+#3327 = VECTOR('',#3328,1.);
+#3328 = DIRECTION('',(0.,-1.));
+#3329 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3330 = PCURVE('',#3216,#3331);
+#3331 = DEFINITIONAL_REPRESENTATION('',(#3332),#3336);
+#3332 = LINE('',#3333,#3334);
+#3333 = CARTESIAN_POINT('',(5.5,0.));
+#3334 = VECTOR('',#3335,1.);
+#3335 = DIRECTION('',(0.,1.));
+#3336 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3337 = ORIENTED_EDGE('',*,*,#3338,.T.);
+#3338 = EDGE_CURVE('',#3316,#3339,#3341,.T.);
+#3339 = VERTEX_POINT('',#3340);
+#3340 = CARTESIAN_POINT('',(17.,24.7,5.9));
+#3341 = SURFACE_CURVE('',#3342,(#3346,#3353),.PCURVE_S1.);
+#3342 = LINE('',#3343,#3344);
+#3343 = CARTESIAN_POINT('',(17.,24.7,6.2));
+#3344 = VECTOR('',#3345,1.);
+#3345 = DIRECTION('',(-1.224646799147E-16,0.,-1.));
+#3346 = PCURVE('',#3296,#3347);
+#3347 = DEFINITIONAL_REPRESENTATION('',(#3348),#3352);
+#3348 = LINE('',#3349,#3350);
+#3349 = CARTESIAN_POINT('',(0.,-19.4));
+#3350 = VECTOR('',#3351,1.);
+#3351 = DIRECTION('',(1.,0.));
+#3352 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3353 = PCURVE('',#3244,#3354);
+#3354 = DEFINITIONAL_REPRESENTATION('',(#3355),#3359);
+#3355 = LINE('',#3356,#3357);
+#3356 = CARTESIAN_POINT('',(8.881784197001E-16,-5.5));
+#3357 = VECTOR('',#3358,1.);
+#3358 = DIRECTION('',(-1.,-1.224646799147E-16));
+#3359 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3360 = ORIENTED_EDGE('',*,*,#3361,.F.);
+#3361 = EDGE_CURVE('',#3288,#3339,#3362,.T.);
+#3362 = SURFACE_CURVE('',#3363,(#3367,#3374),.PCURVE_S1.);
+#3363 = LINE('',#3364,#3365);
+#3364 = CARTESIAN_POINT('',(17.,5.3,5.9));
+#3365 = VECTOR('',#3366,1.);
+#3366 = DIRECTION('',(0.,1.,0.));
+#3367 = PCURVE('',#3296,#3368);
+#3368 = DEFINITIONAL_REPRESENTATION('',(#3369),#3373);
+#3369 = LINE('',#3370,#3371);
+#3370 = CARTESIAN_POINT('',(0.3,0.));
+#3371 = VECTOR('',#3372,1.);
+#3372 = DIRECTION('',(0.,-1.));
+#3373 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3374 = PCURVE('',#3270,#3375);
+#3375 = DEFINITIONAL_REPRESENTATION('',(#3376),#3380);
+#3376 = LINE('',#3377,#3378);
+#3377 = CARTESIAN_POINT('',(5.5,0.));
+#3378 = VECTOR('',#3379,1.);
+#3379 = DIRECTION('',(0.,1.));
+#3380 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3381 = ADVANCED_FACE('',(#3382),#3188,.F.);
+#3382 = FACE_BOUND('',#3383,.F.);
+#3383 = EDGE_LOOP('',(#3384,#3405,#3406,#3427));
+#3384 = ORIENTED_EDGE('',*,*,#3385,.F.);
+#3385 = EDGE_CURVE('',#3166,#3286,#3386,.T.);
+#3386 = SURFACE_CURVE('',#3387,(#3391,#3398),.PCURVE_S1.);
+#3387 = LINE('',#3388,#3389);
+#3388 = CARTESIAN_POINT('',(22.5,5.3,6.2));
+#3389 = VECTOR('',#3390,1.);
+#3390 = DIRECTION('',(-1.,0.,1.224646799147E-16));
+#3391 = PCURVE('',#3188,#3392);
+#3392 = DEFINITIONAL_REPRESENTATION('',(#3393),#3397);
+#3393 = LINE('',#3394,#3395);
+#3394 = CARTESIAN_POINT('',(0.,0.));
+#3395 = VECTOR('',#3396,1.);
+#3396 = DIRECTION('',(1.224646799147E-16,-1.));
+#3397 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3398 = PCURVE('',#3216,#3399);
+#3399 = DEFINITIONAL_REPRESENTATION('',(#3400),#3404);
+#3400 = LINE('',#3401,#3402);
+#3401 = CARTESIAN_POINT('',(0.,0.));
+#3402 = VECTOR('',#3403,1.);
+#3403 = DIRECTION('',(1.,0.));
+#3404 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3405 = ORIENTED_EDGE('',*,*,#3165,.T.);
+#3406 = ORIENTED_EDGE('',*,*,#3407,.T.);
+#3407 = EDGE_CURVE('',#3168,#3288,#3408,.T.);
+#3408 = SURFACE_CURVE('',#3409,(#3413,#3420),.PCURVE_S1.);
+#3409 = LINE('',#3410,#3411);
+#3410 = CARTESIAN_POINT('',(22.5,5.3,5.9));
+#3411 = VECTOR('',#3412,1.);
+#3412 = DIRECTION('',(-1.,0.,1.224646799147E-16));
+#3413 = PCURVE('',#3188,#3414);
+#3414 = DEFINITIONAL_REPRESENTATION('',(#3415),#3419);
+#3415 = LINE('',#3416,#3417);
+#3416 = CARTESIAN_POINT('',(-0.3,0.));
+#3417 = VECTOR('',#3418,1.);
+#3418 = DIRECTION('',(1.224646799147E-16,-1.));
+#3419 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3420 = PCURVE('',#3270,#3421);
+#3421 = DEFINITIONAL_REPRESENTATION('',(#3422),#3426);
+#3422 = LINE('',#3423,#3424);
+#3423 = CARTESIAN_POINT('',(0.,0.));
+#3424 = VECTOR('',#3425,1.);
+#3425 = DIRECTION('',(1.,0.));
+#3426 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3427 = ORIENTED_EDGE('',*,*,#3285,.F.);
+#3428 = ADVANCED_FACE('',(#3429),#3244,.T.);
+#3429 = FACE_BOUND('',#3430,.T.);
+#3430 = EDGE_LOOP('',(#3431,#3452,#3453,#3474));
+#3431 = ORIENTED_EDGE('',*,*,#3432,.F.);
+#3432 = EDGE_CURVE('',#3201,#3316,#3433,.T.);
+#3433 = SURFACE_CURVE('',#3434,(#3438,#3445),.PCURVE_S1.);
+#3434 = LINE('',#3435,#3436);
+#3435 = CARTESIAN_POINT('',(22.5,24.7,6.2));
+#3436 = VECTOR('',#3437,1.);
+#3437 = DIRECTION('',(-1.,0.,1.224646799147E-16));
+#3438 = PCURVE('',#3244,#3439);
+#3439 = DEFINITIONAL_REPRESENTATION('',(#3440),#3444);
+#3440 = LINE('',#3441,#3442);
+#3441 = CARTESIAN_POINT('',(0.,0.));
+#3442 = VECTOR('',#3443,1.);
+#3443 = DIRECTION('',(1.224646799147E-16,-1.));
+#3444 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3445 = PCURVE('',#3216,#3446);
+#3446 = DEFINITIONAL_REPRESENTATION('',(#3447),#3451);
+#3447 = LINE('',#3448,#3449);
+#3448 = CARTESIAN_POINT('',(0.,19.4));
+#3449 = VECTOR('',#3450,1.);
+#3450 = DIRECTION('',(1.,0.));
+#3451 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3452 = ORIENTED_EDGE('',*,*,#3228,.T.);
+#3453 = ORIENTED_EDGE('',*,*,#3454,.T.);
+#3454 = EDGE_CURVE('',#3229,#3339,#3455,.T.);
+#3455 = SURFACE_CURVE('',#3456,(#3460,#3467),.PCURVE_S1.);
+#3456 = LINE('',#3457,#3458);
+#3457 = CARTESIAN_POINT('',(22.5,24.7,5.9));
+#3458 = VECTOR('',#3459,1.);
+#3459 = DIRECTION('',(-1.,0.,1.224646799147E-16));
+#3460 = PCURVE('',#3244,#3461);
+#3461 = DEFINITIONAL_REPRESENTATION('',(#3462),#3466);
+#3462 = LINE('',#3463,#3464);
+#3463 = CARTESIAN_POINT('',(-0.3,0.));
+#3464 = VECTOR('',#3465,1.);
+#3465 = DIRECTION('',(1.224646799147E-16,-1.));
+#3466 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3467 = PCURVE('',#3270,#3468);
+#3468 = DEFINITIONAL_REPRESENTATION('',(#3469),#3473);
+#3469 = LINE('',#3470,#3471);
+#3470 = CARTESIAN_POINT('',(0.,19.4));
+#3471 = VECTOR('',#3472,1.);
+#3472 = DIRECTION('',(1.,0.));
+#3473 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3474 = ORIENTED_EDGE('',*,*,#3338,.F.);
+#3475 = ADVANCED_FACE('',(#3476),#3216,.F.);
+#3476 = FACE_BOUND('',#3477,.F.);
+#3477 = EDGE_LOOP('',(#3478,#3479,#3480,#3481));
+#3478 = ORIENTED_EDGE('',*,*,#3200,.F.);
+#3479 = ORIENTED_EDGE('',*,*,#3385,.T.);
+#3480 = ORIENTED_EDGE('',*,*,#3315,.T.);
+#3481 = ORIENTED_EDGE('',*,*,#3432,.F.);
+#3482 = ADVANCED_FACE('',(#3483),#3270,.T.);
+#3483 = FACE_BOUND('',#3484,.T.);
+#3484 = EDGE_LOOP('',(#3485,#3486,#3487,#3488));
+#3485 = ORIENTED_EDGE('',*,*,#3256,.F.);
+#3486 = ORIENTED_EDGE('',*,*,#3407,.T.);
+#3487 = ORIENTED_EDGE('',*,*,#3361,.T.);
+#3488 = ORIENTED_EDGE('',*,*,#3454,.F.);
+#3489 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#3493)) 
+GLOBAL_UNIT_ASSIGNED_CONTEXT((#3490,#3491,#3492)) REPRESENTATION_CONTEXT
+('Context #1','3D Context with UNIT and UNCERTAINTY') );
+#3490 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#3491 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#3492 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#3493 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#3490,
+  'distance_accuracy_value','confusion accuracy');
+#3494 = PRODUCT_TYPE('part',$,(#3155));
+#3495 = SHAPE_DEFINITION_REPRESENTATION(#3496,#3502);
+#3496 = PRODUCT_DEFINITION_SHAPE('','',#3497);
+#3497 = PRODUCT_DEFINITION('design','',#3498,#3501);
+#3498 = PRODUCT_DEFINITION_FORMATION('','',#3499);
+#3499 = PRODUCT('Open CASCADE STEP translator 6.8 30',
+  'Open CASCADE STEP translator 6.8 30','',(#3500));
+#3500 = MECHANICAL_CONTEXT('',#2,'mechanical');
+#3501 = PRODUCT_DEFINITION_CONTEXT('part definition',#2,'design');
+#3502 = ADVANCED_BREP_SHAPE_REPRESENTATION('',(#11,#3503),#3833);
+#3503 = MANIFOLD_SOLID_BREP('',#3504);
+#3504 = CLOSED_SHELL('',(#3505,#3625,#3725,#3772,#3819,#3826));
+#3505 = ADVANCED_FACE('',(#3506),#3520,.F.);
+#3506 = FACE_BOUND('',#3507,.F.);
+#3507 = EDGE_LOOP('',(#3508,#3543,#3571,#3599));
+#3508 = ORIENTED_EDGE('',*,*,#3509,.F.);
+#3509 = EDGE_CURVE('',#3510,#3512,#3514,.T.);
+#3510 = VERTEX_POINT('',#3511);
+#3511 = CARTESIAN_POINT('',(22.8,5.3,5.5));
+#3512 = VERTEX_POINT('',#3513);
+#3513 = CARTESIAN_POINT('',(23.1,5.3,5.5));
+#3514 = SURFACE_CURVE('',#3515,(#3519,#3531),.PCURVE_S1.);
+#3515 = LINE('',#3516,#3517);
+#3516 = CARTESIAN_POINT('',(22.8,5.3,5.5));
+#3517 = VECTOR('',#3518,1.);
+#3518 = DIRECTION('',(1.,0.,-2.22044604925E-16));
+#3519 = PCURVE('',#3520,#3525);
+#3520 = PLANE('',#3521);
+#3521 = AXIS2_PLACEMENT_3D('',#3522,#3523,#3524);
+#3522 = CARTESIAN_POINT('',(22.8,5.3,5.5));
+#3523 = DIRECTION('',(-2.22044604925E-16,0.,-1.));
+#3524 = DIRECTION('',(-1.,0.,2.22044604925E-16));
+#3525 = DEFINITIONAL_REPRESENTATION('',(#3526),#3530);
+#3526 = LINE('',#3527,#3528);
+#3527 = CARTESIAN_POINT('',(0.,0.));
+#3528 = VECTOR('',#3529,1.);
+#3529 = DIRECTION('',(-1.,0.));
+#3530 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3531 = PCURVE('',#3532,#3537);
+#3532 = PLANE('',#3533);
+#3533 = AXIS2_PLACEMENT_3D('',#3534,#3535,#3536);
+#3534 = CARTESIAN_POINT('',(22.8,5.3,5.5));
+#3535 = DIRECTION('',(0.,1.,0.));
+#3536 = DIRECTION('',(0.,-0.,1.));
+#3537 = DEFINITIONAL_REPRESENTATION('',(#3538),#3542);
+#3538 = LINE('',#3539,#3540);
+#3539 = CARTESIAN_POINT('',(0.,0.));
+#3540 = VECTOR('',#3541,1.);
+#3541 = DIRECTION('',(-2.22044604925E-16,1.));
+#3542 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3543 = ORIENTED_EDGE('',*,*,#3544,.T.);
+#3544 = EDGE_CURVE('',#3510,#3545,#3547,.T.);
+#3545 = VERTEX_POINT('',#3546);
+#3546 = CARTESIAN_POINT('',(22.8,24.7,5.5));
+#3547 = SURFACE_CURVE('',#3548,(#3552,#3559),.PCURVE_S1.);
+#3548 = LINE('',#3549,#3550);
+#3549 = CARTESIAN_POINT('',(22.8,5.3,5.5));
+#3550 = VECTOR('',#3551,1.);
+#3551 = DIRECTION('',(0.,1.,0.));
+#3552 = PCURVE('',#3520,#3553);
+#3553 = DEFINITIONAL_REPRESENTATION('',(#3554),#3558);
+#3554 = LINE('',#3555,#3556);
+#3555 = CARTESIAN_POINT('',(0.,0.));
+#3556 = VECTOR('',#3557,1.);
+#3557 = DIRECTION('',(0.,1.));
+#3558 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3559 = PCURVE('',#3560,#3565);
+#3560 = PLANE('',#3561);
+#3561 = AXIS2_PLACEMENT_3D('',#3562,#3563,#3564);
+#3562 = CARTESIAN_POINT('',(22.8,5.3,5.5));
+#3563 = DIRECTION('',(1.,0.,-2.22044604925E-16));
+#3564 = DIRECTION('',(2.22044604925E-16,0.,1.));
+#3565 = DEFINITIONAL_REPRESENTATION('',(#3566),#3570);
+#3566 = LINE('',#3567,#3568);
+#3567 = CARTESIAN_POINT('',(0.,0.));
+#3568 = VECTOR('',#3569,1.);
+#3569 = DIRECTION('',(0.,-1.));
+#3570 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3571 = ORIENTED_EDGE('',*,*,#3572,.T.);
+#3572 = EDGE_CURVE('',#3545,#3573,#3575,.T.);
+#3573 = VERTEX_POINT('',#3574);
+#3574 = CARTESIAN_POINT('',(23.1,24.7,5.5));
+#3575 = SURFACE_CURVE('',#3576,(#3580,#3587),.PCURVE_S1.);
+#3576 = LINE('',#3577,#3578);
+#3577 = CARTESIAN_POINT('',(22.8,24.7,5.5));
+#3578 = VECTOR('',#3579,1.);
+#3579 = DIRECTION('',(1.,0.,-2.22044604925E-16));
+#3580 = PCURVE('',#3520,#3581);
+#3581 = DEFINITIONAL_REPRESENTATION('',(#3582),#3586);
+#3582 = LINE('',#3583,#3584);
+#3583 = CARTESIAN_POINT('',(0.,19.4));
+#3584 = VECTOR('',#3585,1.);
+#3585 = DIRECTION('',(-1.,0.));
+#3586 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3587 = PCURVE('',#3588,#3593);
+#3588 = PLANE('',#3589);
+#3589 = AXIS2_PLACEMENT_3D('',#3590,#3591,#3592);
+#3590 = CARTESIAN_POINT('',(22.8,24.7,5.5));
+#3591 = DIRECTION('',(0.,1.,0.));
+#3592 = DIRECTION('',(0.,-0.,1.));
+#3593 = DEFINITIONAL_REPRESENTATION('',(#3594),#3598);
+#3594 = LINE('',#3595,#3596);
+#3595 = CARTESIAN_POINT('',(0.,0.));
+#3596 = VECTOR('',#3597,1.);
+#3597 = DIRECTION('',(-2.22044604925E-16,1.));
+#3598 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3599 = ORIENTED_EDGE('',*,*,#3600,.F.);
+#3600 = EDGE_CURVE('',#3512,#3573,#3601,.T.);
+#3601 = SURFACE_CURVE('',#3602,(#3606,#3613),.PCURVE_S1.);
+#3602 = LINE('',#3603,#3604);
+#3603 = CARTESIAN_POINT('',(23.1,5.3,5.5));
+#3604 = VECTOR('',#3605,1.);
+#3605 = DIRECTION('',(0.,1.,0.));
+#3606 = PCURVE('',#3520,#3607);
+#3607 = DEFINITIONAL_REPRESENTATION('',(#3608),#3612);
+#3608 = LINE('',#3609,#3610);
+#3609 = CARTESIAN_POINT('',(-0.3,0.));
+#3610 = VECTOR('',#3611,1.);
+#3611 = DIRECTION('',(0.,1.));
+#3612 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3613 = PCURVE('',#3614,#3619);
+#3614 = PLANE('',#3615);
+#3615 = AXIS2_PLACEMENT_3D('',#3616,#3617,#3618);
+#3616 = CARTESIAN_POINT('',(23.1,5.3,5.5));
+#3617 = DIRECTION('',(1.,0.,-2.22044604925E-16));
+#3618 = DIRECTION('',(2.22044604925E-16,0.,1.));
+#3619 = DEFINITIONAL_REPRESENTATION('',(#3620),#3624);
+#3620 = LINE('',#3621,#3622);
+#3621 = CARTESIAN_POINT('',(0.,0.));
+#3622 = VECTOR('',#3623,1.);
+#3623 = DIRECTION('',(0.,-1.));
+#3624 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3625 = ADVANCED_FACE('',(#3626),#3640,.T.);
+#3626 = FACE_BOUND('',#3627,.T.);
+#3627 = EDGE_LOOP('',(#3628,#3658,#3681,#3704));
+#3628 = ORIENTED_EDGE('',*,*,#3629,.F.);
+#3629 = EDGE_CURVE('',#3630,#3632,#3634,.T.);
+#3630 = VERTEX_POINT('',#3631);
+#3631 = CARTESIAN_POINT('',(22.8,5.3,0.));
+#3632 = VERTEX_POINT('',#3633);
+#3633 = CARTESIAN_POINT('',(23.1,5.3,-6.661338147751E-17));
+#3634 = SURFACE_CURVE('',#3635,(#3639,#3651),.PCURVE_S1.);
+#3635 = LINE('',#3636,#3637);
+#3636 = CARTESIAN_POINT('',(22.8,5.3,0.));
+#3637 = VECTOR('',#3638,1.);
+#3638 = DIRECTION('',(1.,0.,-2.22044604925E-16));
+#3639 = PCURVE('',#3640,#3645);
+#3640 = PLANE('',#3641);
+#3641 = AXIS2_PLACEMENT_3D('',#3642,#3643,#3644);
+#3642 = CARTESIAN_POINT('',(22.8,5.3,0.));
+#3643 = DIRECTION('',(-2.22044604925E-16,0.,-1.));
+#3644 = DIRECTION('',(-1.,0.,2.22044604925E-16));
+#3645 = DEFINITIONAL_REPRESENTATION('',(#3646),#3650);
+#3646 = LINE('',#3647,#3648);
+#3647 = CARTESIAN_POINT('',(0.,0.));
+#3648 = VECTOR('',#3649,1.);
+#3649 = DIRECTION('',(-1.,0.));
+#3650 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3651 = PCURVE('',#3532,#3652);
+#3652 = DEFINITIONAL_REPRESENTATION('',(#3653),#3657);
+#3653 = LINE('',#3654,#3655);
+#3654 = CARTESIAN_POINT('',(-5.5,0.));
+#3655 = VECTOR('',#3656,1.);
+#3656 = DIRECTION('',(-2.22044604925E-16,1.));
+#3657 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3658 = ORIENTED_EDGE('',*,*,#3659,.T.);
+#3659 = EDGE_CURVE('',#3630,#3660,#3662,.T.);
+#3660 = VERTEX_POINT('',#3661);
+#3661 = CARTESIAN_POINT('',(22.8,24.7,0.));
+#3662 = SURFACE_CURVE('',#3663,(#3667,#3674),.PCURVE_S1.);
+#3663 = LINE('',#3664,#3665);
+#3664 = CARTESIAN_POINT('',(22.8,5.3,0.));
+#3665 = VECTOR('',#3666,1.);
+#3666 = DIRECTION('',(0.,1.,0.));
+#3667 = PCURVE('',#3640,#3668);
+#3668 = DEFINITIONAL_REPRESENTATION('',(#3669),#3673);
+#3669 = LINE('',#3670,#3671);
+#3670 = CARTESIAN_POINT('',(0.,0.));
+#3671 = VECTOR('',#3672,1.);
+#3672 = DIRECTION('',(0.,1.));
+#3673 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3674 = PCURVE('',#3560,#3675);
+#3675 = DEFINITIONAL_REPRESENTATION('',(#3676),#3680);
+#3676 = LINE('',#3677,#3678);
+#3677 = CARTESIAN_POINT('',(-5.5,0.));
+#3678 = VECTOR('',#3679,1.);
+#3679 = DIRECTION('',(0.,-1.));
+#3680 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3681 = ORIENTED_EDGE('',*,*,#3682,.T.);
+#3682 = EDGE_CURVE('',#3660,#3683,#3685,.T.);
+#3683 = VERTEX_POINT('',#3684);
+#3684 = CARTESIAN_POINT('',(23.1,24.7,-6.661338147751E-17));
+#3685 = SURFACE_CURVE('',#3686,(#3690,#3697),.PCURVE_S1.);
+#3686 = LINE('',#3687,#3688);
+#3687 = CARTESIAN_POINT('',(22.8,24.7,0.));
+#3688 = VECTOR('',#3689,1.);
+#3689 = DIRECTION('',(1.,0.,-2.22044604925E-16));
+#3690 = PCURVE('',#3640,#3691);
+#3691 = DEFINITIONAL_REPRESENTATION('',(#3692),#3696);
+#3692 = LINE('',#3693,#3694);
+#3693 = CARTESIAN_POINT('',(0.,19.4));
+#3694 = VECTOR('',#3695,1.);
+#3695 = DIRECTION('',(-1.,0.));
+#3696 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3697 = PCURVE('',#3588,#3698);
+#3698 = DEFINITIONAL_REPRESENTATION('',(#3699),#3703);
+#3699 = LINE('',#3700,#3701);
+#3700 = CARTESIAN_POINT('',(-5.5,0.));
+#3701 = VECTOR('',#3702,1.);
+#3702 = DIRECTION('',(-2.22044604925E-16,1.));
+#3703 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3704 = ORIENTED_EDGE('',*,*,#3705,.F.);
+#3705 = EDGE_CURVE('',#3632,#3683,#3706,.T.);
+#3706 = SURFACE_CURVE('',#3707,(#3711,#3718),.PCURVE_S1.);
+#3707 = LINE('',#3708,#3709);
+#3708 = CARTESIAN_POINT('',(23.1,5.3,-6.661338147751E-17));
+#3709 = VECTOR('',#3710,1.);
+#3710 = DIRECTION('',(0.,1.,0.));
+#3711 = PCURVE('',#3640,#3712);
+#3712 = DEFINITIONAL_REPRESENTATION('',(#3713),#3717);
+#3713 = LINE('',#3714,#3715);
+#3714 = CARTESIAN_POINT('',(-0.3,0.));
+#3715 = VECTOR('',#3716,1.);
+#3716 = DIRECTION('',(0.,1.));
+#3717 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3718 = PCURVE('',#3614,#3719);
+#3719 = DEFINITIONAL_REPRESENTATION('',(#3720),#3724);
+#3720 = LINE('',#3721,#3722);
+#3721 = CARTESIAN_POINT('',(-5.5,0.));
+#3722 = VECTOR('',#3723,1.);
+#3723 = DIRECTION('',(0.,-1.));
+#3724 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3725 = ADVANCED_FACE('',(#3726),#3532,.F.);
+#3726 = FACE_BOUND('',#3727,.F.);
+#3727 = EDGE_LOOP('',(#3728,#3749,#3750,#3771));
+#3728 = ORIENTED_EDGE('',*,*,#3729,.F.);
+#3729 = EDGE_CURVE('',#3510,#3630,#3730,.T.);
+#3730 = SURFACE_CURVE('',#3731,(#3735,#3742),.PCURVE_S1.);
+#3731 = LINE('',#3732,#3733);
+#3732 = CARTESIAN_POINT('',(22.8,5.3,5.5));
+#3733 = VECTOR('',#3734,1.);
+#3734 = DIRECTION('',(-2.22044604925E-16,0.,-1.));
+#3735 = PCURVE('',#3532,#3736);
+#3736 = DEFINITIONAL_REPRESENTATION('',(#3737),#3741);
+#3737 = LINE('',#3738,#3739);
+#3738 = CARTESIAN_POINT('',(0.,0.));
+#3739 = VECTOR('',#3740,1.);
+#3740 = DIRECTION('',(-1.,-2.22044604925E-16));
+#3741 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3742 = PCURVE('',#3560,#3743);
+#3743 = DEFINITIONAL_REPRESENTATION('',(#3744),#3748);
+#3744 = LINE('',#3745,#3746);
+#3745 = CARTESIAN_POINT('',(0.,0.));
+#3746 = VECTOR('',#3747,1.);
+#3747 = DIRECTION('',(-1.,-0.));
+#3748 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3749 = ORIENTED_EDGE('',*,*,#3509,.T.);
+#3750 = ORIENTED_EDGE('',*,*,#3751,.T.);
+#3751 = EDGE_CURVE('',#3512,#3632,#3752,.T.);
+#3752 = SURFACE_CURVE('',#3753,(#3757,#3764),.PCURVE_S1.);
+#3753 = LINE('',#3754,#3755);
+#3754 = CARTESIAN_POINT('',(23.1,5.3,5.5));
+#3755 = VECTOR('',#3756,1.);
+#3756 = DIRECTION('',(-2.22044604925E-16,0.,-1.));
+#3757 = PCURVE('',#3532,#3758);
+#3758 = DEFINITIONAL_REPRESENTATION('',(#3759),#3763);
+#3759 = LINE('',#3760,#3761);
+#3760 = CARTESIAN_POINT('',(0.,0.3));
+#3761 = VECTOR('',#3762,1.);
+#3762 = DIRECTION('',(-1.,-2.22044604925E-16));
+#3763 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3764 = PCURVE('',#3614,#3765);
+#3765 = DEFINITIONAL_REPRESENTATION('',(#3766),#3770);
+#3766 = LINE('',#3767,#3768);
+#3767 = CARTESIAN_POINT('',(0.,0.));
+#3768 = VECTOR('',#3769,1.);
+#3769 = DIRECTION('',(-1.,-0.));
+#3770 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3771 = ORIENTED_EDGE('',*,*,#3629,.F.);
+#3772 = ADVANCED_FACE('',(#3773),#3588,.T.);
+#3773 = FACE_BOUND('',#3774,.T.);
+#3774 = EDGE_LOOP('',(#3775,#3796,#3797,#3818));
+#3775 = ORIENTED_EDGE('',*,*,#3776,.F.);
+#3776 = EDGE_CURVE('',#3545,#3660,#3777,.T.);
+#3777 = SURFACE_CURVE('',#3778,(#3782,#3789),.PCURVE_S1.);
+#3778 = LINE('',#3779,#3780);
+#3779 = CARTESIAN_POINT('',(22.8,24.7,5.5));
+#3780 = VECTOR('',#3781,1.);
+#3781 = DIRECTION('',(-2.22044604925E-16,0.,-1.));
+#3782 = PCURVE('',#3588,#3783);
+#3783 = DEFINITIONAL_REPRESENTATION('',(#3784),#3788);
+#3784 = LINE('',#3785,#3786);
+#3785 = CARTESIAN_POINT('',(0.,0.));
+#3786 = VECTOR('',#3787,1.);
+#3787 = DIRECTION('',(-1.,-2.22044604925E-16));
+#3788 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3789 = PCURVE('',#3560,#3790);
+#3790 = DEFINITIONAL_REPRESENTATION('',(#3791),#3795);
+#3791 = LINE('',#3792,#3793);
+#3792 = CARTESIAN_POINT('',(0.,-19.4));
+#3793 = VECTOR('',#3794,1.);
+#3794 = DIRECTION('',(-1.,-0.));
+#3795 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3796 = ORIENTED_EDGE('',*,*,#3572,.T.);
+#3797 = ORIENTED_EDGE('',*,*,#3798,.T.);
+#3798 = EDGE_CURVE('',#3573,#3683,#3799,.T.);
+#3799 = SURFACE_CURVE('',#3800,(#3804,#3811),.PCURVE_S1.);
+#3800 = LINE('',#3801,#3802);
+#3801 = CARTESIAN_POINT('',(23.1,24.7,5.5));
+#3802 = VECTOR('',#3803,1.);
+#3803 = DIRECTION('',(-2.22044604925E-16,0.,-1.));
+#3804 = PCURVE('',#3588,#3805);
+#3805 = DEFINITIONAL_REPRESENTATION('',(#3806),#3810);
+#3806 = LINE('',#3807,#3808);
+#3807 = CARTESIAN_POINT('',(0.,0.3));
+#3808 = VECTOR('',#3809,1.);
+#3809 = DIRECTION('',(-1.,-2.22044604925E-16));
+#3810 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3811 = PCURVE('',#3614,#3812);
+#3812 = DEFINITIONAL_REPRESENTATION('',(#3813),#3817);
+#3813 = LINE('',#3814,#3815);
+#3814 = CARTESIAN_POINT('',(0.,-19.4));
+#3815 = VECTOR('',#3816,1.);
+#3816 = DIRECTION('',(-1.,-0.));
+#3817 = ( GEOMETRIC_REPRESENTATION_CONTEXT(2) 
+PARAMETRIC_REPRESENTATION_CONTEXT() REPRESENTATION_CONTEXT('2D SPACE',''
+  ) );
+#3818 = ORIENTED_EDGE('',*,*,#3682,.F.);
+#3819 = ADVANCED_FACE('',(#3820),#3560,.F.);
+#3820 = FACE_BOUND('',#3821,.F.);
+#3821 = EDGE_LOOP('',(#3822,#3823,#3824,#3825));
+#3822 = ORIENTED_EDGE('',*,*,#3544,.F.);
+#3823 = ORIENTED_EDGE('',*,*,#3729,.T.);
+#3824 = ORIENTED_EDGE('',*,*,#3659,.T.);
+#3825 = ORIENTED_EDGE('',*,*,#3776,.F.);
+#3826 = ADVANCED_FACE('',(#3827),#3614,.T.);
+#3827 = FACE_BOUND('',#3828,.T.);
+#3828 = EDGE_LOOP('',(#3829,#3830,#3831,#3832));
+#3829 = ORIENTED_EDGE('',*,*,#3600,.F.);
+#3830 = ORIENTED_EDGE('',*,*,#3751,.T.);
+#3831 = ORIENTED_EDGE('',*,*,#3705,.T.);
+#3832 = ORIENTED_EDGE('',*,*,#3798,.F.);
+#3833 = ( GEOMETRIC_REPRESENTATION_CONTEXT(3) 
+GLOBAL_UNCERTAINTY_ASSIGNED_CONTEXT((#3837)) 
+GLOBAL_UNIT_ASSIGNED_CONTEXT((#3834,#3835,#3836)) REPRESENTATION_CONTEXT
+('Context #1','3D Context with UNIT and UNCERTAINTY') );
+#3834 = ( LENGTH_UNIT() NAMED_UNIT(*) SI_UNIT(.MILLI.,.METRE.) );
+#3835 = ( NAMED_UNIT(*) PLANE_ANGLE_UNIT() SI_UNIT($,.RADIAN.) );
+#3836 = ( NAMED_UNIT(*) SI_UNIT($,.STERADIAN.) SOLID_ANGLE_UNIT() );
+#3837 = UNCERTAINTY_MEASURE_WITH_UNIT(LENGTH_MEASURE(1.E-07),#3834,
+  'distance_accuracy_value','confusion accuracy');
+#3838 = PRODUCT_TYPE('part',$,(#3499));
+ENDSEC;
+END-ISO-10303-21;
+
+]]>
+</file_text>
+    </STEP_file>
+</HeeksCAD_Document>
