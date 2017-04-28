@@ -3,8 +3,8 @@ import time                #Importamos libreria para el control de tiempos
 import numpy as np
 
 GPIO.setmode(GPIO.BOARD)   #Ponemos la Raspberry en modo BOARD
-GPIO.setup(12,GPIO.OUT)    #Ponemos el pin 21 como salida
-p = GPIO.PWM(12,50)        #Ponemos el pin 21 en modo PWM y enviamos 50 pulsos por segundo
+GPIO.setup(12,GPIO.OUT)    #Ponemos el pin 12 como salida
+p = GPIO.PWM(12,50)        #Ponemos el pin 12 en modo PWM y enviamos 50 pulsos por segundo
 
 print "inicio en 0"        # Se inicia el servo con un estado 0= stop
 p.start(0)		   #Inicia El tren de pulsos
