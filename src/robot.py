@@ -3,7 +3,7 @@
 #
 # Realizado por: Estudiantes de la universidad del valle.
 # Heberth Alexander Ardila Cuellar / heberthardila@gmail.com / 3128204694 / uavlabs.org
-# Jaime Andres Aranda  / jaoa95@gmail.com ###
+# Jaime Andres Aranda  / jaime-aranda@outlook.com / 3023476635 ###
 #
 #
 # Este software se encuentra bajo la licencia GPLv3 disponible sobre este repositorio, sientase libre de modificarlo
