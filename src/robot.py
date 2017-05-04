@@ -9,7 +9,64 @@
 # Este software se encuentra bajo la licencia GPLv3 disponible sobre este repositorio, sientase libre de modificarlo
 # ajustarlo y redistribuirlo manteniendo la licencia y los autores
 
+<<<<<<< HEAD
+
+## Sobre los siguientes diagramas, se describen la conexiones que se ralizan sobre los sensores y el sistema
+
+# ## Motores DC 12v
+#motor_izquierdo_adelante, motor_izquierdo_atras, motor_derecho_adelante, motor_derecho_atras:
+#       __
+# ---------------
+# M1          M2
+#
+#
+# M3          M4
+# ---------------
+
+##Controladores L298N
+## Se utilizaran dos controladores para los motores
+# Cont1, Cont2:
+# (EnA)
+# (In1)
+# (In2)
+# (In3)
+# (In4)
+# (EnB)
+
+##Sensor Sonar HC SR04 Utilizado para calcular el promedio de la distancia a un objeto.
+#sonar_izquierdo, sonar_derecho
+#(Trig)
+#(Echo)
+
+## Pines de conexion para la raspberry pi 3 en modo BOARD
+#	(01)	                 (02)
+#	(03)Cont1.M1.EnA	     (04)
+#	(05)Cont1.M1.In1	     (06)
+#	(07)Cont1.M1.In2	     (08)
+#	(09)	                 (10)
+#	(11)Cont1.M3.In3	     (12)
+#	(13)Cont1.M3.In4	     (14)
+#	(14)Cont1.M3.EnB	     (16)
+#	(17)	                 (18)
+#	(19)	                 (20)
+#	(21)	                 (22)
+#	(23)	                 (24)
+#	(25)	                 (26)
+#	(27)Cont2.M2.EnA	     (28)
+#	(29)Cont2.M2.In1	     (30)
+#	(31)Cont2.M2.In2	     (32)
+#	(33)Cont2.M4.In3	     (34)
+#	(35)Cont2.M4.InB	     (36)
+#	(37)	                 (38)
+#	(39)	                 (40)
+
+
+
+
+#importamos libreria del sistema
+=======
 # importamos libreria del sistema
+>>>>>>> 04aca809c37a5071156cd3246b7703d0a6ef4a9e
 import sys
 # from hcsr04sensor import sensor
 # Importamos libreria GPIO
@@ -40,7 +97,11 @@ xcord = 0
 ycord = 0
 radiopelota = 0
 
+<<<<<<< HEAD
+#Iniciando el software..
+=======
 # Inicializacion del software
+>>>>>>> 04aca809c37a5071156cd3246b7703d0a6ef4a9e
 print "Iniciando el software para el control del robot...."
 print "Info de la PI"
 print GPIO.RPI_INFO
