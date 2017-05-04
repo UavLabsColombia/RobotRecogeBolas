@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/PycharmProjects/objetos2/.idea/objetos2.iml" filepath="$USER_HOME$/PycharmProjects/objetos2/.idea/objetos2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../../prueba/.idea/prueba.iml" filepath="$PROJECT_DIR$/../../../../prueba/.idea/prueba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/structure.iml" filepath="$PROJECT_DIR$/.idea/structure.iml" />
+    </modules>
+  </component>
+</project>

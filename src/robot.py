@@ -9,14 +9,14 @@
 # Este software se encuentra bajo la licencia GPLv3 disponible sobre este repositorio, sientase libre de modificarlo
 # ajustarlo y redistribuirlo manteniendo la licencia y los autores
 
-#importamos libreria del sistema
+# importamos libreria del sistema
 import sys
-#from hcsr04sensor import sensor
-#Importamos libreria GPIO
- import RPi.GPIO as GPIO
-#Importamos librerias para el control de tiempos
+# from hcsr04sensor import sensor
+# Importamos libreria GPIO
+import RPi.GPIO as GPIO
+# Importamos librerias para el control de tiempos
 import time
-#Importamos librerias para el control de hilos o multihilos
+# Importamos librerias para el control de hilos o multihilos
 from threading import Thread
 # se importa libreria SimpleCV "Vision por Computador Simple"
 from SimpleCV import *
@@ -27,20 +27,20 @@ GPIO.setmode(GPIO.BOARD)
 ##Elementos globales para la clase
 # posiciones
 # 0 = motor1A  1=motor1B 2=motor2A 3=motor2B
-channel=[11,12,13,15,16,18]
-#channel=[13,15]
-#version de opencv
+channel = [11, 12, 13, 15, 16, 18]
+# channel=[13,15]
+# version de opencv
 # se confirma version de OPENCV instalado
-cversion= cv2.__version__
+cversion = cv2.__version__
 ##
 ##cont=0
 
-#Definimos las coordenadas para los objetos circulares en pantalla
+# Definimos las coordenadas para los objetos circulares en pantalla
 xcord = 0
 ycord = 0
 radiopelota = 0
 
-#Inicializacion del software
+# Inicializacion del software
 print "Iniciando el software para el control del robot...."
 print "Info de la PI"
 print GPIO.RPI_INFO
@@ -49,10 +49,10 @@ print "Version de python:", sys.version
 
 # Se imprime el modo de configuracion para los pines
 mode = GPIO.getmode()
-if(mode==10):
- print "modo de la tarjeta:",mode ,"(BOARD)"
-if(mode==11):
- print "modo de la tarjeta:", mode ,"(BCM)"
+if (mode == 10):
+    print "modo de la tarjeta:", mode, "(BOARD)"
+if (mode == 11):
+    print "modo de la tarjeta:", mode, "(BCM)"
 
 # se quitan las alertas de re-definicion para los pines
 GPIO.setwarnings(False)
@@ -77,67 +77,75 @@ print "Iniciando SimpleCV y camara.."
 cam = SimpleCV.Camera(0)
 print "Camara OK"
 
+
 ## MOvimientos para los motores
 # los siguientes metodos describen los sentidos de giros para el robot, adelante, atras, derecha, izquierda, stop
 def izquierda():
- print "Izquierda"
- GPIO.output(channel[3], GPIO.HIGH)
- GPIO.output(channel[2], GPIO.LOW)
+    print "Izquierda"
+    GPIO.output(channel[3], GPIO.HIGH)
+    GPIO.output(channel[2], GPIO.LOW)
+
 
 def derecha():
- print "Derecha"
- GPIO.output(channel[2], GPIO.HIGH)
- GPIO.output(channel[3], GPIO.LOW)
+    print "Derecha"
+    GPIO.output(channel[2], GPIO.HIGH)
+    GPIO.output(channel[3], GPIO.LOW)
+
 
 def adelante():
- print "Adelante"
- GPIO.output(channel[0],GPIO.LOW)
- GPIO.output(channel[1],GPIO.HIGH)
- # GPIO.output(channel[0], GPIO.LOW)
+    print "Adelante"
+    GPIO.output(channel[0], GPIO.LOW)
+    GPIO.output(channel[1], GPIO.HIGH)
+    # GPIO.output(channel[0], GPIO.LOW)
+
 
 def atras():
- print "Atras"
- GPIO.output(channel[1], GPIO.HIGH)
- GPIO.output(channel[0], GPIO.LOW)
+    print "Atras"
+    GPIO.output(channel[1], GPIO.HIGH)
+    GPIO.output(channel[0], GPIO.LOW)
+
 
 def stop():
- print "Stop"
- GPIO.output(channel[4], GPIO.LOW)
- GPIO.output(channel[5], GPIO.LOW)
+    print "Stop"
+    GPIO.output(channel[4], GPIO.LOW)
+    GPIO.output(channel[5], GPIO.LOW)
+
 
 ## numero de sonares que tendra disponible el robot
 
-sonar_trig=[21,23,25,27]
-sonar_echo=[22,24,26,28]
+sonar_trig = [21, 23, 25, 27]
+sonar_echo = [22, 24, 26, 28]
+
 
 ## Este metodo describe el funcionamiento del sensor HC-SR04, el cual retorna la distancia en CM de algun obstaculo
 def dist_objeto(trig, echo):
-  print "Distancia en proceso de calculo..."
-  ##Se inicial a distancia en 0 indicando que no hay datos sobre la lectura de distancia.
-  distancia = 0
-  ## Se define el pin trig y el pin echo para el sensor
-  GPIO.setup(trig, GPIO.OUT)
-  GPIO.setup(echo, GPIO.IN)
-  ## se apaga el pulso para no generar interferencias.
-  GPIO.output(trig, GPIO.LOW)
-  ## tiempo que dura el pulso apagado 2microsegundos
-  time.sleep(2*10**-6)
-  ## se enciende el pulso durante 10microsegundos
-  GPIO.output(trig, GPIO.HIGH)
-  time.sleep(10*10**-6)
-  ## se apaga el pulso
-  GPIO.output(trig, GPIO.LOW)
-  print "No llega senial"
-  ## se empieza a contabilizar el tiempo mientras no se llegue senial.
-  while GPIO.input(echo)==0:
-      pulse_start=time.time()
-  ## si se recibe senial en el sensor toma el tiempo
-  print "llegando senial"
-  while GPIO.input(echo)==1:
-      pulse_end= time.time()
-  duracion_pulso= pulse_end - pulse_start
-  distancia = (duracion_pulso * 34300)/2
-  return distancia
+    print "Distancia en proceso de calculo..."
+    ##Se inicial a distancia en 0 indicando que no hay datos sobre la lectura de distancia.
+    distancia = 0
+    ## Se define el pin trig y el pin echo para el sensor
+    GPIO.setup(trig, GPIO.OUT)
+    GPIO.setup(echo, GPIO.IN)
+    ## se apaga el pulso para no generar interferencias.
+    GPIO.output(trig, GPIO.LOW)
+    ## tiempo que dura el pulso apagado 2microsegundos
+    time.sleep(2 * 10 ** -6)
+    ## se enciende el pulso durante 10microsegundos
+    GPIO.output(trig, GPIO.HIGH)
+    time.sleep(10 * 10 ** -6)
+    ## se apaga el pulso
+    GPIO.output(trig, GPIO.LOW)
+    print "No llega senial"
+    ## se empieza a contabilizar el tiempo mientras no se llegue senial.
+    while GPIO.input(echo) == 0:
+        pulse_start = time.time()
+    ## si se recibe senial en el sensor toma el tiempo
+    print "llegando senial"
+    while GPIO.input(echo) == 1:
+        pulse_end = time.time()
+    duracion_pulso = pulse_end - pulse_start
+    distancia = (duracion_pulso * 34300) / 2
+    return distancia
+
 
 ##Metodo que sensa la camara y reconoce algun objeto de esta, imprime las coordenadas en X,y y diametro de la circunferencia
 def hubicar_pelota():
@@ -152,69 +160,74 @@ def hubicar_pelota():
         radiopelota = 0
         img = cam.getImage().flipHorizontal()
         dist = img.colorDistance(SimpleCV.Color.WHITE).dilate(2)
-        segmented = dist.stretch(230,255)
+        segmented = dist.stretch(230, 255)
         blobs = segmented.findBlobs()
         if blobs:
             circles = blobs.filter([b.isCircle(0.3) for b in blobs])
             if circles:
-                #print "X:",circles[-1].x , "Y:", circles[-1].y, "Radio:", circles[-1].radius()
+                # print "X:",circles[-1].x , "Y:", circles[-1].y, "Radio:", circles[-1].radius()
                 xcord = circles[-1].x
                 ycord = circles[-1].y
                 radiopelota = circles[-1].radius()
     tiempo_final = time.time()
     print "Tiempo ejecucion:", tiempo_final - tiempo_inicial
-    print "Xcord:", xcord, "Ycord:", ycord , "Radio", radiopelota
+    print "Xcord:", xcord, "Ycord:", ycord, "Radio", radiopelota
+
 
 def donde_ir():
     print "Llengo a la pelota"
 
+
 def determinar_obstaculos():
     print "Determinando obtaculos..."
-    #Se toman las distancias de los sonares
-
+    # Se toman las distancias de los sonares
 
 
 # funcion que obtiene un pulso electrico de un puerto digital, sensando el dato de entrada, parando o iniciando el sistema.
 def pulsador():
-  estado_boton=1
-  return estado_boton
+    estado_boton = 1
+    return estado_boton
+
 
 ##se define el metodo que sensara todo el sistema
 def sensar():
-    #while True:
-        #Orden de como va a sensar el sistema, prioridad de sensores..
-        hubicar_pelota()
-        determinar_obstaculos()
-
+    # while True:
+    # Orden de como va a sensar el sistema, prioridad de sensores..
+    hubicar_pelota()
+    determinar_obstaculos()
 
 
 def cerrar_conexion():
-      print " "
-      print "Limpiando puerto GPIO..."
-      GPIO.cleanup()
-      print "Saliendo..."
-      sys.exit(0)
+    print " "
+    print "Limpiando puerto GPIO..."
+    GPIO.cleanup()
+    print "Saliendo..."
+    sys.exit(0)
+
 
 def run():
-   print "Logica de movimiento..."
-   sensar()
+    print "Logica de movimiento..."
+    sensar()
 
-#El core o nucleo, es el encargador de iniciar todas las ejecuciones y revisar los estados de  todos los sensores
+
+# El core o nucleo, es el encargador de iniciar todas las ejecuciones y revisar los estados de  todos los sensores
 
 def core():
-#    global cont
-#    cont = cont + 1
-    if (pulsador()==0):
+    #    global cont
+    #    cont = cont + 1
+    if (pulsador() == 0):
         stop()
-    if(pulsador()==1):
-     run()
-#     print "Cont:", cont
+    if (pulsador() == 1):
+        run()
+
+
+# print "Cont:", cont
 
 # Inicia la ejecucion de toda la clase
 try:
     while 1:
         core()
-        #time.sleep(1)
+        # time.sleep(1)
 except KeyboardInterrupt:
     pass
     cerrar_conexion()
