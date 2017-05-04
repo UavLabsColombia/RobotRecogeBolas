@@ -54,7 +54,7 @@
 #	(03)Cont1.M1.EnA	         (04)
 #	(05)Cont1.M1.In1	         (06)
 #	(07)Cont1.M1.In2	         (08) sonar_izquierdo.trig
-#	(09)	                     (10) sonar_izquierdo.echo
+#	(09)                          (10) sonar_izquierdo.echo
 #	(11)Cont1.M3.In3	         (12) sonar_frente_izquierdo.trig
 #	(13)Cont1.M3.In4	         (14)
 #	(14)Cont1.M3.EnB	         (16) sonar_frente_izquierdo.echo
