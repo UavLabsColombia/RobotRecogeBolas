@@ -50,26 +50,26 @@
 # Conectaremos por USB la camara SJCAM M10, el cual sera utiizada
 # para trabajar con las librerias de Vision Artificial
 ## Pines de conexion para la raspberry pi 3 en modo BOARD
-#	(01)	                     (02)
-#	(03)Cont1.M1.EnA	         (04)
-#	(05)Cont1.M1.In1	         (06)
-#	(07)Cont1.M1.In2	         (08) sonar_izquierdo.trig
+#	(01)                          (02)
+#	(03)Cont1.M1.EnA              (04)
+#	(05)Cont1.M1.In1              (06)
+#	(07)Cont1.M1.In2              (08) sonar_izquierdo.trig
 #	(09)                          (10) sonar_izquierdo.echo
-#	(11)Cont1.M3.In3	         (12) sonar_frente_izquierdo.trig
-#	(13)Cont1.M3.In4	         (14)
-#	(14)Cont1.M3.EnB	         (16) sonar_frente_izquierdo.echo
-#	(17)	                     (18) sonar_frente_derecho.trig
-#	(19)	                     (20)
-#	(21)	                     (22) sonar_frente_derecho.echo
-#	(23)	                     (24) sonar_derecho.trig
-#	(25)	                     (26) sonar_derecho.echo
-#	(27)Cont2.M2.EnA	         (28) sonar_frente.trig
-#	(29)Cont2.M2.In1	         (30) sonar_frrente.echo
-#	(31)Cont2.M2.In2	         (32)
-#	(33)Cont2.M4.In3	         (34)
-#	(35)Cont2.M4.InB	         (36)
-#	(37)	                     (38)
-#	(39)	                     (40)
+#	(11)Cont1.M3.In3              (12) sonar_frente_izquierdo.trig
+#	(13)Cont1.M3.In4              (14)
+#	(14)Cont1.M3.EnB              (16) sonar_frente_izquierdo.echo
+#	(17)                          (18) sonar_frente_derecho.trig
+#	(19)                          (20)
+#	(21)                          (22) sonar_frente_derecho.echo
+#	(23)                          (24) sonar_derecho.trig
+#	(25)                          (26) sonar_derecho.echo
+#	(27)Cont2.M2.EnA              (28) sonar_frente.trig
+#	(29)Cont2.M2.In1              (30) sonar_frrente.echo
+#	(31)Cont2.M2.In2              (32)
+#	(33)Cont2.M4.In3              (34)
+#	(35)Cont2.M4.InB              (36)
+#	(37)                          (38)
+#	(39)                          (40)
 #
 #######################################
 
