@@ -9,8 +9,6 @@
 # Este software se encuentra bajo la licencia GPLv3 disponible sobre este repositorio, sientase libre de modificarlo
 # ajustarlo y redistribuirlo manteniendo la licencia y los autores
 
-<<<<<<< HEAD
-
 ## Sobre los siguientes diagramas, se describen la conexiones que se ralizan sobre los sensores y el sistema
 
 # ## Motores DC 12v
@@ -64,9 +62,7 @@
 
 
 #importamos libreria del sistema
-=======
 # importamos libreria del sistema
->>>>>>> 04aca809c37a5071156cd3246b7703d0a6ef4a9e
 import sys
 # from hcsr04sensor import sensor
 # Importamos libreria GPIO
@@ -97,11 +93,8 @@ xcord = 0
 ycord = 0
 radiopelota = 0
 
-<<<<<<< HEAD
 #Iniciando el software..
-=======
 # Inicializacion del software
->>>>>>> 04aca809c37a5071156cd3246b7703d0a6ef4a9e
 print "Iniciando el software para el control del robot...."
 print "Info de la PI"
 print GPIO.RPI_INFO
