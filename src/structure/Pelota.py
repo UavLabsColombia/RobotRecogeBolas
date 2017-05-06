@@ -48,7 +48,7 @@ class Pelota:
         return self.cord_y
     def getRadio(self):
         return self.radiopelota
-    def getPelota(self):
+    def getExistePelota(self):
         return self.pelota
 
 #pelota = Pelota()
