@@ -4,8 +4,7 @@
 
 import RPi.GPIO as GPIO  # Importamos la libreria RPi.GPIO
 
-GPIO.setmode(
-    GPIO.BOARD)  # Le indicamos a python que la definicion de los pines GPIO se cataloga por numero de pines del 1 al 40
+GPIO.setmode(GPIO.BOARD)  # Le indicamos a python que la definicion de los pines GPIO se cataloga por numero de pines del 1 al 40
 GPIO.setwarnings(False)
 
 
