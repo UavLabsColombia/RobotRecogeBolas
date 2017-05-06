@@ -88,3 +88,7 @@ ENV/
 # Rope project settings
 .ropeproject
 src/structure/.idea/workspace.xml
+src/structure/.idea/workspace.xml
+src/TestingFiles/.idea/misc.xml
+src/TestingFiles/.idea/workspace.xml
+src/TestingFiles/.idea/modules.xml
