@@ -57,8 +57,7 @@
 #	(35)Cont2.M4.InB	     (36)
 #	(37)	                 (38)
 #	(39)	                 (40)
-
-
+#
 
 
 #importamos libreria del sistema
