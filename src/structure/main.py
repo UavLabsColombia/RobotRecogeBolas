@@ -4,12 +4,12 @@ from Pelota import Pelota
 pelota = Pelota()
 
 if(pelota.hubicar_pelota(1)):
-    print "Encontre pelota! :)"
+    print "Encontre pelota! :)", pelota.getPelota()
     print "Coordenada en X:", pelota.getCordX()
     print "Coordenada en Y:", pelota.getCordY()
     print "Radio:", pelota.getRadio()
 else:
-    print "No veo pelota! :("
+    print "No veo pelota! :(", pelota.getPelota()
 
 #############################################################################
 # from Movimiento import PuenteH, Motor

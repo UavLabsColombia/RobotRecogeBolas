@@ -28,7 +28,7 @@ while display.isNotDone():
 	blobs = segmented.findBlobs()
 	if blobs:
 		# Si encuentra blobs, saca los que son circulos  con una calibracion
-		circles = blobs.filter([b.isCircle(0.3) for b in blobs])
+		circles = blobs.filter([b.isCircle(0.4) for b in blobs])
 		if circles:
 			# Pinta en pantalla un circulo al rededor del que se ha encontrado previamente
 			# Imprime las cordenadas del objeto en pantalla
