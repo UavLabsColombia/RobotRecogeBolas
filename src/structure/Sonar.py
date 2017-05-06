@@ -5,7 +5,6 @@ GPIO.setmode(GPIO.BOARD)
 
 
 class Sonar:
-
     def __init__(self, pin_trig, pin_echo):
         self.pin_trig = pin_trig
         self.pin_echo = pin_echo
