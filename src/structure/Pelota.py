@@ -16,7 +16,7 @@ class Pelota:
         self.pelota = False
         prom_x = 0
         prom_y = 0
-        radiopelota = 0
+        prom_radiopelota = 0
         #print "En hubicar_pelota"
         # Rango utilizado para realizar promedio de los datos obtenidos de la pelota
         for i in range(sensado):
@@ -29,7 +29,7 @@ class Pelota:
                 if circles:
                     prom_x += circles[-1].x
                     prom_y += circles[-1].y
-                    radiopelota += circles[-1].radius()
+                    prom_radiopelota += circles[-1].radius()
                     #tiempo necesario para no colgar el hilo sobre el procesador, si se cuelga revisar valor de ser de este tiempo
                     time.sleep(10 * 10 ** -6)
         # si existe un circulo llena las variables de la clase y retorna el estado para la pelota Verdadero si Existe Falso si no
@@ -37,7 +37,7 @@ class Pelota:
             self.pelota= True
             self.cord_x = prom_x/sensado
             self.cord_y = prom_y/sensado
-            self.radiopelota = radiopelota/sensado
+            self.radiopelota = prom_radiopelota/sensado
             return self.pelota
         else:
             return self.pelota
