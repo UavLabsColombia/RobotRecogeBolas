@@ -8,19 +8,24 @@
 #
 # Este software se encuentra bajo la licencia GPLv3 disponible sobre este repositorio, sientase libre de modificarlo
 # ajustarlo y redistribuirlo manteniendo la licencia y los autores
-
-## Sobre los siguientes diagramas, se describen la conexiones que se ralizan sobre los sensores y el sistema
-
-# ## Motores DC 12v
-#motor_izquierdo_adelante, motor_izquierdo_atras, motor_derecho_adelante, motor_derecho_atras:
-#       __
-# ---------------
-# M1          M2
+#
+# Sobre los siguientes diagramas, se describen la conexiones que se ralizan sobre los sensores y el sistema
+#
+######################################
+# Motoreductores DC 12v
+# Motor_izquierdo_adelante, motor_izquierdo_atras, motor_derecho_adelante, motor_derecho_atras:
+#              _Front_
+#        _________________
+# --------------------------------
+# M1=In1,In2         M2=In1,In2
 #
 #
-# M3          M4
-# ---------------
-
+#
+# M3=In3,In4          M4= In3,In4
+# --------------------------------
+######################################
+#
+######################################
 ##Controladores L298N
 ## Se utilizaran dos controladores para los motores
 # Cont1, Cont2:
@@ -30,37 +35,44 @@
 # (In3)
 # (In4)
 # (EnB)
-
+######################################
+#
+######################################
 ##Sensor Sonar HC SR04 Utilizado para calcular el promedio de la distancia a un objeto.
-#sonar_izquierdo, sonar_derecho
+#sonar_izquierdo, sonar_derecho, sonar_frente_izquierdo, sonar_frente_derecho, sonar_frente
 #(Trig)
 #(Echo)
-
-## Pines de conexion para la raspberry pi 3 en modo BOARD
-#	(01)	                 (02)
-#	(03)Cont1.M1.EnA	     (04)
-#	(05)Cont1.M1.In1	     (06)
-#	(07)Cont1.M1.In2	     (08)
-#	(09)	                 (10)
-#	(11)Cont1.M3.In3	     (12)
-#	(13)Cont1.M3.In4	     (14)
-#	(14)Cont1.M3.EnB	     (16)
-#	(17)	                 (18)
-#	(19)	                 (20)
-#	(21)	                 (22)
-#	(23)	                 (24)
-#	(25)	                 (26)
-#	(27)Cont2.M2.EnA	     (28)
-#	(29)Cont2.M2.In1	     (30)
-#	(31)Cont2.M2.In2	     (32)
-#	(33)Cont2.M4.In3	     (34)
-#	(35)Cont2.M4.InB	     (36)
-#	(37)	                 (38)
-#	(39)	                 (40)
+######################################
 #
+######################################
+##Conexiones con RaspberryPi
+# Conexiones USB:
+# Conectaremos por USB la camara SJCAM M10, el cual sera utiizada
+# para trabajar con las librerias de Vision Artificial
+## Pines de conexion para la raspberry pi 3 en modo BOARD
+#	(01)                          (02)
+#	(03)Cont1.M1.EnA              (04)
+#	(05)Cont1.M1.In1              (06)
+#	(07)Cont1.M1.In2              (08) sonar_izquierdo.trig
+#	(09)                          (10) sonar_izquierdo.echo
+#	(11)Cont1.M3.In3              (12) sonar_frente_izquierdo.trig
+#	(13)Cont1.M3.In4              (14)
+#	(14)Cont1.M3.EnB              (16) sonar_frente_izquierdo.echo
+#	(17)                          (18) sonar_frente_derecho.trig
+#	(19)                          (20)
+#	(21)                          (22) sonar_frente_derecho.echo
+#	(23)                          (24) sonar_derecho.trig
+#	(25)                          (26) sonar_derecho.echo
+#	(27)Cont2.M2.EnA              (28) sonar_frente.trig
+#	(29)Cont2.M2.In1              (30) sonar_frrente.echo
+#	(31)Cont2.M2.In2              (32)
+#	(33)Cont2.M4.In3              (34)
+#	(35)Cont2.M4.InB              (36)
+#	(37)                          (38)
+#	(39)                          (40)
+#
+#######################################
 
-
-#importamos libreria del sistema
 # importamos libreria del sistema
 import sys
 # from hcsr04sensor import sensor
