@@ -18,10 +18,12 @@
 #        _________________
 # --------------------------------
 # M1=In1,In2         M2=In1,In2
+# GPIO.M1= 23,29,31  GPIO.M2= 37,33,35
 #
 #
+# M3=In3,In4    M4= In3,In4
+# GPIO.M3 = 19,21,7  GPIO.M4= 15,11,13
 #
-# M3=In3,In4          M4= In3,In4
 # --------------------------------
 ######################################
 #
@@ -61,15 +63,15 @@
 #	(17) 3.3V                     (18) sonar_frente.trig   // ok
 #	(19) Cont1.M1.EnA*            (20) Tierra
 #	(21) Cont1.M1.In1*            (22) sonar_frente_echo // ok
-#	(23) Free                     (24) sonar_derecho.trig* // ok
+#	(23) Cont2.M2.EnA*            (24) sonar_derecho.trig* // ok
 #	(25) GND                      (26) sonar_derecho.echo* // ok
-#	(27) Cont2.M2.EnA*            (28) N/C
+#	(27) N/C                      (28) N/C
 #	(29) Cont2.M2.In1*            (30) Tierra
 #	(31) Cont2.M2.In2*            (32) Servo motor recogedor
 #	(33) Cont2.M4.In3*            (34) Tierra
-#	(35) Cont2.M4.EnB*            (36) sonar_frente_izquierdo.trig  // ok
-#	(37) Free                     (38) sonar_frente_izquierdo.echo  // ok
-#	(39) GND                         (40) Free
+#	(35) Cont2.M4.In4*            (36) sonar_frente_izquierdo.trig  // ok
+#	(37) Cont2.M4.EnB*            (38) sonar_frente_izquierdo.echo  // ok
+#	(39) GND                      (40) Free
 #
 #######################################
 
