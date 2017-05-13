@@ -50,26 +50,26 @@
 # Conectaremos por USB la camara SJCAM M10, el cual sera utiizada
 # para trabajar con las librerias de Vision Artificial
 ## Pines de conexion para la raspberry pi 3 en modo BOARD
-#	(01)                          (02) 5v input/ouput
-#	(03)                          (04) 5v input/ouput
-#	(05)                          (06) GND
-#	(07)Cont1.M1.In2*             (08) sonar_izquierdo.trig* frente
-#	(09)                          (10) sonar_izquierdo.echo* frente
-#	(11)Cont1.M3.In3*             (12) sonar_frente_izquierdo.trig*
-#	(13)Cont1.M3.In4*             (14)
-#	(15)Cont1.M3.EnB*             (16) sonar_frente_izquierdo.echo*
-#	(17)                          (18) sonar_frente_derecho.trig*
-#	(19)Cont1.M1.EnA*                  (20) Tierra
-#	(21)Cont1.M1.In1*                  (22) sonar_frente_derecho.echo*
-#	(23)                          (24) sonar_derecho.trig*
-#	(25)                          (26) sonar_derecho.echo*
-#	(27)Cont2.M2.EnA*             (28) sonar_frente.trig* izquierdo
-#	(29)Cont2.M2.In1*             (30) Tierra
-#	(31)Cont2.M2.In2*             (32) sonar_frrente.echo* izquierdo
-#	(33)Cont2.M4.In3*             (34) Tierra
-#	(35)Cont2.M4.EnB*             (36) Servo motor recogedor
-#	(37)                          (38)
-#	(39)                          (40)
+#	(01) 3.3V                     (02) 5v input/ouput
+#	(03) Free                     (04) 5v input/ouput
+#	(05) Free                     (06) GND
+#	(07) Cont1.M1.In2*            (08) sonar_frente_derecho.trig*  // ok
+#	(09) GND                      (10) sonar_frente_derecho.echo*  // ok
+#	(11) Cont1.M3.In3*            (12) sonar_izquierdo.trig // ok
+#	(13) Cont1.M3.In4*            (14) GND
+#	(15) Cont1.M3.EnB*            (16) sonar_izquierdo.echo // ok
+#	(17) 3.3V                     (18) sonar_frente.trig   // ok
+#	(19) Cont1.M1.EnA*            (20) Tierra
+#	(21) Cont1.M1.In1*            (22) sonar_frente_echo // ok
+#	(23) Free                     (24) sonar_derecho.trig* // ok
+#	(25) GND                      (26) sonar_derecho.echo* // ok
+#	(27) Cont2.M2.EnA*            (28) N/C
+#	(29) Cont2.M2.In1*            (30) Tierra
+#	(31) Cont2.M2.In2*            (32) Servo motor recogedor
+#	(33) Cont2.M4.In3*            (34) Tierra
+#	(35) Cont2.M4.EnB*            (36) sonar_frente_izquierdo.trig  // ok
+#	(37) Free                     (38) sonar_frente_izquierdo.echo  // ok
+#	(39) GND                         (40) Free
 #
 #######################################
 
