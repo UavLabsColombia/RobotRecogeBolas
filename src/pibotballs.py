@@ -4,7 +4,7 @@
 # Realizado por: Estudiantes de la universidad del valle.
 # Heberth Alexander Ardila Cuellar / heberthardila@gmail.com / 3128204694 / uavlabs.org
 # Jaime Andres Ortiz Aranda  / jaime-aranda@outlook.com / 3023476635 ###
-#
+# Juan Sebastian Bolivar Rivera / sebasbr_1031@hotmail.com / 3157634355 /
 #
 # Este software se encuentra bajo la licencia GPLv3 disponible sobre este repositorio, sientase libre de modificarlo
 # ajustarlo y redistribuirlo manteniendo la licencia y los autores
@@ -17,12 +17,13 @@
 #              _Front_
 #        _________________
 # --------------------------------
-# M1=In1,In2         M2=In1,In2
-# GPIO.M1= 23,29,31  GPIO.M2= 37,33,35
+#
+# M1 =In1,In2         M2=In1,In2
+# GPIO.M1= 23,29,31  GPIO.M2= 37,35,33
 #
 #
 # M3=In3,In4    M4= In3,In4
-# GPIO.M3 = 19,21,7  GPIO.M4= 15,11,13
+# GPIO.M3 = 19,21,7  GPIO.M4= 15,13,11
 #
 # --------------------------------
 ######################################
@@ -55,22 +56,22 @@
 #	(01) 3.3V                     (02) 5v input/ouput
 #	(03) Free                     (04) 5v input/ouput
 #	(05) Free                     (06) GND
-#	(07) Cont1.M1.In2*            (08) sonar_frente_derecho.trig*  // ok
+#	(07) Cont1.M3.In2*            (08) sonar_frente_derecho.trig*  // ok
 #	(09) GND                      (10) sonar_frente_derecho.echo*  // ok
-#	(11) Cont1.M3.In3*            (12) sonar_izquierdo.trig // ok
-#	(13) Cont1.M3.In4*            (14) GND
-#	(15) Cont1.M3.EnB*            (16) sonar_izquierdo.echo // ok
+#	(11) Cont1.M4.In3*            (12) sonar_izquierdo.trig // ok
+#	(13) Cont1.M4.In4*            (14) GND
+#	(15) Cont1.M4.EnB*            (16) sonar_izquierdo.echo // ok
 #	(17) 3.3V                     (18) sonar_frente.trig   // ok
-#	(19) Cont1.M1.EnA*            (20) Tierra
-#	(21) Cont1.M1.In1*            (22) sonar_frente_echo // ok
-#	(23) Cont2.M2.EnA*            (24) sonar_derecho.trig* // ok
+#	(19) Cont1.M3.EnA*  def           (20) Tierra
+#	(21) Cont1.M3.In1*  def          (22) sonar_frente_echo // ok
+#	(23) Cont2.M1.EnA* //ok           (24) sonar_derecho.trig* // ok
 #	(25) GND                      (26) sonar_derecho.echo* // ok
 #	(27) N/C                      (28) N/C
-#	(29) Cont2.M2.In1*            (30) Tierra
-#	(31) Cont2.M2.In2*            (32) Servo motor recogedor
-#	(33) Cont2.M4.In3*            (34) Tierra
-#	(35) Cont2.M4.In4*            (36) sonar_frente_izquierdo.trig  // ok
-#	(37) Cont2.M4.EnB*            (38) sonar_frente_izquierdo.echo  // ok
+#	(29) Cont2.M1.In1* // ok           (30) Tierra
+#	(31) Cont2.M1.In2* // ok           (32) Servo motor recogedor
+#	(33) Cont2.M2.In3* // ok           (34) Tierra
+#	(35) Cont2.M2.In4* // ok           (36) sonar_frente_izquierdo.trig  // ok
+#	(37) Cont2.M2.EnB* // ok           (38) sonar_frente_izquierdo.echo  // ok
 #	(39) GND                      (40) Free
 #
 #######################################
