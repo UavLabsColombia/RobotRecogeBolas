@@ -62,16 +62,16 @@
 #	(13) Cont1.M4.In4*            (14) GND
 #	(15) Cont1.M4.EnB*            (16) sonar_izquierdo.echo // ok
 #	(17) 3.3V                     (18) sonar_frente.trig   // ok
-#	(19) Cont1.M3.EnA*  def           (20) Tierra
-#	(21) Cont1.M3.In1*  def          (22) sonar_frente_echo // ok
-#	(23) Cont2.M1.EnA* //ok           (24) sonar_derecho.trig* // ok
+#	(19) Cont1.M3.EnA*  def       (20) Tierra
+#	(21) Cont1.M3.In1*  def       (22) sonar_frente_echo // ok
+#	(23) Cont2.M1.EnA* //ok       (24) sonar_derecho.trig* // ok
 #	(25) GND                      (26) sonar_derecho.echo* // ok
 #	(27) N/C                      (28) N/C
-#	(29) Cont2.M1.In1* // ok           (30) Tierra
-#	(31) Cont2.M1.In2* // ok           (32) Servo motor recogedor
-#	(33) Cont2.M2.In3* // ok           (34) Tierra
-#	(35) Cont2.M2.In4* // ok           (36) sonar_frente_izquierdo.trig  // ok
-#	(37) Cont2.M2.EnB* // ok           (38) sonar_frente_izquierdo.echo  // ok
+#	(29) Cont2.M1.In1* // ok      (30) Tierra
+#	(31) Cont2.M1.In2* // ok      (32) Servo motor recogedor
+#	(33) Cont2.M2.In3* // ok      (34) Tierra
+#	(35) Cont2.M2.In4* // ok      (36) sonar_frente_izquierdo.trig  // ok
+#	(37) Cont2.M2.EnB* // ok      (38) sonar_frente_izquierdo.echo  // ok
 #	(39) GND                      (40) Free
 #
 #######################################
