@@ -37,7 +37,7 @@ def hubicar_pelota():
                 xcord = circles[-1].x
                 ycord = circles[-1].y
                 radiopelota = circles[-1].radius()
-                time.sleep(0.001)
+                time.sleep(10*10**-6)
     #Imprime en pantalla las coordenadas y radio del ultimo objeto
     print "Xcord:", xcord, "Ycord:", ycord , "Radio", radiopelota
 
