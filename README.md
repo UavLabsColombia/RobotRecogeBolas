@@ -33,4 +33,11 @@ Software:
 * Python RPI GPIO
 * SimpleCV
 
-Si quieres ver todo el proceso de construccion del robot, puedes visitar la siguiente publicacion
+Para ejecutar el proyecto principal, es necesario ejecutar el siguiente archivo directamente
+https://github.com/UavLabsColombia/pibotballs/blob/master/src/proyectoLineal/PibotBalls.py
+
+
+Si quieres ver todo el proceso de construccion del robot y la documentacion al respecto o consultarnos sobre el proyecto, puedes visitar la siguiente publicacion
+http://uavlabs.org/2017/06/06/construccion-de-pibotballs/
+
+Este robot seguira su curso de desarrollo siendo mejorado.
