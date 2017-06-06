@@ -72,7 +72,7 @@
 #	(33) Cont2.M2.In3* // ok      (34) Tierra
 #	(35) Cont2.M2.In4* // ok      (36) sonar_frente_izquierdo.trig  // ok
 #	(37) Cont2.M2.EnB* // ok      (38) sonar_frente_izquierdo.echo  // ok
-#	(39) GND                      (40) Free
+#	(39) GND                      (40) Boton de Reset
 #
 #######################################
 
