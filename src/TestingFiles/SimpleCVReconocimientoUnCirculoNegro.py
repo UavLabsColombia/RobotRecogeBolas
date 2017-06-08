@@ -23,12 +23,12 @@ while display.isNotDone():
 	#Selecciona el color predominante "Negro para este caso"
 	dist = img.colorDistance(SimpleCV.Color.WHITE).dilate(2)
 	# Dentro de la escala de grises, selecciona los mas altos "Oscuros"
-	segmented = dist.stretch(215,220)
+	segmented = dist.stretch(215,230)
 	# Busca los blobs disponibles sobre la segmentacion
 	blobs = segmented.findBlobs()
 	if blobs:
 		# Si encuentra blobs, saca los que son circulos  con una calibracion
-		circles = blobs.filter([b.isCircle(0.27) for b in blobs])
+		circles = blobs.filter([b.isCircle(0.35) for b in blobs])
 		if circles:
 			# Pinta en pantalla un circulo al rededor del que se ha encontrado previamente
 			# Imprime las cordenadas del objeto en pantalla

@@ -269,7 +269,7 @@ def reconocer_pelota(n_sensados):
         dilatacion = imagen.colorDistance(SimpleCV.Color.WHITE).dilate(2)
         # Filtra sobre la escala mas alta de grises, si los niveles son mas bajos, ve mejor en la noche o en la oscuridad, setear
         # en la camara con el filtro
-        segmento_colores = dilatacion.stretch(215, 220)
+        segmento_colores = dilatacion.stretch(215, 225)
         # Busca posibles blobs sobre la toma
         blobs = segmento_colores.findBlobs()
         if blobs:
@@ -303,6 +303,7 @@ def retroceder_distancia(sonar):
 
 
 def buscar_pelota():
+    intento = 0
     reconocer_pelota(2)
     if (radio_pelota < 10.0):
         print "la variable es ", radio_pelota
@@ -312,11 +313,12 @@ def buscar_pelota():
         while (True):
             detener()
             reconocer_pelota(1)
-            if 340 < pelota_coordenada_x < 380:
+            if 320 < pelota_coordenada_x < 400:
                 pelota_confirmada = True
                 adelante(80)
                 break
             else:
+                intento+=1
                 if 340 > pelota_coordenada_x:
                     print pelota_coordenada_x
                     detener()
@@ -348,6 +350,7 @@ while (True):
             print a, " sonarfrente"
             print b, " sonarizquierdo"
             print c, "sonar derecho"
+            buscar_pelota()
             adelante(80)
             if (pelota_confirmada):
                 distancia_minima = 15
@@ -367,11 +370,11 @@ while (True):
                         retroceder_distancia(sonar_frente_derecho)
                 # codigo de giro
                 if (sensar(sonar_izquierdo)[0] < sensar(sonar_derecho)[0]):
-                    girar_derecha(50, 0.5)
+                    girar_derecha(50, 0.2)
                     buscar_pelota()
 
                 else:
-                    girar_izquierda(50, 0.5)
+                    girar_izquierda(50, 0.2)
                     buscar_pelota()
 
         except KeyboardInterrupt:
