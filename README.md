@@ -40,4 +40,7 @@ https://github.com/UavLabsColombia/pibotballs/blob/master/src/proyectoLineal/Pib
 Si quieres ver todo el proceso de construccion del robot y la documentacion al respecto o consultarnos sobre el proyecto, puedes visitar la siguiente publicacion
 http://uavlabs.org/2017/06/06/construccion-de-pibotballs/
 
+O el siguiente video
+https://www.youtube.com/watch?v=8mtZH0Wu-qI
+
 Este robot seguira su curso de desarrollo siendo mejorado.
